@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WmsServer
+{
+    class Data
+    {
+
+        public static string test_message = "";
+
+        public static ushort[] PLC_ReadData;
+        public static ushort[] PLC_WriteData;
+
+        //public static SystemConfig SysConfig = new SystemConfig();
+        //static public string ConfigFileSystem = Application.StartupPath + "\\Ini\\ConfigSystem.ini";
+
+
+        public static bool PLCTimeOut = false;
+    }
+
+
+    class Setting_INI
+    {
+        /*string strSection :[section]
+         *string strKey : 값의 키
+         *string val : 키의 값
+         *filePath : 쓸 ini 파일경로
+         */
+        [DllImport("Kernel32")]
+        private static extern long WritePrivateProfileString(String section, String key, String val, String filePath);
+
+
+        /*
+         * String section : 가져올 값의 키가 속해있는 섹션이름
+         * String key : 가져올 값의 키이름
+         * String def : 키의 값이 없을 경우 기본값은 Default
+         * StringBuilder retVal : 가져올 값
+         * int size : 가져올 값의 길이
+         * string filePath : 읽어올 ini 파일경로
+         */
+
+        [DllImport("kernel32")]
+        private static extern int GetPrivateProfileString(String section, String key, String def, StringBuilder retVal, int size, String filePath);
+        public static string iPath = System.Windows.Forms.Application.StartupPath + @"\ini\Setting.ini";
+
+        //파일 쓰기
+        public static void WriteValue(String strSection, String strKey, String strValue)
+        {
+            WritePrivateProfileString(strSection, strKey, strValue, iPath);
+        }
+
+        //파일 읽기
+
+        public static string ReadValue(String strSection, String Key)
+        {
+            StringBuilder strValue = new StringBuilder(500);
+            int i = GetPrivateProfileString(strSection, Key, "", strValue, 500, iPath);
+            return strValue.ToString();
+        }
+
+    }
+}

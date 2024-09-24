@@ -1,0 +1,9 @@
+A&G Technology
+MelsecPLC_UTL configuration file 
+Saved: 2024년 4월 15일 월요일
+===========================================
+
+[PLC]
+LIST=NEW0
+[PLCLIST]
+NEW0=127.0.0.1,5000,121.139.221.14,5000,30,30,

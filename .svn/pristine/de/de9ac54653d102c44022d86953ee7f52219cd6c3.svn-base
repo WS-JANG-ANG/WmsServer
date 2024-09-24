@@ -1,0 +1,546 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Net;
+using System.Diagnostics;
+using System.Threading;
+using DB;
+
+namespace WmsServer
+{
+    public partial class FormMDI : Form
+    {
+        private System.Windows.Forms.Timer updateTimer = new System.Windows.Forms.Timer();
+        private System.Windows.Forms.Timer sendTimer = new System.Windows.Forms.Timer();
+        static public DBInterface db = new DBInterface();
+
+
+        Server WmsServer;
+        DateTime convertDateTime;
+
+       
+
+        public FormMDI()
+        {
+            InitializeComponent();
+        }
+
+        private void FormMDI_Load(object sender, EventArgs e)
+        {
+            //ip 목록 가져오기
+            #region get ip
+            List<string> ips = new List<string>();
+            IPHostEntry host;
+            host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (IPAddress ip in host.AddressList)
+            {
+                if (ip.AddressFamily.ToString() == "InterNetwork")
+                {
+                    ips.Add(ip.ToString());
+                }
+            }
+            object[] items = new object[ips.Count];
+            for (int i = 0; i < ips.Count; i++) items[i] = ips[i];
+            comboBoxServerIp.Items.AddRange(items);
+
+            #endregion
+
+            //출력 데이터 초기화 및 설정
+            //ProcessDataLH = new _PROCDATA[100];
+            //ProcessDataRH = new _PROCDATA[100];
+
+            //dgvDataLh.RowCount = ProcessDataLH.Length;
+            //dgvDataRh.RowCount = ProcessDataRH.Length;
+
+            //DataGridViewCellStyle style = new DataGridViewCellStyle();
+            //style.BackColor = Color.Yellow;
+
+            //for (int i = 0; i < ProcessDataLH.Length; i++)
+            //{
+            //    ProcessDataLH[i].StationCode = "code";
+            //    dgvDataLh.Rows[i].Cells[0].Value = i;
+            //    dgvDataLh.Rows[i].Cells[1].Value = ProcessDataLH[i].StationCode.Trim();
+            //    dgvDataLh.Rows[i].Cells[2].Value = "";
+
+            //    if (true)
+            //    {
+            //        dgvDataLh.Rows[i].Cells[1].Style = style;
+            //        dgvDataLh.Rows[i].Cells[5].Style = style;
+            //    }
+            //    ProcessDataLH[i].RfidLot = "";
+            //}
+
+
+            //ip, port
+            comboBoxServerIp.Text = Setting_INI.ReadValue("WMSSERVER", "IP");
+            try
+            {
+                nudServerPort.Value = Convert.ToDecimal(Setting_INI.ReadValue("WMSSERVER", "PORT"));
+            }
+
+            catch
+            {
+                nudServerPort.Value = 0;
+            }
+
+
+
+            //SiemensPLC
+            SiemensPLC.SiemensPLC.Initialize();
+            Data.PLC_ReadData = new ushort[SiemensPLC.SiemensPLC.m_nReadNum];
+            Data.PLC_WriteData = new ushort[SiemensPLC.SiemensPLC.m_nWriteNum];
+
+
+           
+        }
+
+
+
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+            LogMsg.CMsg.Show("WMSSV", "start ", "", false, true);
+
+            #region Display Upadate
+            timerUpdate.Tick += TimerUpdate_Tick;
+            timerUpdate.Start();
+            #endregion
+
+            #region sendTimer
+            sendTimer.Interval = 10000;
+            sendTimer.Tick += SendTimer_Tick;
+            sendTimer.Start();
+            #endregion
+
+            #region start plc
+            //SiemensPLC.SiemensPLC.Start();
+            //updateTimer.Interval = 500;
+            //updateTimer.Start();
+            //updateTimer.Tick += UpdateTimer_Tick;
+            
+            LogMsg.CMsg.Show("WMSSV", "initialized plc", "", false, true);
+            #endregion
+
+            #region start socket server
+            WmsServer = new Server();
+            WmsServer.StartServer(comboBoxServerIp.Text, (int)nudServerPort.Value);
+            WmsServer.DataReceiveEventStr += Server_DataReceiveEventStr;
+
+
+            Setting_INI.WriteValue("WMSSERVER", "IP", comboBoxServerIp.Text);
+            Setting_INI.WriteValue("WMSSERVER", "PORT", nudServerPort.Value.ToString());
+            #endregion
+
+           
+
+
+            
+
+            LogMsg.CMsg.Show("WMSSV", "started :::::::", "", false, true);
+        }
+
+        private void SendTimer_Tick(object sender, EventArgs e)
+        {
+            List<int> client = WmsServer.CheckConnectedList();
+            string outs = SendOUTS(); 
+            string inst = SendINST();
+
+            for (int i = 0; i < client.Count; i++)
+            {
+                WmsServer.SendMsg(i, outs);
+                WmsServer.SendMsg(i, inst);
+            }
+
+            //LogMsg.CMsg.Show("WMSSV", " SendTick", "INST: " + inst + "\r\n" + "OUTS: " + outs, false, true);
+
+        }
+
+        private string SendINST()
+        {
+            //최근 입고 날짜 내림차순
+           List<string> result = db.GetList("TOP (10) [inDateTime]; [EngineType]; [Barcode]",
+       $"[inDateTime] is not null Order by [inDateTime] desc");
+            //DateTime dateTime;
+
+
+
+            string str = "INST:"+result.Count+":";
+            List<string> formattedResults = new List<string>();
+
+            foreach (var res in result) 
+            {
+                string[] s = res.Split(',');
+                if (DateTime.TryParse(s[0], out DateTime dateTime))
+                {
+                    // Extract the time part and format it
+                    s[0]= dateTime.ToString("HHmmss");
+                }
+
+                formattedResults.Add($"{s[0]}:{s[1]}:{s[2]}");
+            }
+
+            str += string.Join(":", formattedResults);
+
+
+            return str;
+
+           
+        }
+
+        private string SendOUTS()
+        {
+            //처리 안된 상위 10개 날짜 오름차순
+            List<string> result = db.GetMESList("TOP (10) [Date]; [Sequence]; [Model]; [Quantity] - COALESCE([Currently], 0)",
+                $"Quantity <> [Currently] OR [Currently] IS NULL Order by [Date] ");
+
+
+            string str = "OUTS:" + result.Count + ":";
+            List<string> formattedResults = new List<string>();
+
+            foreach (var res in result)
+            {
+                string[] s = res.Split(',');
+                if (DateTime.TryParse(s[0], out DateTime dateTime))
+                {
+                    // Extract the time part and format it
+                    s[0] = dateTime.ToString("yyyy-MM-dd");
+                }
+                formattedResults.Add($"{s[0]}:{s[1]}:{s[2]}:{s[3]}");
+            }
+
+            str += string.Join(":", formattedResults);
+
+            return str;
+        }
+
+        private void buttonStop_Click(object sender, EventArgs e)
+        {
+            WmsServer.DataReceiveEventStr -= Server_DataReceiveEventStr;
+            WmsServer.StopServer();
+
+            foreach (Process process in Process.GetProcesses())
+            {
+                LogMsg.CMsg.Show("WMSSV", "Process Name :", process.ProcessName.ToUpper(), false, true);
+            }
+
+            timerUpdate.Stop();
+            LogMsg.CMsg.Show("WMSSV", "Close - DisplayTimer :", "Stop", false, true);
+
+            updateTimer.Stop();
+            LogMsg.CMsg.Show("WMSSV", "FN_Close - PlcTimer :", "Stop", false, true);
+            
+            Thread.Sleep(200);
+
+            SiemensPLC.SiemensPLC.Stop();
+            Thread.Sleep(200);
+            LogMsg.CMsg.Show("WMSSV", "FN_Close - SiemensPLC :", "Stop", false, true);
+
+            sendTimer.Stop();
+            LogMsg.CMsg.Show("WMSSV", "Close - SendTimer :", "Stop", false, true);
+        }
+
+        private void Server_DataReceiveEventStr(int sindex, string str)
+        {
+            //입출고PC(입고 내용, 출고 내용)
+
+            LogMsg.CMsg.Show("WMSS", "socket recvd: ", str + "index: "+ sindex, false, true);
+            string sendmsg = "";
+
+            //임시 추가
+            if (str.Contains("OUTB"))
+                str = str.Insert(4, ":");
+
+                //공백, stx, etx 제거
+            string[] cmd = str.Trim().Replace("\u0002", "").Replace("\u0003", "").Split(':');
+            string s = "";
+
+            //OUTBH38M:G4FTRH339318(터미널 수정 필요)
+            try
+            {
+
+                if (cmd[0].Contains("INWH"))
+                {
+                    //barcode, Model, Location, Handler
+                    db.Incomming(cmd[2], cmd[1], null, null);
+                    s = SendINST();
+                   
+                }
+                else if(cmd[0].Contains("OUTB"))
+                {
+                    //Barcode, Handler
+                    db.Outgoing(cmd[2], null);
+                    db.MesUpdate("Currently = COALESCE(Currently, 0) + 1", "Model =  '" + cmd[1]+ "' and Quantity <> [Currently] OR [Currently] IS NULL");
+                    s = SendOUTS();
+                }
+                else if(cmd[0].Contains(""))
+                {
+                    //command별 처리
+                }
+
+                WmsServer.SendMsg(sindex, s);
+            }
+            catch
+            {
+            }
+        }
+
+        //Display Update
+        private void TimerUpdate_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                List<string> data = db.GetMESList("TOP (10) [Date]; [Sequence]; [Model]; [Quantity]; COALESCE([Currently], 0)",
+                    $"Quantity <> [Currently] OR [Currently] IS NULL Order by [Date] ");
+
+                // 데이터 그리드 뷰의 행 수를 데이터 수에 맞게 조정
+                if (dgvMESData.Rows.Count < data.Count)
+                {
+                    dgvMESData.Rows.Add(data.Count - dgvMESData.Rows.Count);
+                }
+
+                for (int i = 0; i < data.Count; i++)
+                {
+                    string[] row = data[i].Split(',');
+                    if (DateTime.TryParse(row[0], out convertDateTime))
+                    {
+                        // Extract the time part and format it
+                        row[0] = convertDateTime.ToString("yyyy-MM-dd");
+                    }
+
+                    // 데이터 그리드 뷰의 셀 값을 설정하기 전에 셀이 존재하는지 확인
+                    for (int j = 0; j < row.Length; j++)
+                    {
+                        if (j < dgvMESData.Columns.Count && i < dgvMESData.Rows.Count)
+                        {
+                            dgvMESData.Rows[i].Cells[j].Value = row[j];
+                        }
+                    }
+                }
+
+
+                data = db.GetList("TOP (10) [Barcode]; [EngineType]; [InDateTime]; [OutDateTime]; [Location]",
+                    $"[inDateTime] is not null Order by [inDateTime] desc");
+
+                // 데이터 그리드 뷰의 행 수를 데이터 수에 맞게 조정
+                if (dgvIncomingData.Rows.Count < data.Count)
+                {
+                    dgvIncomingData.Rows.Add(data.Count - dgvIncomingData.Rows.Count);
+                }
+
+                for (int i = 0; i < data.Count; i++)
+                {
+                    string[] row = data[i].Split(',');
+                    if (DateTime.TryParse(row[2], out convertDateTime))
+                    {
+                        // Extract the time part and format it
+                        row[2] = convertDateTime.ToString("yyyy-MM-dd HH:mm:ss");
+                    }
+                    if (DateTime.TryParse(row[3], out convertDateTime))
+                    {
+                        // Extract the time part and format it
+                        row[3] = convertDateTime.ToString("yyyy-MM-dd HH:mm:ss");
+                    }
+
+                    // 데이터 그리드 뷰의 셀 값을 설정하기 전에 셀이 존재하는지 확인
+                    for (int j = 0; j < row.Length; j++)
+                    {
+                        if (j < dgvIncomingData.Columns.Count && i < dgvIncomingData.Rows.Count)
+                        {
+                            dgvIncomingData.Rows[i].Cells[j].Value = row[j];
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // 예외 처리 로직 추가 (예: 로그 출력, 사용자에게 알림 등)
+                LogMsg.CMsg.Show("WMSSV", "TimerUpdate_Tick", ex.ToString(), false, true);
+            }
+            
+
+        }
+    
+
+
+        int PLCTimeout = 0;
+        int WatchdogCnt = 0;
+
+        //PLC
+        private void UpdateTimer_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+
+                //Read Data from PLC
+                Data.PLC_ReadData = SiemensPLC.SiemensPLC.ReadData();
+
+                ushort nData = Data.PLC_WriteData[0];
+
+
+
+                //10초 이상이면 PLC Timeout
+                if (PLCTimeout > 20)
+                {
+                    //PLC Timeout 
+                    Data.PLCTimeOut = true;
+                    LogMsg.CMsg.Show("FormMDI", "Sequence", "PLC Timeout", false, true);
+                    LogMsg.CMsg.Show("FormMDI", "Sequence", PLCTimeout.ToString(), false, true);
+
+                }
+                else
+                {
+                    Data.PLCTimeOut = false;
+                }
+
+
+
+
+
+                //WatchdogTimeout
+                bool isHeartbeatActive = (Data.PLC_ReadData[0] & 0x01) == 0x01;
+                if (isHeartbeatActive)
+                {
+                    PLCTimeout = 0;
+                }
+                else
+                {
+                    PLCTimeout++;
+                }
+
+                //Watchdog To PLC
+                if (WatchdogCnt++ > 2)
+                {
+                    TurnOnBits(ref nData, 0x01);
+                    WatchdogCnt = 0;
+                }
+                else
+                {
+                    TurnOffBits(ref nData, 0x01);
+                }
+
+
+
+
+                //스캔 확인 신호가 들어오면 PLC에 스캔 완료 신호 전송(임시)
+                //if (scanCheck)
+                //    TurnOnBits(ref nData, 0x01);
+
+
+                //PLC에 스캔 완료 신호 전송 후 스캔 확인 신호 초기화(임시)
+                //if ((Data.PLC_WriteData[0] & 0x80) == 0x80)
+                //{
+                //    //scanCheck = false;
+                //}
+
+
+
+            }
+            catch (Exception ex)
+            {
+                LogMsg.CMsg.Show("FormMDI", "UpdateTimer_Tick", ex.Message, false, true);
+            }
+        }
+
+
+
+        private string ReadAI(int startNum, int Length)
+        {
+            string data = "";
+            try
+            {
+                for (int i = 0; i < Length; i++)
+                {
+                    data += (char)Data.PLC_ReadData[startNum + i];
+                }
+            }
+            catch (Exception ex)
+            {
+                LogMsg.CMsg.Show("FormMDI", "ReadAI", ex.ToString(), false, true);
+            }
+
+
+
+            return data;
+
+        }
+
+
+
+
+
+
+        #region button event
+        
+
+        
+
+
+
+
+        private void pLCConfigToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SiemensPLC.frmSet cfg = new SiemensPLC.frmSet();
+            cfg.ShowDialog();
+        }
+
+        private void dBConfigToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DB.frmSet cfg = new DB.frmSet();
+            cfg.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            WmsServer.StopServer();
+            SiemensPLC.SiemensPLC.Stop();
+            Application.Exit();
+        }
+
+        #endregion
+
+
+
+        #region WritePLC
+        private ushort TurnOnBits(ref ushort nData, ushort mask)
+        {
+            ushort newData = (ushort)(nData | mask);  // OR 연산을 사용하여 비트를 켭니다.
+            nData = newData;
+            return WriteToPLC(newData);
+        }
+
+        private ushort TurnOffBits(ref ushort nData, ushort mask)
+        {
+            ushort newData = (ushort)(nData & ~mask);  // AND 연산과 NOT 연산을 사용하여 비트를 끕니다.
+            nData = newData;
+            return WriteToPLC(newData);
+        }
+
+        private ushort WriteToPLC(ushort data)
+        {
+            try
+            {
+                SiemensPLC.SiemensPLC.WriteAOData(SiemensPLC.SiemensPLC.DescriptionofChannel[SiemensPLC.SiemensPLC.m_nReadNum], data);
+                Data.PLC_WriteData[0] = data;
+                return data;
+            }
+            catch (Exception ex)
+            {
+                LogMsg.CMsg.Show("FormMDI", "WriteToPLC", ex.ToString(), false, true);
+                return data;
+            }
+        }
+
+
+
+
+        #endregion
+
+        
+    }
+}

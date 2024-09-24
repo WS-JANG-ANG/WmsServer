@@ -1,0 +1,9 @@
+A&G Technology
+MelsecPLC_UTL configuration file 
+Saved: 2024년 8월 13일 화요일
+===========================================
+
+[PLC]
+LIST=PLC
+[PLCLIST]
+PLC=192.168.0.0,2050,192.168.1.33,2050,50,50,

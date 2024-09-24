@@ -1,0 +1,603 @@
+﻿namespace WmsServer
+{
+    partial class FormMDI
+    {
+        /// <summary>
+        /// 필수 디자이너 변수입니다.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 사용 중인 모든 리소스를 정리합니다.
+        /// </summary>
+        /// <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 디자이너에서 생성한 코드
+
+        /// <summary>
+        /// 디자이너 지원에 필요한 메서드입니다. 
+        /// 이 메서드의 내용을 코드 편집기로 수정하지 마세요.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMDI));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.timerUpdate = new System.Windows.Forms.Timer(this.components);
+            this.timerUpdate2 = new System.Windows.Forms.Timer(this.components);
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBoxSerialPort = new System.Windows.Forms.ComboBox();
+            this.textBoxSendString = new System.Windows.Forms.TextBox();
+            this.buttonSerialSend = new System.Windows.Forms.Button();
+            this.nudServerPort = new System.Windows.Forms.NumericUpDown();
+            this.dgvDataLh = new System.Windows.Forms.DataGridView();
+            this.Procc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StationCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_StationName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PlcIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PlcOut = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Rfid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBoxOutch = new System.Windows.Forms.ComboBox();
+            this.textBoxOutValue = new System.Windows.Forms.TextBox();
+            this.buttonPlcSend = new System.Windows.Forms.Button();
+            this.buttonSetupPLC = new System.Windows.Forms.Button();
+            this.comboBoxServerIp = new System.Windows.Forms.ComboBox();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_Station = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvDataRh = new System.Windows.Forms.DataGridView();
+            this.label11 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbl_Tester4 = new System.Windows.Forms.Label();
+            this.lbl_Tester3 = new System.Windows.Forms.Label();
+            this.lbl_Tester2 = new System.Windows.Forms.Label();
+            this.lbl_Tester1 = new System.Windows.Forms.Label();
+            this.lbl_LH_PLC = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.buttonStart = new System.Windows.Forms.Button();
+            this.buttonStop = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.programToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pLCConfigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dBConfigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudServerPort)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDataLh)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDataRh)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "WMS Server";
+            this.notifyIcon1.Visible = true;
+            // 
+            // timerUpdate
+            // 
+            this.timerUpdate.Interval = 1000;
+            // 
+            // timerUpdate2
+            // 
+            this.timerUpdate2.Interval = 300;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.comboBoxSerialPort);
+            this.groupBox3.Controls.Add(this.textBoxSendString);
+            this.groupBox3.Controls.Add(this.buttonSerialSend);
+            this.groupBox3.Location = new System.Drawing.Point(9, 223);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(157, 105);
+            this.groupBox3.TabIndex = 14;
+            this.groupBox3.TabStop = false;
+            // 
+            // comboBoxSerialPort
+            // 
+            this.comboBoxSerialPort.FormattingEnabled = true;
+            this.comboBoxSerialPort.Location = new System.Drawing.Point(6, 21);
+            this.comboBoxSerialPort.Name = "comboBoxSerialPort";
+            this.comboBoxSerialPort.Size = new System.Drawing.Size(130, 20);
+            this.comboBoxSerialPort.TabIndex = 9;
+            // 
+            // textBoxSendString
+            // 
+            this.textBoxSendString.Location = new System.Drawing.Point(6, 47);
+            this.textBoxSendString.Name = "textBoxSendString";
+            this.textBoxSendString.Size = new System.Drawing.Size(130, 21);
+            this.textBoxSendString.TabIndex = 10;
+            // 
+            // buttonSerialSend
+            // 
+            this.buttonSerialSend.Location = new System.Drawing.Point(6, 75);
+            this.buttonSerialSend.Name = "buttonSerialSend";
+            this.buttonSerialSend.Size = new System.Drawing.Size(130, 23);
+            this.buttonSerialSend.TabIndex = 11;
+            this.buttonSerialSend.Text = "Serial Send";
+            this.buttonSerialSend.UseVisualStyleBackColor = true;
+            // 
+            // nudServerPort
+            // 
+            this.nudServerPort.Location = new System.Drawing.Point(9, 80);
+            this.nudServerPort.Maximum = new decimal(new int[] {
+            65535,
+            0,
+            0,
+            0});
+            this.nudServerPort.Name = "nudServerPort";
+            this.nudServerPort.Size = new System.Drawing.Size(130, 21);
+            this.nudServerPort.TabIndex = 6;
+            // 
+            // dgvDataLh
+            // 
+            this.dgvDataLh.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDataLh.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Procc,
+            this.StationCode,
+            this.col_StationName,
+            this.PlcIn,
+            this.PlcOut,
+            this.Rfid});
+            this.dgvDataLh.Dock = System.Windows.Forms.DockStyle.Left;
+            this.dgvDataLh.Location = new System.Drawing.Point(539, 24);
+            this.dgvDataLh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvDataLh.Name = "dgvDataLh";
+            this.dgvDataLh.ReadOnly = true;
+            this.dgvDataLh.RowHeadersWidth = 20;
+            this.dgvDataLh.RowTemplate.Height = 27;
+            this.dgvDataLh.Size = new System.Drawing.Size(525, 674);
+            this.dgvDataLh.TabIndex = 16;
+            // 
+            // Procc
+            // 
+            this.Procc.HeaderText = "Procc";
+            this.Procc.Name = "Procc";
+            this.Procc.ReadOnly = true;
+            this.Procc.Width = 50;
+            // 
+            // StationCode
+            // 
+            this.StationCode.HeaderText = "Code";
+            this.StationCode.Name = "StationCode";
+            this.StationCode.ReadOnly = true;
+            this.StationCode.Width = 80;
+            // 
+            // col_StationName
+            // 
+            this.col_StationName.HeaderText = "Station";
+            this.col_StationName.Name = "col_StationName";
+            this.col_StationName.ReadOnly = true;
+            this.col_StationName.Width = 120;
+            // 
+            // PlcIn
+            // 
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.PlcIn.DefaultCellStyle = dataGridViewCellStyle9;
+            this.PlcIn.HeaderText = "PlcIn";
+            this.PlcIn.Name = "PlcIn";
+            this.PlcIn.ReadOnly = true;
+            this.PlcIn.Width = 50;
+            // 
+            // PlcOut
+            // 
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.PlcOut.DefaultCellStyle = dataGridViewCellStyle10;
+            this.PlcOut.HeaderText = "PlcOut";
+            this.PlcOut.Name = "PlcOut";
+            this.PlcOut.ReadOnly = true;
+            this.PlcOut.Width = 50;
+            // 
+            // Rfid
+            // 
+            this.Rfid.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Rfid.HeaderText = "Rfid";
+            this.Rfid.Name = "Rfid";
+            this.Rfid.ReadOnly = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.comboBoxOutch);
+            this.groupBox2.Controls.Add(this.textBoxOutValue);
+            this.groupBox2.Controls.Add(this.buttonPlcSend);
+            this.groupBox2.Controls.Add(this.buttonSetupPLC);
+            this.groupBox2.Location = new System.Drawing.Point(35, 562);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(145, 131);
+            this.groupBox2.TabIndex = 17;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "PLC";
+            this.groupBox2.Visible = false;
+            // 
+            // comboBoxOutch
+            // 
+            this.comboBoxOutch.Location = new System.Drawing.Point(9, 21);
+            this.comboBoxOutch.Name = "comboBoxOutch";
+            this.comboBoxOutch.Size = new System.Drawing.Size(130, 20);
+            this.comboBoxOutch.TabIndex = 6;
+            // 
+            // textBoxOutValue
+            // 
+            this.textBoxOutValue.Location = new System.Drawing.Point(9, 49);
+            this.textBoxOutValue.Name = "textBoxOutValue";
+            this.textBoxOutValue.Size = new System.Drawing.Size(130, 21);
+            this.textBoxOutValue.TabIndex = 7;
+            // 
+            // buttonPlcSend
+            // 
+            this.buttonPlcSend.Location = new System.Drawing.Point(9, 77);
+            this.buttonPlcSend.Name = "buttonPlcSend";
+            this.buttonPlcSend.Size = new System.Drawing.Size(130, 23);
+            this.buttonPlcSend.TabIndex = 8;
+            this.buttonPlcSend.Text = "Plc Send";
+            this.buttonPlcSend.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetupPLC
+            // 
+            this.buttonSetupPLC.Location = new System.Drawing.Point(9, 103);
+            this.buttonSetupPLC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonSetupPLC.Name = "buttonSetupPLC";
+            this.buttonSetupPLC.Size = new System.Drawing.Size(130, 23);
+            this.buttonSetupPLC.TabIndex = 5;
+            this.buttonSetupPLC.Text = "Setup PLC";
+            this.buttonSetupPLC.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxServerIp
+            // 
+            this.comboBoxServerIp.FormattingEnabled = true;
+            this.comboBoxServerIp.Location = new System.Drawing.Point(9, 36);
+            this.comboBoxServerIp.Name = "comboBoxServerIp";
+            this.comboBoxServerIp.Size = new System.Drawing.Size(130, 20);
+            this.comboBoxServerIp.TabIndex = 4;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.HeaderText = "Procc";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.HeaderText = "Code";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // Col_Station
+            // 
+            this.Col_Station.HeaderText = "Station";
+            this.Col_Station.Name = "Col_Station";
+            this.Col_Station.ReadOnly = true;
+            this.Col_Station.Width = 120;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle11;
+            this.dataGridViewTextBoxColumn3.HeaderText = "PlcIn";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridViewTextBoxColumn4.HeaderText = "PlcOut";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn5.HeaderText = "Rfid";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // dgvDataRh
+            // 
+            this.dgvDataRh.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDataRh.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.Col_Station,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5});
+            this.dgvDataRh.Dock = System.Windows.Forms.DockStyle.Left;
+            this.dgvDataRh.Location = new System.Drawing.Point(0, 24);
+            this.dgvDataRh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvDataRh.Name = "dgvDataRh";
+            this.dgvDataRh.ReadOnly = true;
+            this.dgvDataRh.RowHeadersWidth = 20;
+            this.dgvDataRh.RowTemplate.Height = 27;
+            this.dgvDataRh.Size = new System.Drawing.Size(539, 674);
+            this.dgvDataRh.TabIndex = 18;
+            // 
+            // label11
+            // 
+            this.label11.Location = new System.Drawing.Point(6, 61);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(111, 16);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "Port";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lbl_Tester4);
+            this.groupBox1.Controls.Add(this.groupBox2);
+            this.groupBox1.Controls.Add(this.lbl_Tester3);
+            this.groupBox1.Controls.Add(this.lbl_Tester2);
+            this.groupBox1.Controls.Add(this.lbl_Tester1);
+            this.groupBox1.Controls.Add(this.lbl_LH_PLC);
+            this.groupBox1.Controls.Add(this.groupBox6);
+            this.groupBox1.Controls.Add(this.buttonStart);
+            this.groupBox1.Controls.Add(this.buttonStop);
+            this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.groupBox1.Location = new System.Drawing.Point(1074, 24);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(186, 674);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            // 
+            // lbl_Tester4
+            // 
+            this.lbl_Tester4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Tester4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Tester4.Location = new System.Drawing.Point(60, 507);
+            this.lbl_Tester4.Name = "lbl_Tester4";
+            this.lbl_Tester4.Size = new System.Drawing.Size(108, 30);
+            this.lbl_Tester4.TabIndex = 16;
+            this.lbl_Tester4.Text = "PC4";
+            this.lbl_Tester4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_Tester3
+            // 
+            this.lbl_Tester3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Tester3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Tester3.Location = new System.Drawing.Point(60, 468);
+            this.lbl_Tester3.Name = "lbl_Tester3";
+            this.lbl_Tester3.Size = new System.Drawing.Size(108, 30);
+            this.lbl_Tester3.TabIndex = 17;
+            this.lbl_Tester3.Text = "PC3";
+            this.lbl_Tester3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_Tester2
+            // 
+            this.lbl_Tester2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Tester2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Tester2.Location = new System.Drawing.Point(60, 427);
+            this.lbl_Tester2.Name = "lbl_Tester2";
+            this.lbl_Tester2.Size = new System.Drawing.Size(108, 30);
+            this.lbl_Tester2.TabIndex = 15;
+            this.lbl_Tester2.Text = "PC2";
+            this.lbl_Tester2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_Tester1
+            // 
+            this.lbl_Tester1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Tester1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Tester1.Location = new System.Drawing.Point(60, 386);
+            this.lbl_Tester1.Name = "lbl_Tester1";
+            this.lbl_Tester1.Size = new System.Drawing.Size(108, 30);
+            this.lbl_Tester1.TabIndex = 15;
+            this.lbl_Tester1.Text = "PC1";
+            this.lbl_Tester1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_LH_PLC
+            // 
+            this.lbl_LH_PLC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_LH_PLC.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_LH_PLC.Location = new System.Drawing.Point(60, 347);
+            this.lbl_LH_PLC.Name = "lbl_LH_PLC";
+            this.lbl_LH_PLC.Size = new System.Drawing.Size(108, 30);
+            this.lbl_LH_PLC.TabIndex = 15;
+            this.lbl_LH_PLC.Text = "PLC";
+            this.lbl_LH_PLC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.nudServerPort);
+            this.groupBox6.Controls.Add(this.comboBoxServerIp);
+            this.groupBox6.Controls.Add(this.label11);
+            this.groupBox6.Controls.Add(this.label12);
+            this.groupBox6.Location = new System.Drawing.Point(6, 105);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(160, 112);
+            this.groupBox6.TabIndex = 12;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Wms Server";
+            // 
+            // label12
+            // 
+            this.label12.Location = new System.Drawing.Point(6, 18);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(111, 15);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Server IP";
+            // 
+            // buttonStart
+            // 
+            this.buttonStart.Location = new System.Drawing.Point(24, 18);
+            this.buttonStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(130, 33);
+            this.buttonStart.TabIndex = 2;
+            this.buttonStart.Text = "Start";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
+            // 
+            // buttonStop
+            // 
+            this.buttonStop.Location = new System.Drawing.Point(24, 55);
+            this.buttonStop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonStop.Name = "buttonStop";
+            this.buttonStop.Size = new System.Drawing.Size(130, 33);
+            this.buttonStop.TabIndex = 3;
+            this.buttonStop.Text = "Stop";
+            this.buttonStop.UseVisualStyleBackColor = true;
+            this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Location = new System.Drawing.Point(1064, 24);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(10, 24);
+            this.menuStrip1.TabIndex = 19;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.programToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(1260, 24);
+            this.menuStrip2.TabIndex = 20;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // programToolStripMenuItem
+            // 
+            this.programToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pLCConfigToolStripMenuItem,
+            this.dBConfigToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.exitToolStripMenuItem});
+            this.programToolStripMenuItem.Name = "programToolStripMenuItem";
+            this.programToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.programToolStripMenuItem.Text = "Program";
+            // 
+            // pLCConfigToolStripMenuItem
+            // 
+            this.pLCConfigToolStripMenuItem.Name = "pLCConfigToolStripMenuItem";
+            this.pLCConfigToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pLCConfigToolStripMenuItem.Text = "PLC Config";
+            this.pLCConfigToolStripMenuItem.Click += new System.EventHandler(this.pLCConfigToolStripMenuItem_Click);
+            // 
+            // dBConfigToolStripMenuItem
+            // 
+            this.dBConfigToolStripMenuItem.Name = "dBConfigToolStripMenuItem";
+            this.dBConfigToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dBConfigToolStripMenuItem.Text = "DB Config";
+            this.dBConfigToolStripMenuItem.Click += new System.EventHandler(this.dBConfigToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            // 
+            // FormMDI
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1260, 698);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.dgvDataLh);
+            this.Controls.Add(this.dgvDataRh);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip2);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "FormMDI";
+            this.Text = "WMS Server";
+            this.Load += new System.EventHandler(this.FormMDI_Load);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudServerPort)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDataLh)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDataRh)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.Timer timerUpdate;
+        private System.Windows.Forms.Timer timerUpdate2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ComboBox comboBoxSerialPort;
+        private System.Windows.Forms.TextBox textBoxSendString;
+        private System.Windows.Forms.Button buttonSerialSend;
+        private System.Windows.Forms.NumericUpDown nudServerPort;
+        private System.Windows.Forms.DataGridView dgvDataLh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Procc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StationCode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_StationName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PlcIn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PlcOut;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Rfid;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox comboBoxOutch;
+        private System.Windows.Forms.TextBox textBoxOutValue;
+        private System.Windows.Forms.Button buttonPlcSend;
+        private System.Windows.Forms.Button buttonSetupPLC;
+        private System.Windows.Forms.ComboBox comboBoxServerIp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Col_Station;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridView dgvDataRh;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label lbl_Tester4;
+        private System.Windows.Forms.Label lbl_Tester3;
+        private System.Windows.Forms.Label lbl_Tester2;
+        private System.Windows.Forms.Label lbl_Tester1;
+        private System.Windows.Forms.Label lbl_LH_PLC;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.Button buttonStop;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem programToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pLCConfigToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dBConfigToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+    }
+}
+

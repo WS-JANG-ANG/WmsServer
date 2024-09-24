@@ -1,0 +1,18 @@
+A&G Technology
+dbInterface configuration file 
+Saved: 2024년 8월 14일 수요일
+===========================================
+
+[DB_SERVER]
+Server=121.139.221.234
+Login=sa
+Password=1234
+Database=WMS_TEST2
+[BACKUP]
+BackupEnable=False
+ServerBackup=
+LoginBackup=
+PasswordBackup=
+BackupDBName=
+BackupFolder=
+BackupInterval=0

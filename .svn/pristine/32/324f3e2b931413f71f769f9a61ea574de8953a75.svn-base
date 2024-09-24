@@ -1,0 +1,16 @@
+[IN]
+InWatchdog=PLC_IN01
+InReset=PLC_IN01
+OutReset=PLC_IN01
+
+[OUT]
+InOk=PLC_IN02
+InNg=PLC_IN03
+InDu=PLC_IN04
+OutWatchdog=PLC_OUT01
+OutOk=PLC_OUT02
+OutNg=PLC_OUT03
+OutNoship=PLC_OUT04
+OutNoData=PLC_OUT05
+OutNoSeq=PLC_OUT06
+ResetAccept=PLC_OUT06

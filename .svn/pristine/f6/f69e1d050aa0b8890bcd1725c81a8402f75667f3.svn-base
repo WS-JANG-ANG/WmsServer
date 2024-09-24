@@ -1,0 +1,1440 @@
+[13:16:31] FENSH	close engine_ship :	
+[13:16:31] SiePLC	stop	
+[13:19:34] FENSH	close engine_ship :	
+[13:20:00] FENSH	close engine_ship :	
+[13:20:00] REPEAT	1__	FENSH
+[13:20:00] SiePLC	stop	
+[13:20:00] REPEAT	1__	SiePLC
+[13:20:00] FENSH	close engine_ship :	
+[13:20:57] FENSH	close engine_ship :	
+[13:20:57] SiePLC	stop	
+[13:21:24] FENSH	close engine_ship :	
+[13:21:49] FENSH	close engine_ship :	
+[13:21:56] FENSH	close engine_ship :	
+[13:21:59] SiePLC	stop	
+[13:31:56] FENSH	close engine_ship :	
+[13:45:25] FENSH	close engine_ship :	
+[13:45:25] SiePLC	stop	
+[13:46:22] FENSH	close engine_ship :	
+[13:46:22] SiePLC	stop	
+[13:47:01] FENSH	close engine_ship :	
+[13:47:03] SiePLC	stop	
+[13:48:15] FENSH	close engine_ship :	
+[13:48:15] SiePLC	stop	
+[13:48:42] FENSH	close engine_ship :	
+[13:48:42] SiePLC	stop	
+[13:49:52] FENSH	close engine_ship :	
+[13:49:54] FENSH	close engine_ship :	
+[13:50:01] FENSH	close engine_ship :	
+[13:50:03] SiePLC	stop	
+[13:50:34] FENSH	close engine_ship :	
+[13:50:34] SiePLC	stop	
+[13:57:32] FENSH	close engine_ship :	
+[13:57:32] SiePLC	stop	
+[13:59:15] FENSH	close engine_ship :	
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] WMSSV	Process Name :	ADOBENOTIFICATIONCLIENT
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	REXPERTPRINTSERVICE
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[13:59:21] WMSSV	Process Name :	JHI_SERVICE
+[13:59:21] WMSSV	Process Name :	DASHOST
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[13:59:21] WMSSV	Process Name :	SEARCHPROTOCOLHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	DLLHOST
+[13:59:21] REPEAT	2__	WMSSV
+[13:59:21] WMSSV	Process Name :	CSRSS
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	VSVNVSWRK
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	ADOBEIPCBROKER
+[13:59:21] WMSSV	Process Name :	SERVICES
+[13:59:21] WMSSV	Process Name :	WPMSVC
+[13:59:21] WMSSV	Process Name :	CORESYNC
+[13:59:21] WMSSV	Process Name :	TASKHOSTW
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	MUSNOTIFYICON
+[13:59:21] WMSSV	Process Name :	ASDUP
+[13:59:21] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[13:59:21] WMSSV	Process Name :	SHELLEXPERIENCEHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[13:59:21] WMSSV	Process Name :	WLANEXT
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	NIMXS
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	ADOBECOLLABSYNC
+[13:59:21] WMSSV	Process Name :	VERAPORT-X64
+[13:59:21] WMSSV	Process Name :	INTELCPHDCPSVC
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	STANDARDCOLLECTOR.SERVICE
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] WMSSV	Process Name :	RTKAUDUSERVICE64
+[13:59:21] WMSSV	Process Name :	NIAUTH_DAEMON
+[13:59:21] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	AVPUI
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CCXPROCESS
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	MAXIMAUDIOSERVICE64
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.VSDETOUREDHOST
+[13:59:21] WMSSV	Process Name :	SGRMBROKER
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	PAINTSTUDIO.VIEW
+[13:59:21] WMSSV	Process Name :	NVDISPLAY.CONTAINER
+[13:59:21] WMSSV	Process Name :	SYSTEMSETTINGS
+[13:59:21] WMSSV	Process Name :	BMSGTRAY
+[13:59:21] WMSSV	Process Name :	ONEAPP.IGCC.WINSERVICE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	LOCKAPP
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	MMSSERVE
+[13:59:21] WMSSV	Process Name :	NTSMAGICXMLSECURITYNP
+[13:59:21] WMSSV	Process Name :	IGFXEMN
+[13:59:21] WMSSV	Process Name :	V3UI
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	MMSSERVE
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	ADOBE DESKTOP SERVICE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	NIDISCSVC
+[13:59:21] WMSSV	Process Name :	NIPXICMS
+[13:59:21] WMSSV	Process Name :	MACOURTSAFERSVC
+[13:59:21] WMSSV	Process Name :	PRESENTATIONFONTCACHE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	ADOBECOLLABSYNC
+[13:59:21] WMSSV	Process Name :	ANYSIGN4PC
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	UNSECAPP
+[13:59:21] WMSSV	Process Name :	LMS
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	4__	WMSSV
+[13:59:21] WMSSV	Process Name :	STSESS
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	ASDSVC
+[13:59:21] WMSSV	Process Name :	IMGSF50SVC
+[13:59:21] WMSSV	Process Name :	NODE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	WMIPRVSE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	2__	WMSSV
+[13:59:21] WMSSV	Process Name :	OBCROSSEXSERVICE
+[13:59:21] WMSSV	Process Name :	USEROOBEBROKER
+[13:59:21] WMSSV	Process Name :	FONTDRVHOST
+[13:59:21] WMSSV	Process Name :	IGFXCUISERVICEN
+[13:59:21] WMSSV	Process Name :	DLLHOST
+[13:59:21] WMSSV	Process Name :	AGGREGATORHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	ESIF_UF
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	STSESS32
+[13:59:21] WMSSV	Process Name :	SMSS
+[13:59:21] WMSSV	Process Name :	COMPPKGSRV
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	WUDFHOST
+[13:59:21] REPEAT	3__	WMSSV
+[13:59:21] WMSSV	Process Name :	TABTIP
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	I3GMAINSVC
+[13:59:21] WMSSV	Process Name :	ADOBE CRASH PROCESSOR
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	NISVCLOC
+[13:59:21] WMSSV	Process Name :	RTKAUDUSERVICE64
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	MACOURTSAFER
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	ACROTRAY
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.DATAWAREHOUSEHOST
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	STM
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	CMD
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	SEARCHAPP
+[13:59:21] REPEAT	2__	WMSSV
+[13:59:21] WMSSV	Process Name :	TEXTINPUTHOST
+[13:59:21] WMSSV	Process Name :	SEARCHINDEXER
+[13:59:21] WMSSV	Process Name :	LKADS
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	DEVENV
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.SETTINGSHOST
+[13:59:21] WMSSV	Process Name :	DLLHOST
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.IDENTITYHOST
+[13:59:21] WMSSV	Process Name :	SAMSUNGSECURITYSUPPORTER
+[13:59:21] WMSSV	Process Name :	SQLSERVR
+[13:59:21] WMSSV	Process Name :	AVP
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[13:59:21] WMSSV	Process Name :	WUDFHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	ACROBATNOTIFICATIONCLIENT
+[13:59:21] WMSSV	Process Name :	ARMSVC
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	CTFMON
+[13:59:21] WMSSV	Process Name :	SPOOLSV
+[13:59:21] WMSSV	Process Name :	STARTMENUEXPERIENCEHOST
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	ANYSIGN4PCLAUNCHER
+[13:59:21] WMSSV	Process Name :	WUDFHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	3__	WMSSV
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] WMSSV	Process Name :	SEARCHAPP
+[13:59:21] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTSERVICE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	ADOBEUPDATESERVICE
+[13:59:21] WMSSV	Process Name :	TAGSRV
+[13:59:21] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.HOST.NODE.X86
+[13:59:21] WMSSV	Process Name :	MAXIMSERVICESHELL64
+[13:59:21] WMSSV	Process Name :	NVDISPLAY.CONTAINER
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[13:59:21] WMSSV	Process Name :	DEVENV
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	DASHOST
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	THUNDERBOLTSERVICE
+[13:59:21] WMSSV	Process Name :	VSVNVSWRK
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	SEARCHFILTERHOST
+[13:59:21] WMSSV	Process Name :	TORTOISEPROC
+[13:59:21] WMSSV	Process Name :	MSBUILD
+[13:59:21] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[13:59:21] WMSSV	Process Name :	APPLICATIONFRAMEHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	NIDMSRV
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	MEMORY COMPRESSION
+[13:59:21] WMSSV	Process Name :	SQLWRITER
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	LKTSRV
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	SAMSUNGSECURITYSUPPORTSERVICE
+[13:59:21] WMSSV	Process Name :	MUPDATE2
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	REGISTRY
+[13:59:21] WMSSV	Process Name :	GOJI
+[13:59:21] WMSSV	Process Name :	EXPLORER
+[13:59:21] WMSSV	Process Name :	WMSSERVER
+[13:59:21] WMSSV	Process Name :	NIPXISM
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	MICROSOFT.SHAREPOINT
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	BMSNATIVEAPP
+[13:59:21] WMSSV	Process Name :	NIMDNSRESPONDER
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	CREATIVE CLOUD
+[13:59:21] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTENGINE
+[13:59:21] WMSSV	Process Name :	VBCSCOMPILER
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	CREATIVE CLOUD HELPER
+[13:59:21] WMSSV	Process Name :	ASDSVC
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.HOST.CLR.X86
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	VESTCERT
+[13:59:21] WMSSV	Process Name :	INTELAUDIOSERVICE
+[13:59:21] WMSSV	Process Name :	LSASS
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	3__	WMSSV
+[13:59:21] WMSSV	Process Name :	I3GPROC
+[13:59:21] WMSSV	Process Name :	CSRSS
+[13:59:21] WMSSV	Process Name :	WUDFHOST
+[13:59:21] WMSSV	Process Name :	FONTDRVHOST
+[13:59:21] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[13:59:21] WMSSV	Process Name :	NISDS
+[13:59:21] WMSSV	Process Name :	TASKHOSTW
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	WININIT
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	NOSSVC
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] REPEAT	2__	WMSSV
+[13:59:21] WMSSV	Process Name :	PERFWATSON2
+[13:59:21] WMSSV	Process Name :	DISMHOST
+[13:59:21] WMSSV	Process Name :	VSVNVSWRK
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	NOSSTARTER.NPE
+[13:59:21] WMSSV	Process Name :	TSVNCACHE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	DLLHOST
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	NIROCO
+[13:59:21] WMSSV	Process Name :	CCLIBRARY
+[13:59:21] WMSSV	Process Name :	WEBEXHOST
+[13:59:21] WMSSV	Process Name :	SECURITYHEALTHSYSTRAY
+[13:59:21] WMSSV	Process Name :	CHROME
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	DWM
+[13:59:21] WMSSV	Process Name :	AVPSUS
+[13:59:21] WMSSV	Process Name :	NODE
+[13:59:21] WMSSV	Process Name :	DELFINO
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	DPTF_HELPER
+[13:59:21] WMSSV	Process Name :	SECURITYHEALTHSERVICE
+[13:59:21] WMSSV	Process Name :	WINLOGON
+[13:59:21] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[13:59:21] WMSSV	Process Name :	CONHOST
+[13:59:21] WMSSV	Process Name :	PERFWATSON2
+[13:59:21] WMSSV	Process Name :	RUNTIMEBROKER
+[13:59:21] WMSSV	Process Name :	WMIPRVSE
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	CROSSEXSERVICE
+[13:59:21] REPEAT	1__	WMSSV
+[13:59:21] WMSSV	Process Name :	SIHOST
+[13:59:21] WMSSV	Process Name :	NIDEVLDU
+[13:59:21] WMSSV	Process Name :	SVCHOST
+[13:59:21] WMSSV	Process Name :	SYSTEM
+[13:59:21] WMSSV	Process Name :	SAMSUNGAIRACTION
+[13:59:21] WMSSV	Process Name :	CALCULATORAPP
+[13:59:21] WMSSV	Process Name :	IDLE
+[13:59:21] WMSSV	FN_Close - PlcTimer :	Stop
+[13:59:22] SiePLC	stop	
+[13:59:22] WMSSV	FN_Close - SiemensPLC :	Stop
+[13:59:22] WMSSV	Close - SendTimer :	Stop
+[13:59:23] SiePLC	stop	
+[14:01:23] FENSH	close engine_ship :	
+[14:01:23] SiePLC	stop	
+[14:21:40] SiePLC	initialize	
+[14:21:43] SiePLC	start	
+[14:21:43] SiePLC	init socket	
+[14:21:48] SiePLC	stop	
+[14:22:14] SiePLC	initialize	
+[14:22:14] SiePLC	ini opened	
+[14:22:14] SiePLC	Initializeed	
+[14:22:14] SiePLC	start	
+[14:22:14] SiePLC	init socket	
+[14:22:15] SiePLC	disconnect	PLC
+[14:22:15] SiePLC	disconnected	PLC
+[14:22:15] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:22:21] SiePLC	server is not reponse	192.168.0.0,2050
+[14:22:21] SiePLC	start thread	
+[14:22:21] SiePLC	connection fail	PLC
+[14:22:21] SiePLC	disconnect	PLC
+[14:22:21] SiePLC	disconnected	PLC
+[14:22:21] REPEAT	1__	SiePLC
+[14:22:21] REPEAT	1__	SiePLC
+[14:22:21] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:22:41] SiePLC	server is not reponse	192.168.0.0,2050
+[14:22:41] SiePLC	connection fail	PLC
+[14:22:41] SiePLC	disconnect	PLC
+[14:22:41] SiePLC	disconnected	PLC
+[14:22:42] REPEAT	1__	SiePLC
+[14:22:42] REPEAT	1__	SiePLC
+[14:22:42] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:22:46] SiePLC	server is not reponse	192.168.0.0,2050
+[14:22:46] SiePLC	connection fail	PLC
+[14:22:46] SiePLC	disconnect	PLC
+[14:22:46] SiePLC	disconnected	PLC
+[14:22:46] REPEAT	1__	SiePLC
+[14:22:46] REPEAT	1__	SiePLC
+[14:22:46] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:22:50] SiePLC	server is not reponse	192.168.0.0,2050
+[14:22:50] SiePLC	connection fail	PLC
+[14:22:50] SiePLC	disconnect	PLC
+[14:22:50] SiePLC	disconnected	PLC
+[14:22:50] REPEAT	1__	SiePLC
+[14:22:50] REPEAT	1__	SiePLC
+[14:22:50] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:22:51] SiePLC	stop	
+[14:22:51] SiePLC	disconnect	PLC
+[14:22:51] SiePLC	disconnected	PLC
+[14:22:52] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[14:22:52] SiePLC	init socket	
+[14:22:53] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[14:23:09] SiePLC	initialize	
+[14:23:09] SiePLC	ini opened	
+[14:23:09] SiePLC	Initializeed	
+[14:23:09] SiePLC	start	
+[14:23:09] SiePLC	init socket	
+[14:23:09] SiePLC	disconnect	PLC
+[14:23:09] SiePLC	disconnected	PLC
+[14:23:09] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:23:13] SiePLC	server is not reponse	192.168.0.0,2050
+[14:23:13] SiePLC	start thread	
+[14:23:13] SiePLC	connection fail	PLC
+[14:23:13] SiePLC	disconnect	PLC
+[14:23:13] SiePLC	disconnected	PLC
+[14:23:13] REPEAT	1__	SiePLC
+[14:23:13] REPEAT	1__	SiePLC
+[14:23:13] SiePLC	try connect	PLC  192.168.0.0,2050
+[14:23:27] SiePLC	stop	
+[14:23:27] SiePLC	disconnect	PLC
+[14:23:27] SiePLC	disconnected	PLC
+[14:23:36] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[15:07:14] FENSH	close engine_ship :	
+[15:07:14] SiePLC	stop	
+[15:15:46] WMSSV	start 	
+[15:15:46] WMSSV	initialized plc	
+[15:15:46] TCP_S	start server 121.139.221.2:5000	
+[15:15:46] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[15:15:46] DBI	get ref list start with : 	PL
+[15:15:46] WMSSV	started :::::::	
+[15:15:50] TCP_S	stop server 	
+[15:15:50] SiePLC	stop	
+[15:21:31] SiePLC	stop	
+[15:28:49] WMSSV	start 	
+[15:28:49] DEVPLC	start	
+[15:28:54] SiePLC	initialize	
+[15:28:54] SiePLC	ini opened	
+[15:28:54] SiePLC	Initializeed	
+[15:28:54] DEVPLC	initialize passed Siemens PLC	
+[15:28:54] SiePLC	start	
+[15:28:54] SiePLC	init socket	
+[15:28:55] SiePLC	disconnect	PLC
+[15:28:55] SiePLC	disconnected	PLC
+[15:28:55] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:30:00] WMSSV	start 	
+[15:30:00] DEVPLC	start	
+[15:30:00] SiePLC	initialize	
+[15:30:00] SiePLC	ini opened	
+[15:30:00] SiePLC	Initializeed	
+[15:30:00] DEVPLC	initialize passed Siemens PLC	
+[15:30:00] SiePLC	start	
+[15:30:00] SiePLC	init socket	
+[15:30:01] SiePLC	disconnect	PLC
+[15:30:01] SiePLC	disconnected	PLC
+[15:30:01] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:35:38] WMSSV	start 	
+[15:35:38] DEVPLC	start	
+[15:35:38] SiePLC	initialize	
+[15:35:38] SiePLC	ini opened	
+[15:35:38] SiePLC	Initializeed	
+[15:35:38] DEVPLC	initialize passed Siemens PLC	
+[15:35:38] SiePLC	start	
+[15:35:38] SiePLC	init socket	
+[15:35:39] SiePLC	disconnect	PLC
+[15:35:39] SiePLC	disconnected	PLC
+[15:35:39] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:36:45] WMSSV	start 	
+[15:37:07] DEVPLC	start	
+[15:37:08] SiePLC	initialize	
+[15:37:08] SiePLC	ini opened	
+[15:37:08] SiePLC	Initializeed	
+[15:37:08] DEVPLC	initialize passed Siemens PLC	
+[15:37:08] SiePLC	start	
+[15:37:08] SiePLC	init socket	
+[15:37:08] SiePLC	disconnect	PLC
+[15:37:08] SiePLC	disconnected	PLC
+[15:37:08] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:37:25] WMSSV	start 	
+[15:37:29] DEVPLC	start	
+[15:37:33] SiePLC	initialize	
+[15:37:33] SiePLC	ini opened	
+[15:37:33] SiePLC	Initializeed	
+[15:37:34] DEVPLC	initialize passed Siemens PLC	
+[15:37:54] SiePLC	start	
+[15:37:54] SiePLC	init socket	
+[15:37:55] SiePLC	disconnect	PLC
+[15:37:55] SiePLC	disconnected	PLC
+[15:37:55] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:39:56] WMSSV	start 	
+[15:39:59] DEVPLC	start	
+[15:39:59] SiePLC	initialize	
+[15:39:59] SiePLC	ini opened	
+[15:39:59] SiePLC	Initializeed	
+[15:39:59] DEVPLC	initialize passed Siemens PLC	
+[15:39:59] SiePLC	start	
+[15:39:59] SiePLC	init socket	
+[15:40:00] SiePLC	disconnect	PLC
+[15:40:00] SiePLC	disconnected	PLC
+[15:40:00] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:40:04] SiePLC	server is not reponse	192.168.0.0,2050
+[15:40:04] DEVPLC	start device passed Siemens PLC	
+[15:40:04] SiePLC	start thread	
+[15:40:04] DEVPLC	end of device loading 	
+[15:40:04] SiePLC	connection fail	PLC
+[15:40:04] DEVPLC	start thread function	
+[15:40:04] WMSSV	initialized plc	
+[15:40:04] TCP_S	start server 121.139.221.2:5000	
+[15:40:04] DEVPLC	start data reading 	
+[15:40:04] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[15:40:04] DBI	get ref list start with : 	PL
+[15:40:04] SiePLC	disconnect	PLC
+[15:40:04] SiePLC	disconnected	PLC
+[15:40:04] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:40:04] WMSSV	started :::::::	
+[15:40:28] SiePLC	server is not reponse	192.168.0.0,2050
+[15:40:28] SiePLC	connection fail	PLC
+[15:40:28] SiePLC	disconnect	PLC
+[15:40:28] SiePLC	disconnected	PLC
+[15:40:28] REPEAT	1__	SiePLC
+[15:40:28] REPEAT	1__	SiePLC
+[15:40:28] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:40:32] SiePLC	server is not reponse	192.168.0.0,2050
+[15:40:32] SiePLC	connection fail	PLC
+[15:40:32] SiePLC	disconnect	PLC
+[15:40:32] SiePLC	disconnected	PLC
+[15:40:32] REPEAT	1__	SiePLC
+[15:40:32] REPEAT	1__	SiePLC
+[15:40:32] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:40:35] SiePLC	server is not reponse	192.168.0.0,2050
+[15:40:35] SiePLC	connection fail	PLC
+[15:40:35] SiePLC	disconnect	PLC
+[15:40:35] SiePLC	disconnected	PLC
+[15:40:36] REPEAT	1__	SiePLC
+[15:40:36] REPEAT	1__	SiePLC
+[15:40:36] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:40:44] SiePLC	server is not reponse	192.168.0.0,2050
+[15:40:45] SiePLC	connection fail	PLC
+[15:40:45] SiePLC	disconnect	PLC
+[15:40:45] SiePLC	disconnected	PLC
+[15:40:45] REPEAT	1__	SiePLC
+[15:40:45] REPEAT	1__	SiePLC
+[15:40:45] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:40:58] FENSH	close engine_ship :	
+[15:41:41] TCP_S	stop server 	
+[15:41:41] SiePLC	stop	
+[15:41:41] SiePLC	disconnect	PLC
+[15:41:41] SiePLC	disconnected	PLC
+[15:41:41] TCP_S	stop server 	
+[15:41:41] SiePLC	stop	
+[15:41:41] SiePLC	disconnect	PLC
+[15:41:41] SiePLC	disconnected	PLC
+[15:41:41] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[15:45:30] WMSSV	start 	
+[15:45:32] DEVPLC	start	
+[15:45:32] SiePLC	initialize	
+[15:45:32] SiePLC	ini opened	
+[15:45:32] SiePLC	Initializeed	
+[15:45:32] DEVPLC	initialize passed Siemens PLC	
+[15:45:32] SiePLC	start	
+[15:45:32] SiePLC	init socket	
+[15:45:33] SiePLC	disconnect	PLC
+[15:45:33] SiePLC	disconnected	PLC
+[15:45:33] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:45:47] SiePLC	server is not reponse	192.168.0.0,2050
+[15:45:47] DEVPLC	start device passed Siemens PLC	
+[15:45:47] SiePLC	start thread	
+[15:45:47] SiePLC	connection fail	PLC
+[15:45:47] DEVPLC	start thread function	
+[15:45:47] SiePLC	disconnect	PLC
+[15:45:47] SiePLC	disconnected	PLC
+[15:45:47] WMSSV	initialized plc	
+[15:45:47] TCP_S	start server 121.139.221.2:5000	
+[15:45:47] DEVPLC	start data reading 	
+[15:45:47] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[15:45:47] DBI	get ref list start with : 	PL
+[15:45:47] SiePLC	disconnect	PLC
+[15:45:47] SiePLC	disconnected	PLC
+[15:45:47] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:45:47] WMSSV	started :::::::	
+[15:59:44] SiePLC	server is not reponse	192.168.0.0,2050
+[15:59:44] SiePLC	connection fail	PLC
+[15:59:44] SiePLC	disconnect	PLC
+[15:59:44] SiePLC	disconnected	PLC
+[15:59:44] REPEAT	1__	SiePLC
+[15:59:44] REPEAT	1__	SiePLC
+[15:59:44] SiePLC	try connect	PLC  192.168.0.0,2050
+[15:59:48] SiePLC	server is not reponse	192.168.0.0,2050
+[15:59:48] SiePLC	connection fail	PLC
+[15:59:48] SiePLC	disconnect	PLC
+[15:59:48] SiePLC	disconnected	PLC
+[15:59:48] REPEAT	1__	SiePLC
+[15:59:48] REPEAT	1__	SiePLC
+[15:59:48] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:00:16] SiePLC	server is not reponse	192.168.0.0,2050
+[16:00:17] SiePLC	connection fail	PLC
+[16:00:17] SiePLC	disconnect	PLC
+[16:00:17] SiePLC	disconnected	PLC
+[16:00:17] REPEAT	1__	SiePLC
+[16:00:17] REPEAT	1__	SiePLC
+[16:00:17] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:01:06] SiePLC	server is not reponse	192.168.0.0,2050
+[16:01:06] SiePLC	connection fail	PLC
+[16:01:06] SiePLC	disconnect	PLC
+[16:01:06] SiePLC	disconnected	PLC
+[16:01:06] REPEAT	1__	SiePLC
+[16:01:06] REPEAT	1__	SiePLC
+[16:01:06] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:06:58] WMSSV	start 	
+[16:06:58] DEVPLC	start	
+[16:06:58] SiePLC	initialize	
+[16:06:58] SiePLC	ini opened	
+[16:06:58] SiePLC	Initializeed	
+[16:06:58] DEVPLC	initialize passed Siemens PLC	
+[16:06:58] SiePLC	start	
+[16:06:58] SiePLC	init socket	
+[16:06:58] SiePLC	disconnect	PLC
+[16:06:58] SiePLC	disconnected	PLC
+[16:06:58] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:13:48] SiePLC	server is not reponse	192.168.0.0,2050
+[16:13:48] DEVPLC	start device passed Siemens PLC	
+[16:13:48] SiePLC	start thread	
+[16:13:48] DEVPLC	end of device loading 	
+[16:13:48] SiePLC	connection fail	PLC
+[16:13:48] DEVPLC	start thread function	
+[16:13:48] SiePLC	disconnect	PLC
+[16:13:48] SiePLC	disconnected	PLC
+[16:13:48] WMSSV	initialized plc	
+[16:13:48] TCP_S	start server 121.139.221.2:5000	
+[16:13:48] DEVPLC	start data reading 	
+[16:13:48] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[16:13:48] DBI	get ref list start with : 	PL
+[16:13:48] SiePLC	disconnect	PLC
+[16:13:48] SiePLC	disconnected	PLC
+[16:13:48] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:13:48] WMSSV	started :::::::	
+[16:13:50] TCP_S	stop server 	
+[16:13:50] WMSSV	stop update timer	
+[16:13:50] DEVPLC	stop 	
+[16:13:50] SiePLC	stop	
+[16:13:50] SiePLC	disconnect	PLC
+[16:13:50] SiePLC	disconnected	PLC
+[16:13:51] WMSSV	stop plc	
+[16:13:51] WMSSV	stop send timer	
+[16:13:51] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[16:13:52] TCP_S	stop server 	
+[16:13:52] WMSSV	stop update timer	
+[16:13:53] DEVPLC	stop 	
+[16:13:53] SiePLC	stop	
+[16:13:53] SiePLC	disconnect	PLC
+[16:13:53] SiePLC	disconnected	PLC
+[16:13:53] WMSSV	stop plc	
+[16:13:53] WMSSV	stop send timer	
+[16:13:53] WMSSV	start 	
+[16:13:53] DEVPLC	start	
+[16:13:53] SiePLC	initialize	
+[16:13:53] SiePLC	ini opened	
+[16:13:53] SiePLC	Initializeed	
+[16:13:53] DEVPLC	initialize passed Siemens PLC	
+[16:15:00] WMSSV	start 	
+[16:15:00] DEVPLC	start	
+[16:15:00] SiePLC	initialize	
+[16:15:00] SiePLC	ini opened	
+[16:15:00] SiePLC	Initializeed	
+[16:15:00] DEVPLC	initialize passed Siemens PLC	
+[16:15:00] SiePLC	start	
+[16:15:00] SiePLC	init socket	
+[16:15:01] SiePLC	disconnect	PLC
+[16:15:01] SiePLC	disconnected	PLC
+[16:15:01] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:16:17] WMSSV	start 	
+[16:16:17] DEVPLC	start	
+[16:16:40] WMSSV	start 	
+[16:16:44] REPEAT	1__	start
+[16:16:44] WMSSV	stop update timer	
+[16:16:54] WMSSV	stop update timer	
+[16:20:12] WMSSV	start 	
+[16:20:12] DEVPLC	start	
+[16:20:12] SiePLC	initialize	
+[16:20:12] SiePLC	ini opened	
+[16:20:12] SiePLC	Initializeed	
+[16:20:12] DEVPLC	initialize passed Siemens PLC	
+[16:20:12] SiePLC	start	
+[16:20:12] SiePLC	init socket	
+[16:20:13] SiePLC	disconnect	PLC
+[16:20:13] SiePLC	disconnected	PLC
+[16:20:13] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:21:31] WMSSV	start 	
+[16:21:31] DEVPLC	start	
+[16:21:31] SiePLC	initialize	
+[16:21:31] SiePLC	ini opened	
+[16:21:31] SiePLC	Initializeed	
+[16:21:31] DEVPLC	initialize passed Siemens PLC	
+[16:21:31] SiePLC	start	
+[16:21:31] SiePLC	init socket	
+[16:21:32] SiePLC	disconnect	PLC
+[16:21:32] SiePLC	disconnected	PLC
+[16:21:32] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:41:11] WMSSV	start 	
+[16:41:11] DEVPLC	start	
+[16:41:11] SiePLC	initialize	
+[16:41:11] SiePLC	ini opened	
+[16:41:11] SiePLC	Initializeed	
+[16:41:11] DEVPLC	initialize passed Siemens PLC	
+[16:41:11] SiePLC	start	
+[16:41:11] SiePLC	init socket	
+[16:41:11] SiePLC	disconnect	PLC
+[16:41:11] SiePLC	disconnected	PLC
+[16:41:11] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:49:43] SiePLC	server is not reponse	192.168.0.0,2050
+[16:49:43] DEVPLC	start device passed Siemens PLC	
+[16:49:43] SiePLC	start thread	
+[16:49:43] DEVPLC	end of device loading 	
+[16:49:43] SiePLC	connection fail	PLC
+[16:49:43] DEVPLC	start thread function	
+[16:49:43] SiePLC	disconnected	PLC
+[16:49:43] WMSSV	initialized plc	
+[16:49:43] TCP_S	start server 121.139.221.2:5000	
+[16:49:43] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[16:49:43] DBI	get ref list start with : 	PL
+[16:49:43] SiePLC	disconnect	PLC
+[16:49:43] SiePLC	disconnected	PLC
+[16:49:43] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:49:43] WMSSV	started :::::::	
+[16:49:44] TCP_S	stop server 	
+[16:49:44] SiePLC	stop	
+[16:49:44] SiePLC	disconnect	PLC
+[16:49:44] SiePLC	disconnected	PLC
+[16:49:44] TCP_S	stop server 	
+[16:49:44] SiePLC	stop	
+[16:49:44] SiePLC	disconnect	PLC
+[16:49:44] SiePLC	disconnected	PLC
+[16:49:45] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[16:49:45] SiePLC	init socket	
+[16:49:46] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[16:51:09] WMSSV	start 	
+[16:51:09] DEVPLC	start	
+[16:51:09] SiePLC	initialize	
+[16:51:09] SiePLC	ini opened	
+[16:51:09] SiePLC	Initializeed	
+[16:51:09] DEVPLC	initialize passed Siemens PLC	
+[16:51:09] SiePLC	start	
+[16:51:09] SiePLC	init socket	
+[16:51:09] SiePLC	disconnect	PLC
+[16:51:09] SiePLC	disconnected	PLC
+[16:51:09] SiePLC	try connect	PLC  192.168.0.0,2050
+[16:55:58] WMSSV	start 	
+[16:55:58] DEVPLC	start	
+[16:55:58] SiePLC	initialize	
+[16:55:58] SiePLC	ini opened	
+[16:55:58] SiePLC	Initializeed	
+[16:55:58] DEVPLC	initialize passed Siemens PLC	
+[16:55:58] SiePLC	start	
+[16:55:58] SiePLC	init socket	
+[16:55:59] SiePLC	disconnect	PLC
+[16:55:59] SiePLC	disconnected	PLC
+[16:55:59] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:05:12] SiePLC	server is not reponse	192.168.0.0,2050
+[17:05:12] DEVPLC	start device passed Siemens PLC	
+[17:05:12] SiePLC	start thread	
+[17:05:12] DEVPLC	end of device loading 	
+[17:05:12] SiePLC	connection fail	PLC
+[17:05:12] DEVPLC	start thread function	
+[17:05:12] SiePLC	disconnect	PLC
+[17:05:12] SiePLC	disconnected	PLC
+[17:05:12] TCP_S	start server 121.139.221.2:5000	
+[17:05:12] DEVPLC	start data reading 	
+[17:05:12] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:05:12] DBI	get ref list start with : 	PL
+[17:05:13] SiePLC	disconnect	PLC
+[17:05:13] SiePLC	disconnected	PLC
+[17:05:13] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:05:13] WMSSV	started :::::::	
+[17:05:13] TCP_S	stop server 	
+[17:05:13] SiePLC	stop	
+[17:05:13] SiePLC	disconnect	PLC
+[17:05:13] SiePLC	disconnected	PLC
+[17:05:14] TCP_S	stop server 	
+[17:05:14] SiePLC	stop	
+[17:05:14] SiePLC	disconnect	PLC
+[17:05:14] SiePLC	disconnected	PLC
+[17:05:15] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[17:05:15] SiePLC	init socket	
+[17:05:15] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:05:50] WMSSV	start 	
+[17:05:50] DEVPLC	start	
+[17:05:50] SiePLC	initialize	
+[17:05:50] SiePLC	ini opened	
+[17:05:50] SiePLC	Initializeed	
+[17:05:50] DEVPLC	initialize passed Siemens PLC	
+[17:05:50] SiePLC	start	
+[17:05:50] SiePLC	init socket	
+[17:05:51] SiePLC	disconnect	PLC
+[17:05:51] SiePLC	disconnected	PLC
+[17:05:51] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:06:25] SiePLC	server is not reponse	192.168.0.0,2050
+[17:06:25] DEVPLC	start device passed Siemens PLC	
+[17:06:25] SiePLC	connection fail	PLC
+[17:06:25] SiePLC	disconnect	PLC
+[17:06:25] DEVPLC	start thread function	
+[17:06:25] SiePLC	disconnected	PLC
+[17:06:25] WMSSV	initialized plc	
+[17:06:25] DEVPLC	start data reading 	
+[17:06:25] TCP_S	start server 121.139.221.2:5000	
+[17:06:25] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:06:25] DBI	get ref list start with : 	PL
+[17:06:26] SiePLC	disconnect	PLC
+[17:06:26] SiePLC	disconnected	PLC
+[17:06:26] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:06:26] WMSSV	started :::::::	
+[17:06:26] TCP_S	stop server 	
+[17:06:26] SiePLC	stop	
+[17:06:26] SiePLC	disconnect	PLC
+[17:06:26] SiePLC	disconnected	PLC
+[17:06:26] TCP_S	stop server 	
+[17:06:26] SiePLC	stop	
+[17:06:26] SiePLC	disconnect	PLC
+[17:06:26] SiePLC	disconnected	PLC
+[17:06:28] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[17:06:28] SiePLC	init socket	
+[17:06:28] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:10:43] WMSSV	start 	
+[17:10:43] DEVPLC	start	
+[17:10:43] SiePLC	initialize	
+[17:10:43] SiePLC	ini opened	
+[17:10:43] SiePLC	Initializeed	
+[17:10:43] DEVPLC	initialize passed Siemens PLC	
+[17:10:43] SiePLC	start	
+[17:10:43] SiePLC	init socket	
+[17:10:43] SiePLC	disconnect	PLC
+[17:10:43] SiePLC	disconnected	PLC
+[17:10:43] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:11:04] SiePLC	server is not reponse	192.168.0.0,2050
+[17:11:04] DEVPLC	start device passed Siemens PLC	
+[17:11:04] SiePLC	start thread	
+[17:11:04] DEVPLC	end of device loading 	
+[17:11:04] SiePLC	connection fail	PLC
+[17:11:04] DEVPLC	start thread function	
+[17:11:04] SiePLC	disconnect	PLC
+[17:11:04] SiePLC	disconnected	PLC
+[17:11:04] WMSSV	initialized plc	
+[17:11:04] DEVPLC	start data reading 	
+[17:11:04] TCP_S	start server 121.139.221.2:5000	
+[17:11:04] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:11:04] DBI	get ref list start with : 	PL
+[17:11:04] WMSSV	started :::::::	
+[17:11:04] SiePLC	disconnect	PLC
+[17:11:04] SiePLC	disconnected	PLC
+[17:11:04] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:11:07] SiePLC	server is not reponse	192.168.0.0,2050
+[17:11:07] SiePLC	connection fail	PLC
+[17:11:07] SiePLC	disconnect	PLC
+[17:11:07] SiePLC	disconnected	PLC
+[17:11:07] REPEAT	1__	disconnected
+[17:11:07] REPEAT	1__	disconnect
+[17:11:07] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:11:10] SiePLC	server is not reponse	192.168.0.0,2050
+[17:11:10] SiePLC	connection fail	PLC
+[17:11:10] SiePLC	disconnect	PLC
+[17:11:10] SiePLC	disconnected	PLC
+[17:11:11] REPEAT	1__	disconnected
+[17:11:11] REPEAT	1__	disconnect
+[17:11:11] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:11:13] TCP_S	stop server 	
+[17:11:13] SiePLC	stop	
+[17:11:13] SiePLC	disconnect	PLC
+[17:11:13] SiePLC	disconnected	PLC
+[17:11:13] TCP_S	stop server 	
+[17:11:13] SiePLC	stop	
+[17:11:13] SiePLC	disconnect	PLC
+[17:11:13] SiePLC	disconnected	PLC
+[17:11:13] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:11:17] TCP_S	stop server 	
+[17:11:17] SiePLC	stop	
+[17:11:17] SiePLC	disconnect	PLC
+[17:11:17] SiePLC	disconnected	PLC
+[17:11:17] TCP_S	stop server 	
+[17:11:17] SiePLC	stop	
+[17:11:17] SiePLC	disconnect	PLC
+[17:11:17] SiePLC	disconnected	PLC
+[17:11:44] WMSSV	start 	
+[17:11:44] DEVPLC	start	
+[17:11:44] SiePLC	initialize	
+[17:11:44] SiePLC	ini opened	
+[17:11:44] SiePLC	Initializeed	
+[17:11:44] DEVPLC	initialize passed Siemens PLC	
+[17:11:44] SiePLC	start	
+[17:11:44] SiePLC	init socket	
+[17:11:44] SiePLC	disconnect	PLC
+[17:11:44] SiePLC	disconnected	PLC
+[17:11:44] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:11:51] SiePLC	server is not reponse	192.168.0.0,2050
+[17:11:51] DEVPLC	start device passed Siemens PLC	
+[17:11:51] DEVPLC	end of device loading 	
+[17:11:51] DEVPLC	start thread function	
+[17:11:51] WMSSV	initialized plc	
+[17:11:51] SiePLC	disconnect	PLC
+[17:11:51] TCP_S	start server 121.139.221.2:5000	
+[17:11:51] DEVPLC	start data reading 	
+[17:11:51] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:11:51] DBI	get ref list start with : 	PL
+[17:11:52] SiePLC	disconnect	PLC
+[17:11:52] SiePLC	disconnected	PLC
+[17:11:52] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:11:52] WMSSV	started :::::::	
+[17:11:52] TCP_S	stop server 	
+[17:11:52] WMSSV	stop update timer	
+[17:11:52] DEVPLC	stop 	
+[17:11:52] SiePLC	stop	
+[17:11:52] SiePLC	disconnect	PLC
+[17:11:52] SiePLC	disconnected	PLC
+[17:11:53] WMSSV	stop plc	
+[17:11:53] WMSSV	stop send timer	
+[17:11:54] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[17:11:54] SiePLC	init socket	
+[17:11:54] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:11:55] TCP_S	stop server 	
+[17:11:55] WMSSV	stop update timer	
+[17:11:56] DEVPLC	stop 	
+[17:11:56] SiePLC	stop	
+[17:11:56] SiePLC	disconnect	PLC
+[17:11:56] SiePLC	disconnected	PLC
+[17:11:56] WMSSV	stop plc	
+[17:11:56] WMSSV	stop send timer	
+[17:11:56] TCP_S	stop server 	
+[17:11:56] WMSSV	stop update timer	
+[17:11:56] DEVPLC	stop 	
+[17:11:56] SiePLC	stop	
+[17:11:56] SiePLC	disconnect	PLC
+[17:11:56] SiePLC	disconnected	PLC
+[17:11:56] WMSSV	stop plc	
+[17:11:56] WMSSV	stop send timer	
+[17:11:56] TCP_S	stop server 	
+[17:11:56] WMSSV	stop update timer	
+[17:11:57] DEVPLC	stop 	
+[17:11:57] SiePLC	stop	
+[17:11:57] SiePLC	disconnect	PLC
+[17:11:57] SiePLC	disconnected	PLC
+[17:11:57] WMSSV	stop plc	
+[17:11:57] WMSSV	stop send timer	
+[17:11:57] TCP_S	stop server 	
+[17:11:57] WMSSV	stop update timer	
+[17:11:57] DEVPLC	stop 	
+[17:11:57] SiePLC	stop	
+[17:11:57] SiePLC	disconnect	PLC
+[17:11:57] SiePLC	disconnected	PLC
+[17:11:57] WMSSV	stop plc	
+[17:11:57] WMSSV	stop send timer	
+[17:24:25] WMSSV	start 	
+[17:24:25] DEVPLC	start	
+[17:24:25] SiePLC	initialize	
+[17:24:25] SiePLC	ini opened	
+[17:24:25] SiePLC	Initializeed	
+[17:24:25] DEVPLC	initialize passed Siemens PLC	
+[17:24:25] SiePLC	start	
+[17:24:25] SiePLC	init socket	
+[17:24:25] SiePLC	disconnect	PLC
+[17:24:25] SiePLC	disconnected	PLC
+[17:24:25] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:24:29] SiePLC	server is not reponse	192.168.0.0,2050
+[17:24:29] DEVPLC	start device passed Siemens PLC	
+[17:24:29] SiePLC	start thread	
+[17:24:29] DEVPLC	end of device loading 	
+[17:24:29] SiePLC	connection fail	PLC
+[17:24:29] SiePLC	disconnect	PLC
+[17:24:29] SiePLC	disconnected	PLC
+[17:24:29] WMSSV	initialized plc	
+[17:24:29] TCP_S	start server 121.139.221.2:5000	
+[17:24:29] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:24:29] DBI	get ref list start with : 	PL
+[17:24:29] SiePLC	disconnect	PLC
+[17:24:29] SiePLC	disconnected	PLC
+[17:24:29] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:24:29] WMSSV	started :::::::	
+[17:24:41] SiePLC	server is not reponse	192.168.0.0,2050
+[17:24:41] SiePLC	connection fail	PLC
+[17:24:41] SiePLC	disconnect	PLC
+[17:24:41] SiePLC	disconnected	PLC
+[17:24:41] REPEAT	1__	disconnected
+[17:24:41] REPEAT	1__	disconnect
+[17:24:41] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:24:44] SiePLC	server is not reponse	192.168.0.0,2050
+[17:24:45] SiePLC	connection fail	PLC
+[17:24:45] SiePLC	disconnect	PLC
+[17:24:45] SiePLC	disconnected	PLC
+[17:24:45] REPEAT	1__	disconnected
+[17:24:45] REPEAT	1__	disconnect
+[17:24:45] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:24:53] SiePLC	server is not reponse	192.168.0.0,2050
+[17:24:53] SiePLC	connection fail	PLC
+[17:24:53] SiePLC	disconnect	PLC
+[17:24:53] SiePLC	disconnected	PLC
+[17:24:53] REPEAT	1__	disconnected
+[17:24:53] REPEAT	1__	disconnect
+[17:24:53] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:27:03] SiePLC	server is not reponse	192.168.0.0,2050
+[17:27:03] SiePLC	connection fail	PLC
+[17:27:03] SiePLC	disconnect	PLC
+[17:27:03] SiePLC	disconnected	PLC
+[17:27:03] REPEAT	1__	disconnected
+[17:27:03] REPEAT	1__	disconnect
+[17:27:03] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:27:08] SiePLC	server is not reponse	192.168.0.0,2050
+[17:27:09] SiePLC	connection fail	PLC
+[17:27:09] SiePLC	disconnect	PLC
+[17:27:09] SiePLC	disconnected	PLC
+[17:27:09] REPEAT	1__	disconnected
+[17:27:09] REPEAT	1__	disconnect
+[17:27:09] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:27:21] TCP_S	stop server 	
+[17:27:31] WMSSV	stop update timer	
+[17:27:40] DEVPLC	stop 	
+[17:27:40] SiePLC	stop	
+[17:27:40] SiePLC	disconnect	PLC
+[17:27:40] SiePLC	disconnected	PLC
+[17:27:40] SiePLC	server is not reponse	192.168.0.0,2050
+[17:27:40] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:27:43] WMSSV	stop plc	
+[17:27:45] WMSSV	stop send timer	
+[17:53:00] WMSSV	start 	
+[17:53:00] DEVPLC	start	
+[17:53:06] SiePLC	initialize	
+[17:53:06] SiePLC	ini opened	
+[17:53:06] SiePLC	Initializeed	
+[17:53:06] DEVPLC	initialize passed Siemens PLC	
+[17:53:06] SiePLC	start	
+[17:53:06] SiePLC	init socket	
+[17:53:06] SiePLC	disconnect	PLC
+[17:53:06] SiePLC	disconnected	PLC
+[17:53:06] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:53:11] SiePLC	server is not reponse	192.168.0.0,2050
+[17:53:11] DEVPLC	start device passed Siemens PLC	
+[17:53:11] SiePLC	start thread	
+[17:53:11] DEVPLC	end of device loading 	
+[17:53:11] SiePLC	connection fail	PLC
+[17:53:11] DEVPLC	start thread function	
+[17:53:11] WMSSV	initialized plc	
+[17:53:11] TCP_S	start server 121.139.221.2:5000	
+[17:53:11] DEVPLC	start data reading 	
+[17:53:11] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:53:11] DBI	get ref list start with : 	PL
+[17:53:11] SiePLC	disconnect	PLC
+[17:53:11] SiePLC	disconnected	PLC
+[17:53:11] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:53:11] WMSSV	started :::::::	
+[17:53:14] SiePLC	server is not reponse	192.168.0.0,2050
+[17:53:15] SiePLC	connection fail	PLC
+[17:53:15] SiePLC	disconnect	PLC
+[17:53:15] SiePLC	disconnected	PLC
+[17:53:15] REPEAT	1__	disconnected
+[17:53:15] REPEAT	1__	disconnect
+[17:53:15] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:53:18] SiePLC	server is not reponse	192.168.0.0,2050
+[17:53:18] SiePLC	connection fail	PLC
+[17:53:18] SiePLC	disconnect	PLC
+[17:53:18] SiePLC	disconnected	PLC
+[17:53:18] REPEAT	1__	disconnected
+[17:53:18] REPEAT	1__	disconnect
+[17:53:18] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:53:26] TCP_S	stop server 	
+[17:53:34] WMSSV	stop update timer	
+[17:53:39] DEVPLC	stop 	
+[17:53:39] SiePLC	stop	
+[17:53:39] SiePLC	disconnect	PLC
+[17:53:39] SiePLC	disconnected	PLC
+[17:53:39] SiePLC	server is not reponse	192.168.0.0,2050
+[17:53:39] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:53:41] WMSSV	stop plc	
+[17:53:43] WMSSV	stop send timer	
+[17:58:49] WMSSV	start 	
+[17:58:49] DEVPLC	start	
+[17:58:49] SiePLC	initialize	
+[17:58:49] SiePLC	ini opened	
+[17:58:49] SiePLC	Initializeed	
+[17:58:49] DEVPLC	initialize passed Siemens PLC	
+[17:58:49] SiePLC	start	
+[17:58:49] SiePLC	init socket	
+[17:58:50] SiePLC	disconnect	PLC
+[17:58:50] SiePLC	disconnected	PLC
+[17:58:50] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:58:54] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[17:58:54] DEVPLC	start device passed Siemens PLC	
+[17:58:54] SiePLC	start thread	
+[17:58:54] DEVPLC	end of device loading 	
+[17:58:54] SiePLC	connection fail	PLC
+[17:58:54] DEVPLC	start thread function	
+[17:58:54] SiePLC	disconnect	PLC
+[17:58:54] SiePLC	disconnected	PLC
+[17:58:54] WMSSV	initialized plc	
+[17:58:54] TCP_S	start server 121.139.221.2:5000	
+[17:58:54] DEVPLC	start data reading 	
+[17:58:54] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[17:58:54] DBI	get ref list start with : 	PL
+[17:58:54] SiePLC	disconnect	PLC
+[17:58:54] SiePLC	disconnected	PLC
+[17:58:54] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:58:54] WMSSV	started :::::::	
+[17:58:59] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[17:58:59] SiePLC	connection fail	PLC
+[17:58:59] SiePLC	disconnect	PLC
+[17:58:59] SiePLC	disconnected	PLC
+[17:58:59] REPEAT	1__	disconnected
+[17:58:59] REPEAT	1__	disconnect
+[17:58:59] SiePLC	try connect	PLC  192.168.0.0,2050
+[17:59:02] TCP_S	stop server 	
+[17:59:02] WMSSV	stop update timer	
+[17:59:03] DEVPLC	stop 	
+[17:59:03] SiePLC	stop	
+[17:59:03] SiePLC	disconnect	PLC
+[17:59:03] SiePLC	disconnected	PLC
+[17:59:03] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[17:59:03] WMSSV	stop plc	
+[17:59:03] WMSSV	stop send timer	
+[17:59:18] TCP_S	stop server 	
+[17:59:19] SiePLC	stop	
+[17:59:19] SiePLC	disconnect	PLC
+[17:59:19] SiePLC	disconnected	PLC
+[17:59:21] TCP_S	stop server 	
+[17:59:21] SiePLC	stop	
+[17:59:21] SiePLC	disconnect	PLC
+[17:59:21] SiePLC	disconnected	PLC
+[18:07:32] 		
+[18:07:32] PROG	system started at : 	2024-08-12 18:56:26
+[18:07:40] SiePLC	stop	
+[18:07:43] SiePLC	stop	
+[18:07:43] PROG	program exception 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+	System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WmsServer.Program.Application_ApplicationExit(Object sender, EventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 81
+   위치: System.Windows.Forms.Application.RaiseExit()
+   위치: System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.Run(Form mainForm)
+   위치: WmsServer.Program.Main() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 55
+[18:08:08] 		
+[18:08:08] PROG	system started at : 	2024-08-12 18:56:26
+[18:08:11] WMSSV	start 	
+[18:08:11] DEVPLC	start	
+[18:08:11] SiePLC	initialize	
+[18:08:11] SiePLC	ini opened	
+[18:08:11] SiePLC	Initializeed	
+[18:08:11] DEVPLC	initialize passed Siemens PLC	
+[18:08:11] SiePLC	start	
+[18:08:11] SiePLC	init socket	
+[18:08:11] SiePLC	disconnect	PLC
+[18:08:11] SiePLC	disconnected	PLC
+[18:08:11] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:08:16] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:08:16] DEVPLC	start device passed Siemens PLC	
+[18:08:16] SiePLC	start thread	
+[18:08:16] DEVPLC	end of device loading 	
+[18:08:16] SiePLC	connection fail	PLC
+[18:08:16] DEVPLC	start thread function	
+[18:08:16] SiePLC	disconnected	PLC
+[18:08:16] WMSSV	initialized plc	
+[18:08:16] TCP_S	start server 121.139.221.2:5000	
+[18:08:16] DEVPLC	start data reading 	
+[18:08:16] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[18:08:16] DBI	get ref list start with : 	PL
+[18:08:16] WMSSV	started :::::::	
+[18:08:16] SiePLC	disconnect	PLC
+[18:08:16] SiePLC	disconnected	PLC
+[18:08:16] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:08:19] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:08:19] SiePLC	connection fail	PLC
+[18:08:19] SiePLC	disconnect	PLC
+[18:08:19] SiePLC	disconnected	PLC
+[18:08:19] REPEAT	1__	disconnected
+[18:08:19] REPEAT	1__	disconnect
+[18:08:19] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:08:28] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:08:28] SiePLC	connection fail	PLC
+[18:08:28] SiePLC	disconnect	PLC
+[18:08:28] SiePLC	disconnected	PLC
+[18:08:28] REPEAT	1__	disconnected
+[18:08:28] REPEAT	1__	disconnect
+[18:08:28] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:08:29] TCP_S	stop server 	
+[18:08:29] WMSSV	stop update timer	
+[18:08:29] DEVPLC	stop 	
+[18:08:29] SiePLC	stop	
+[18:08:29] SiePLC	disconnect	PLC
+[18:08:29] SiePLC	disconnected	PLC
+[18:08:30] WMSSV	stop plc	
+[18:08:30] WMSSV	stop send timer	
+[18:08:30] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[18:08:30] SiePLC	init socket	
+[18:08:31] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[18:08:38] FENSH	close engine_ship :	
+[18:08:38] TCP_S	stop server 	
+[18:08:38] SiePLC	stop	
+[18:08:38] SiePLC	disconnect	PLC
+[18:08:38] SiePLC	disconnected	PLC
+[18:08:38] TCP_S	stop server 	
+[18:08:38] SiePLC	stop	
+[18:08:38] SiePLC	disconnect	PLC
+[18:08:38] SiePLC	disconnected	PLC
+[18:08:38] FENSH	close engine_ship :	
+[18:08:38] PROG	program exception 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+	System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WmsServer.Program.Application_ApplicationExit(Object sender, EventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 81
+   위치: System.Windows.Forms.Application.RaiseExit()
+   위치: System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.Run(Form mainForm)
+   위치: WmsServer.Program.Main() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 55
+[18:08:49] 		
+[18:08:49] PROG	system started at : 	2024-08-12 18:56:26
+[18:08:52] WMSSV	start 	
+[18:08:52] DEVPLC	start	
+[18:08:52] SiePLC	initialize	
+[18:08:52] SiePLC	ini opened	
+[18:08:52] SiePLC	Initializeed	
+[18:08:52] DEVPLC	initialize passed Siemens PLC	
+[18:08:52] SiePLC	start	
+[18:08:52] SiePLC	init socket	
+[18:08:53] SiePLC	disconnect	PLC
+[18:08:53] SiePLC	disconnected	PLC
+[18:08:53] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:08:56] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:08:56] DEVPLC	start device passed Siemens PLC	
+[18:08:56] SiePLC	start thread	
+[18:08:56] DEVPLC	end of device loading 	
+[18:08:56] SiePLC	connection fail	PLC
+[18:08:56] DEVPLC	start thread function	
+[18:08:56] SiePLC	disconnect	PLC
+[18:08:56] SiePLC	disconnected	PLC
+[18:08:56] DEVPLC	start data reading 	
+[18:08:56] TCP_S	start server 121.139.221.2:5000	
+[18:08:56] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[18:08:56] DBI	get ref list start with : 	PL
+[18:08:56] WMSSV	started :::::::	
+[18:08:56] SiePLC	disconnect	PLC
+[18:08:56] SiePLC	disconnected	PLC
+[18:08:56] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:08:58] TCP_S	stop server 	
+[18:08:58] SiePLC	stop	
+[18:08:58] SiePLC	disconnect	PLC
+[18:08:58] SiePLC	disconnected	PLC
+[18:08:58] TCP_S	stop server 	
+[18:08:58] SiePLC	stop	
+[18:08:58] SiePLC	disconnect	PLC
+[18:08:58] SiePLC	disconnected	PLC
+[18:08:58] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[18:08:58] PROG	[EX| Thread__System.Threading.Thread]
+	System.InvalidOperationException: 컬렉션이 수정되었습니다. 열거 작업이 실행되지 않을 수도 있습니다.
+   위치: System.Collections.ArrayList.ArrayListEnumeratorSimple.MoveNext()
+   위치: System.Windows.Forms.Application.ExitInternal()
+   위치: System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   위치: System.Windows.Forms.Application.Exit()
+   위치: WmsServer.FormMDI.FormMDI_FormClosing(Object sender, FormClosingEventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\FormMDI.cs:줄 92
+   위치: System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   위치: System.Windows.Forms.Form.WmClose(Message& m)
+   위치: System.Windows.Forms.Form.WndProc(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[18:09:01] TCP_S	stop server 	
+[18:09:01] SiePLC	stop	
+[18:09:01] SiePLC	disconnect	PLC
+[18:09:01] SiePLC	disconnected	PLC
+[18:09:01] TCP_S	stop server 	
+[18:09:01] SiePLC	stop	
+[18:09:01] SiePLC	disconnect	PLC
+[18:09:01] SiePLC	disconnected	PLC
+[18:09:01] PROG	program exception 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+	System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WmsServer.Program.Application_ApplicationExit(Object sender, EventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 81
+   위치: System.Windows.Forms.Application.RaiseExit()
+   위치: System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.Run(Form mainForm)
+   위치: WmsServer.Program.Main() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 55
+[18:09:20] 		
+[18:09:20] PROG	system started at : 	2024-08-12 18:56:26
+[18:09:22] WMSSV	start 	
+[18:09:22] DEVPLC	start	
+[18:09:22] SiePLC	initialize	
+[18:09:22] SiePLC	ini opened	
+[18:09:22] SiePLC	Initializeed	
+[18:09:22] DEVPLC	initialize passed Siemens PLC	
+[18:09:22] SiePLC	start	
+[18:09:22] SiePLC	init socket	
+[18:09:22] SiePLC	disconnect	PLC
+[18:09:22] SiePLC	disconnected	PLC
+[18:09:22] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:09:25] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:09:25] DEVPLC	start device passed Siemens PLC	
+[18:09:25] SiePLC	start thread	
+[18:09:25] DEVPLC	end of device loading 	
+[18:09:25] SiePLC	connection fail	PLC
+[18:09:25] DEVPLC	start thread function	
+[18:09:25] SiePLC	disconnect	PLC
+[18:09:25] SiePLC	disconnected	PLC
+[18:09:25] TCP_S	start server 121.139.221.2:5000	
+[18:09:25] DEVPLC	start data reading 	
+[18:09:25] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[18:09:25] DBI	get ref list start with : 	PL
+[18:09:26] SiePLC	disconnect	PLC
+[18:09:26] SiePLC	disconnected	PLC
+[18:09:26] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:09:26] WMSSV	started :::::::	
+[18:09:28] TCP_S	stop server 	
+[18:09:28] WMSSV	stop update timer	
+[18:09:28] DEVPLC	stop 	
+[18:09:28] SiePLC	stop	
+[18:09:28] SiePLC	disconnect	PLC
+[18:09:28] SiePLC	disconnected	PLC
+[18:09:29] WMSSV	stop plc	
+[18:09:29] WMSSV	stop send timer	
+[18:09:29] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[18:09:31] TCP_S	stop server 	
+[18:09:31] SiePLC	stop	
+[18:09:31] SiePLC	disconnect	PLC
+[18:09:31] SiePLC	disconnected	PLC
+[18:09:31] TCP_S	stop server 	
+[18:09:31] SiePLC	stop	
+[18:09:31] SiePLC	disconnect	PLC
+[18:09:31] SiePLC	disconnected	PLC
+[18:09:31] PROG	program exception 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+	System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WmsServer.Program.Application_ApplicationExit(Object sender, EventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 81
+   위치: System.Windows.Forms.Application.RaiseExit()
+   위치: System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.Run(Form mainForm)
+   위치: WmsServer.Program.Main() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 55
+[18:10:41] 		
+[18:10:41] PROG	system started at : 	2024-08-12 18:56:26
+[18:10:44] WMSSV	start 	
+[18:10:44] DEVPLC	start	
+[18:10:44] SiePLC	initialize	
+[18:10:44] SiePLC	ini opened	
+[18:10:44] SiePLC	Initializeed	
+[18:10:44] DEVPLC	initialize passed Siemens PLC	
+[18:10:44] SiePLC	start	
+[18:10:44] SiePLC	init socket	
+[18:10:45] SiePLC	disconnect	PLC
+[18:10:45] SiePLC	disconnected	PLC
+[18:10:45] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:10:55] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:10:55] DEVPLC	start device passed Siemens PLC	
+[18:10:55] SiePLC	start thread	
+[18:10:55] DEVPLC	end of device loading 	
+[18:10:55] SiePLC	connection fail	PLC
+[18:10:55] DEVPLC	start thread function	
+[18:10:55] SiePLC	disconnected	PLC
+[18:10:55] WMSSV	initialized plc	
+[18:10:55] TCP_S	start server 121.139.221.2:5000	
+[18:10:55] DEVPLC	start data reading 	
+[18:10:55] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[18:10:55] DBI	get ref list start with : 	PL
+[18:10:55] SiePLC	disconnect	PLC
+[18:10:55] SiePLC	disconnected	PLC
+[18:10:55] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:10:55] WMSSV	started :::::::	
+[18:10:58] TCP_S	stop server 	
+[18:10:58] WMSSV	stop update timer	
+[18:10:58] DEVPLC	stop 	
+[18:10:58] SiePLC	stop	
+[18:10:58] SiePLC	disconnect	PLC
+[18:10:58] SiePLC	disconnected	PLC
+[18:10:58] WMSSV	stop plc	
+[18:10:58] WMSSV	stop send timer	
+[18:10:58] TCP_S	stop server 	
+[18:10:58] SiePLC	stop	
+[18:10:58] SiePLC	disconnect	PLC
+[18:10:58] SiePLC	disconnected	PLC
+[18:10:59] TCP_S	stop server 	
+[18:10:59] WMSSV	stop update timer	
+[18:10:59] DEVPLC	stop 	
+[18:10:59] SiePLC	stop	
+[18:10:59] SiePLC	disconnect	PLC
+[18:10:59] SiePLC	disconnected	PLC
+[18:10:59] WMSSV	stop plc	
+[18:10:59] WMSSV	stop send timer	
+[18:10:59] TCP_S	stop server 	
+[18:10:59] SiePLC	stop	
+[18:10:59] SiePLC	disconnect	PLC
+[18:10:59] SiePLC	disconnected	PLC
+[18:10:59] SiePLC	PLC::thread error	스레드가 중단되었습니다.
+[18:10:59] PROG	program exception 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+	System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WmsServer.Program.Application_ApplicationExit(Object sender, EventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 81
+   위치: System.Windows.Forms.Application.RaiseExit()
+   위치: System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.Run(Form mainForm)
+   위치: WmsServer.Program.Main() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 55
+[18:11:17] 		
+[18:11:17] PROG	system started at : 	2024-08-12 18:56:26
+[18:11:19] WMSSV	start 	
+[18:11:19] DEVPLC	start	
+[18:11:19] SiePLC	initialize	
+[18:11:19] SiePLC	ini opened	
+[18:11:19] SiePLC	Initializeed	
+[18:11:19] DEVPLC	initialize passed Siemens PLC	
+[18:11:19] SiePLC	start	
+[18:11:19] SiePLC	init socket	
+[18:11:20] SiePLC	disconnect	PLC
+[18:11:20] SiePLC	disconnected	PLC
+[18:11:20] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:11:23] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:11:23] DEVPLC	start device passed Siemens PLC	
+[18:11:23] SiePLC	start thread	
+[18:11:23] DEVPLC	end of device loading 	
+[18:11:23] SiePLC	connection fail	PLC
+[18:11:23] DEVPLC	start thread function	
+[18:11:23] SiePLC	disconnected	PLC
+[18:11:23] WMSSV	initialized plc	
+[18:11:23] TCP_S	start server 121.139.221.2:5000	
+[18:11:23] DEVPLC	start data reading 	
+[18:11:23] TCP_S	start fail server service121.139.221.2:5000	요청한 주소는 해당 컨텍스트에서 유효하지 않습니다
+[18:11:23] DBI	get ref list start with : 	PL
+[18:11:23] SiePLC	disconnect	PLC
+[18:11:23] SiePLC	disconnected	PLC
+[18:11:23] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:11:23] WMSSV	started :::::::	
+[18:11:27] SiePLC	siemens plc server is not reponse	192.168.0.0,2050
+[18:11:27] SiePLC	connection fail	PLC
+[18:11:27] SiePLC	disconnect	PLC
+[18:11:27] SiePLC	disconnected	PLC
+[18:11:27] REPEAT	1__	disconnected
+[18:11:27] REPEAT	1__	disconnect
+[18:11:27] SiePLC	try connect	PLC  192.168.0.0,2050
+[18:11:28] TCP_S	stop server 	
+[18:11:28] WMSSV	stop update timer	
+[18:11:28] DEVPLC	stop 	
+[18:11:28] SiePLC	stop	
+[18:11:28] SiePLC	disconnect	PLC
+[18:11:28] SiePLC	disconnected	PLC
+[18:11:29] WMSSV	stop plc	
+[18:11:29] WMSSV	stop send timer	
+[18:11:29] TCP_S	stop server 	
+[18:11:29] SiePLC	stop	
+[18:11:29] SiePLC	disconnect	PLC
+[18:11:29] SiePLC	disconnected	PLC
+[18:11:29] TCP_S	stop server 	
+[18:11:29] WMSSV	stop update timer	
+[18:11:29] DEVPLC	stop 	
+[18:11:29] SiePLC	stop	
+[18:11:29] SiePLC	disconnect	PLC
+[18:11:29] SiePLC	disconnected	PLC
+[18:11:29] SiePLC	connect error 	PLC  Ping 요청 중에 예외가 발생했습니다.
+[18:11:29] SiePLC	init socket	
+[18:11:29] WMSSV	stop plc	
+[18:11:29] WMSSV	stop send timer	
+[18:11:29] TCP_S	stop server 	
+[18:11:29] SiePLC	stop	
+[18:11:29] SiePLC	disconnect	PLC
+[18:11:29] SiePLC	disconnected	PLC
+[18:11:29] PROG	program exception 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+	System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WmsServer.Program.Application_ApplicationExit(Object sender, EventArgs e) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 81
+   위치: System.Windows.Forms.Application.RaiseExit()
+   위치: System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.Run(Form mainForm)
+   위치: WmsServer.Program.Main() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Program.cs:줄 55
+[18:11:30] SiePLC	PLC::thread error	스레드가 중단되었습니다.

@@ -1,0 +1,482 @@
+[11:28:22] WMSSV	refresh error : 	System.ArgumentOutOfRangeException: '0'의 값은 'RowCount'에 사용할 수 없습니다. 'RowCount'은(는) 1보다 크거나 같아야 합니다.
+매개 변수 이름: RowCount
+   위치: System.Windows.Forms.DataGridView.set_RowCount(Int32 value)
+   위치: WmsServer.FormMDI.UpdateGrid() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\FormMDI.cs:줄 597
+[11:31:27] WMSSV	start 	
+[11:31:27] WMSSV	initialized plc	
+[11:31:27] TCP_S	start server 121.139.221.2:5000	
+[11:31:27] TCP_S	start server service 121.139.221.2:5000	
+[11:31:27] WMSSV	started :::::::	
+[11:31:27] TCP_S	user connect 	121.139.221.2:57015
+[11:31:27] TCP_S	m_socClient	0
+[11:31:27] TCP_S	connected	121.139.221.2:57015
+[12:06:53] WMSSV	start 	
+[12:06:53] WMSSV	initialized plc	
+[12:06:53] TCP_S	start server 121.139.221.2:5000	
+[12:06:53] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[12:06:54] WMSSV	started :::::::	
+[12:12:09] TCP_S	stop server 	
+[12:12:09] SiePLC	stop	
+[16:46:13] WMSSV	start 	
+[16:46:13] WMSSV	initialized plc	
+[16:46:13] TCP_S	start server 121.139.221.2:5000	
+[16:46:13] TCP_S	start server service 121.139.221.2:5000	
+[16:46:16] DBI	get ref list start with : 	PL
+[16:47:08] WMSSV	start 	
+[16:47:08] WMSSV	initialized plc	
+[16:47:08] TCP_S	start server 121.139.221.2:5000	
+[16:47:08] TCP_S	start server service 121.139.221.2:5000	
+[16:47:08] DBI	get ref list start with : 	PL
+[16:47:32] DBI	get redf list error: '%' 근처의 구문이 잘못되었습니다.	
+[16:47:32] WMSSV	started :::::::	
+[16:47:37] TCP_S	stop server: 	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.ComponentModel.Win32Exception.GetErrorMessage(Int32 error)
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: WmsServer.Server.StartServerService()
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	2__	WMSSV
+[16:47:37] WMSSV	Process Name :	STSESS32
+[16:47:37] WMSSV	Process Name :	JHI_SERVICE
+[16:47:37] WMSSV	Process Name :	NIMXS
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	SGRMBROKER
+[16:47:37] WMSSV	Process Name :	TABTIP
+[16:47:37] WMSSV	Process Name :	CSRSS
+[16:47:37] WMSSV	Process Name :	WMIPRVSE
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	MUSNOTIFYICON
+[16:47:37] WMSSV	Process Name :	NIPXICMS
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	WUDFHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	ADOBE CRASH PROCESSOR
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	2__	WMSSV
+[16:47:37] WMSSV	Process Name :	DASHOST
+[16:47:37] WMSSV	Process Name :	CCLIBRARY
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	NVDISPLAY.CONTAINER
+[16:47:37] WMSSV	Process Name :	DLLHOST
+[16:47:37] WMSSV	Process Name :	STSESS
+[16:47:37] WMSSV	Process Name :	LMS
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SQLWRITER
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.DATAWAREHOUSEHOST
+[16:47:37] WMSSV	Process Name :	SEARCHAPP
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	GOJI
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CROSSEXSERVICE
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	THUNDERBOLTSERVICE
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	3__	WMSSV
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CTFMON
+[16:47:37] WMSSV	Process Name :	MACOURTSAFER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	STARTMENUEXPERIENCEHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	ACROBATNOTIFICATIONCLIENT
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	AVPSUS
+[16:47:37] WMSSV	Process Name :	BMSNATIVEAPP
+[16:47:37] WMSSV	Process Name :	NISDS
+[16:47:37] WMSSV	Process Name :	I3GPROC
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	DPTF_HELPER
+[16:47:37] REPEAT	2__	WMSSV
+[16:47:37] WMSSV	Process Name :	LOCKAPP
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SEARCHINDEXER
+[16:47:37] WMSSV	Process Name :	VESTCERT
+[16:47:37] WMSSV	Process Name :	LKADS
+[16:47:37] WMSSV	Process Name :	MSBUILD
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTSERVICE
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	NIDEVLDU
+[16:47:37] REPEAT	3__	WMSSV
+[16:47:37] WMSSV	Process Name :	SPOOLSV
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SQLSERVR
+[16:47:37] WMSSV	Process Name :	WLANEXT
+[16:47:37] WMSSV	Process Name :	I3GMAINSVC
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.SETTINGSHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	TORTOISEPROC
+[16:47:37] WMSSV	Process Name :	WUDFHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	DELFINO
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SECURITYHEALTHSYSTRAY
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CREATIVE CLOUD
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	NIAUTH_DAEMON
+[16:47:37] WMSSV	Process Name :	NIPXISM
+[16:47:37] WMSSV	Process Name :	ADOBE DESKTOP SERVICE
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	WMIPRVSE
+[16:47:37] WMSSV	Process Name :	V3UI
+[16:47:37] WMSSV	Process Name :	NISVCLOC
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	FONTDRVHOST
+[16:47:37] WMSSV	Process Name :	WUDFHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	SMSS
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	ANYSIGN4PCLAUNCHER
+[16:47:37] WMSSV	Process Name :	SYSTEMSETTINGS
+[16:47:37] WMSSV	Process Name :	MMSSERVE
+[16:47:37] WMSSV	Process Name :	IGFXCUISERVICEN
+[16:47:37] WMSSV	Process Name :	TEXTINPUTHOST
+[16:47:37] WMSSV	Process Name :	UNSECAPP
+[16:47:37] WMSSV	Process Name :	ESIF_UF
+[16:47:37] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	WUDFHOST
+[16:47:37] WMSSV	Process Name :	SEARCHFILTERHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	PERFWATSON2
+[16:47:37] WMSSV	Process Name :	CORESYNC
+[16:47:37] WMSSV	Process Name :	TASKHOSTW
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SECURITYHEALTHSERVICE
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	PAINTSTUDIO.VIEW
+[16:47:37] WMSSV	Process Name :	ADOBENOTIFICATIONCLIENT
+[16:47:37] WMSSV	Process Name :	PRESENTATIONFONTCACHE
+[16:47:37] WMSSV	Process Name :	MMSSERVE
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	MACOURTSAFERSVC
+[16:47:37] WMSSV	Process Name :	VBCSCOMPILER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	SAMSUNGSECURITYSUPPORTSERVICE
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	IMGSF50SVC
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	ASDSVC
+[16:47:37] WMSSV	Process Name :	APPLICATIONFRAMEHOST
+[16:47:37] WMSSV	Process Name :	ARMSVC
+[16:47:37] WMSSV	Process Name :	WEBEXHOST
+[16:47:37] WMSSV	Process Name :	NODE
+[16:47:37] WMSSV	Process Name :	NTSMAGICXMLSECURITYNP
+[16:47:37] WMSSV	Process Name :	DLLHOST
+[16:47:37] WMSSV	Process Name :	DASHOST
+[16:47:37] WMSSV	Process Name :	ANYSIGN4PC
+[16:47:37] WMSSV	Process Name :	DLLHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	ADOBEUPDATESERVICE
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	NVDISPLAY.CONTAINER
+[16:47:37] WMSSV	Process Name :	CCXPROCESS
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	SAMSUNGAIRACTION
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	ONEAPP.IGCC.WINSERVICE
+[16:47:37] WMSSV	Process Name :	VERAPORT-X64
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	REXPERTPRINTSERVICE
+[16:47:37] WMSSV	Process Name :	SERVICES
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	VSVNVSWRK
+[16:47:37] WMSSV	Process Name :	AVP
+[16:47:37] WMSSV	Process Name :	LSASS
+[16:47:37] WMSSV	Process Name :	RTKAUDUSERVICE64
+[16:47:37] WMSSV	Process Name :	SAMSUNGSECURITYSUPPORTER
+[16:47:37] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[16:47:37] WMSSV	Process Name :	USEROOBEBROKER
+[16:47:37] WMSSV	Process Name :	INTELAUDIOSERVICE
+[16:47:37] WMSSV	Process Name :	NIDISCSVC
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	WMIPRVSE
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[16:47:37] WMSSV	Process Name :	OBCROSSEXSERVICE
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	NODE
+[16:47:37] WMSSV	Process Name :	NIMDNSRESPONDER
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.HOST.NODE.X86
+[16:47:37] WMSSV	Process Name :	DEVENV
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.IDENTITYHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	MICROSOFT.SHAREPOINT
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CALCULATORAPP
+[16:47:37] WMSSV	Process Name :	NIROCO
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	ACROTRAY
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	REGISTRY
+[16:47:37] WMSSV	Process Name :	SIHOST
+[16:47:37] WMSSV	Process Name :	MICROSOFT.VSHUB.SERVER.HTTPHOST
+[16:47:37] WMSSV	Process Name :	CREATIVE CLOUD HELPER
+[16:47:37] WMSSV	Process Name :	DEVENV
+[16:47:37] WMSSV	Process Name :	COMPPKGSRV
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CSRSS
+[16:47:37] WMSSV	Process Name :	AVPUI
+[16:47:37] WMSSV	Process Name :	WMSSERVER
+[16:47:37] WMSSV	Process Name :	RTKAUDUSERVICE64
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	2__	WMSSV
+[16:47:37] WMSSV	Process Name :	MEMORY COMPRESSION
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	AGGREGATORHOST
+[16:47:37] WMSSV	Process Name :	SSMS
+[16:47:37] WMSSV	Process Name :	WININIT
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	DWM
+[16:47:37] WMSSV	Process Name :	TAGSRV
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	ASDSVC
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	FONTDRVHOST
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.HOST.CLR.X86
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	ADOBEIPCBROKER
+[16:47:37] WMSSV	Process Name :	STANDARDCOLLECTOR.SERVICE
+[16:47:37] WMSSV	Process Name :	NOSSTARTER.NPE
+[16:47:37] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	PERFWATSON2
+[16:47:37] WMSSV	Process Name :	MAXIMAUDIOSERVICE64
+[16:47:37] WMSSV	Process Name :	NIDMSRV
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	TSVNCACHE
+[16:47:37] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[16:47:37] WMSSV	Process Name :	SPPSVC
+[16:47:37] WMSSV	Process Name :	WPMSVC
+[16:47:37] WMSSV	Process Name :	VSVNVSWRK
+[16:47:37] WMSSV	Process Name :	LKTSRV
+[16:47:37] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTENGINE
+[16:47:37] WMSSV	Process Name :	VSVNVSWRK
+[16:47:37] WMSSV	Process Name :	MAXIMSERVICESHELL64
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	EXPLORER
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	CREATIVE CLOUD UI HELPER
+[16:47:37] WMSSV	Process Name :	IGFXEMN
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	INTELCPHDCPSVC
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	1__	WMSSV
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	DLLHOST
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] WMSSV	Process Name :	ADOBECOLLABSYNC
+[16:47:37] WMSSV	Process Name :	SEARCHAPP
+[16:47:37] WMSSV	Process Name :	CONHOST
+[16:47:37] WMSSV	Process Name :	RUNTIMEBROKER
+[16:47:37] WMSSV	Process Name :	WINLOGON
+[16:47:37] WMSSV	Process Name :	VSHUB
+[16:47:37] WMSSV	Process Name :	SERVICEHUB.VSDETOUREDHOST
+[16:47:37] WMSSV	Process Name :	ADOBECOLLABSYNC
+[16:47:37] WMSSV	Process Name :	SVCHOST
+[16:47:37] REPEAT	2__	WMSSV
+[16:47:37] WMSSV	Process Name :	NOSSVC
+[16:47:37] WMSSV	Process Name :	BMSGTRAY
+[16:47:37] WMSSV	Process Name :	CMD
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	SEARCHPROTOCOLHOST
+[16:47:37] WMSSV	Process Name :	SYSTEM
+[16:47:37] WMSSV	Process Name :	CHROME
+[16:47:37] WMSSV	Process Name :	IDLE
+[16:47:37] WMSSV	Close - DisplayTimer :	Stop
+[16:47:37] WMSSV	FN_Close - PlcTimer :	Stop
+[16:47:37] SiePLC	stop	
+[16:47:37] WMSSV	FN_Close - SiemensPLC :	Stop
+[16:47:37] WMSSV	Close - SendTimer :	Stop
+[16:47:37] WMSSV	start 	
+[16:47:37] WMSSV	initialized plc	
+[16:47:37] TCP_S	start server 121.139.221.2:5000	
+[16:47:37] TCP_S	start server service 121.139.221.2:5000	
+[16:47:37] DBI	get ref list start with : 	PL
+[16:48:34] DBI	get redf list error: 조건이 필요한 컨텍스트(위치 'PL%')에 부울이 아닌 유형의 식이 지정되었습니다.	
+[16:48:34] WMSSV	started :::::::	
+[16:48:36] WMSSV	start 	
+[16:48:36] WMSSV	initialized plc	
+[16:48:36] TCP_S	start server 121.139.221.2:5000	
+[16:48:36] DBI	get ref list start with : 	PL
+[16:48:57] DBI	get redf list error: 키워드 'like' 근처의 구문이 잘못되었습니다.	
+[16:48:57] WMSSV	started :::::::	
+[16:48:59] WMSSV	start 	
+[16:48:59] WMSSV	initialized plc	
+[16:48:59] TCP_S	start server 121.139.221.2:5000	
+[16:48:59] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[16:48:59] DBI	get ref list start with : 	PL
+[16:49:50] DBI	get redf list error: 키워드 'like' 근처의 구문이 잘못되었습니다.	
+[16:49:50] WMSSV	started :::::::	
+[16:49:52] WMSSV	start 	
+[16:49:52] WMSSV	initialized plc	
+[16:49:52] TCP_S	start server 121.139.221.2:5000	
+[16:49:52] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[16:49:52] DBI	get ref list start with : 	PL
+[16:53:13] WMSSV	started :::::::	
+[16:53:18] WMSSV	start 	
+[16:53:18] WMSSV	initialized plc	
+[16:53:18] TCP_S	start server 121.139.221.2:5000	
+[16:53:18] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[16:53:18] DBI	get ref list start with : 	PL
+[16:54:48] WMSSV	started :::::::	
+[16:54:51] WMSSV	start 	
+[16:54:51] WMSSV	initialized plc	
+[16:54:51] TCP_S	start server 121.139.221.2:5000	
+[16:54:51] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[16:54:51] DBI	get ref list start with : 	PL
+[16:55:36] WMSSV	started :::::::	
+[16:55:49] TCP_S	stop server 	
+[16:55:49] SiePLC	stop	
+[17:17:22] WMSSV	start 	
+[17:17:22] WMSSV	initialized plc	
+[17:17:22] TCP_S	start server 121.139.221.2:5000	
+[17:17:22] TCP_S	start server service 121.139.221.2:5000	
+[17:17:22] DBI	get ref list start with : 	PL
+[17:17:22] WMSSV	started :::::::	
+[17:17:30] WMSSV	start 	
+[17:17:30] WMSSV	initialized plc	
+[17:17:30] TCP_S	start server 121.139.221.2:5000	
+[17:17:30] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[17:17:30] DBI	get ref list start with : 	PL
+[17:19:26] DBI	get redf list error: 데이터가 없을 때 읽으려고 했습니다.	
+[17:19:26] WMSSV	started :::::::	
+[17:19:33] WMSSV	start 	
+[17:19:33] WMSSV	initialized plc	
+[17:19:33] TCP_S	start server 121.139.221.2:5000	
+[17:19:33] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[17:19:33] DBI	get ref list start with : 	PL
+[17:19:55] WMSSV	started :::::::	
+[17:27:13] WMSSV	start 	
+[17:27:13] WMSSV	initialized plc	
+[17:27:13] TCP_S	start server 121.139.221.2:5000	
+[17:27:13] TCP_S	start server service 121.139.221.2:5000	
+[17:27:16] DBI	get ref list start with : 	PL
+[17:27:32] DBI	get ref list start with : 	PL
+[17:28:44] WMSSV	started :::::::	
+[17:28:55] WMSSV	start 	
+[17:28:55] WMSSV	initialized plc	
+[17:28:55] TCP_S	start server 121.139.221.2:5000	
+[17:28:55] TCP_S	start fail server service121.139.221.2:5000	각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다
+[17:28:57] DBI	get ref list start with : 	PL
+[17:29:22] WMSSV	started :::::::	
+[17:41:13] WMSSV	start 	
+[17:41:13] WMSSV	initialized plc	
+[17:41:13] TCP_S	start server 121.139.221.2:5000	
+[17:41:13] TCP_S	start server service 121.139.221.2:5000	
+[17:41:13] DBI	get ref list start with : 	PL
+[17:41:13] WMSSV	started :::::::	
+[17:41:24] TCP_S	user connect 	121.139.221.2:62113
+[17:41:24] TCP_S	m_socClient	0
+[17:41:24] TCP_S	connected	121.139.221.2:62113
+[17:41:31] TCP_S	received : 121.139.221.2:62113 Length:5	
+[17:41:31] WMSS	socket recvd: 	PLST: client: 121.139.221.2:62113
+[17:42:12] TCP_S	received : 121.139.221.2:62113 Length:5	
+[17:42:24] REPEAT	1__	WMSS
+[17:42:24] SOCKET	receive callback: 	System.Net.Sockets.SocketException (0x80004005): 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+   위치: System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   위치: WmsServer.Server.ReceiveCallBack(IAsyncResult _ar) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 490
+[17:42:34] TCP_S	user connect 	121.139.221.2:62128
+[17:42:34] TCP_S	m_socClient	0
+[17:42:34] TCP_S	connected	121.139.221.2:62128
+[17:42:38] SOCKET	receive callback: 	System.Exception: client socket is closed
+   위치: WmsServer.Server.ReceiveCallBack(IAsyncResult _ar) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 491
+[17:52:02] TCP_S	user connect 	121.139.221.2:62210
+[17:52:02] TCP_S	m_socClient	0
+[17:52:02] TCP_S	connected	121.139.221.2:62210
+[17:52:07] TCP_S	received : 121.139.221.2:62210 Length:5	
+[17:52:07] WMSS	socket recvd: 	PLST: client: 121.139.221.2:62210
+[17:56:20] WMSSV	start 	
+[17:56:20] WMSSV	initialized plc	
+[17:56:20] TCP_S	start server 121.139.221.2:5000	
+[17:56:20] TCP_S	start server service 121.139.221.2:5000	
+[17:56:20] DBI	get ref list start with : 	PL
+[17:56:20] WMSSV	started :::::::	
+[17:56:21] TCP_S	user connect 	121.139.221.2:62294
+[17:56:21] TCP_S	m_socClient	0
+[17:56:21] TCP_S	connected	121.139.221.2:62294
+[17:56:25] SOCKET	receive callback: 	System.Exception: client socket is closed
+   위치: WmsServer.Server.ReceiveCallBack(IAsyncResult _ar) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 491
+[17:56:30] TCP_S	user connect 	121.139.221.2:62298
+[17:56:30] TCP_S	m_socClient	0
+[17:56:30] TCP_S	connected	121.139.221.2:62298
+[17:56:33] TCP_S	received : 121.139.221.2:62298 Length:5	
+[17:56:33] WMSS	socket recvd: 	PLST: client: 121.139.221.2:62298
+[17:56:53] TCP_S	received : 121.139.221.2:62298 Length:5	
+[17:57:15] REPEAT	1__	WMSS
+[17:57:15] SOCKET	receive callback: 	System.Exception: client socket is closed
+   위치: WmsServer.Server.ReceiveCallBack(IAsyncResult _ar) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 491
+[17:58:30] TCP_S	user connect 	121.139.221.2:62341
+[17:58:30] TCP_S	m_socClient	0
+[17:58:30] TCP_S	connected	121.139.221.2:62341
+[17:58:34] TCP_S	received : 121.139.221.2:62341 Length:5	
+[17:58:34] WMSS	socket recvd: 	PLST: client: 121.139.221.2:62341
+[17:58:51] SOCKET	receive callback: 	System.Exception: client socket is closed
+   위치: WmsServer.Server.ReceiveCallBack(IAsyncResult _ar) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 491
+[17:58:55] TCP_S	user connect 	121.139.221.2:62342
+[17:58:55] TCP_S	m_socClient	0
+[17:58:55] TCP_S	connected	121.139.221.2:62342
+[17:59:01] TCP_S	received : 121.139.221.2:62342 Length:5	
+[17:59:01] WMSS	socket recvd: 	PLST: client: 121.139.221.2:62342
+[17:59:11] SOCKET	receive callback: 	System.Exception: client socket is closed
+   위치: WmsServer.Server.ReceiveCallBack(IAsyncResult _ar) 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 491
+[18:01:11] TCP_S	stop server 	
+[18:01:11] TCP_S	stop server: 	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.ComponentModel.Win32Exception.GetErrorMessage(Int32 error)
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: WmsServer.Server.StartServerService() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 435
+[18:01:11] SiePLC	stop	
+[18:01:11] TCP_S	stop server 	
+[18:02:04] SiePLC	stop	
+[18:04:55] WMSSV	start 	
+[18:04:55] WMSSV	initialized plc	
+[18:04:55] TCP_S	start server 121.139.221.2:5000	
+[18:04:55] TCP_S	start server service 121.139.221.2:5000	
+[18:04:55] DBI	get ref list start with : 	PL
+[18:04:56] WMSSV	started :::::::	
+[18:08:05] WMSSV	start 	
+[18:08:05] WMSSV	initialized plc	
+[18:08:05] TCP_S	start server 121.139.221.2:5000	
+[18:08:05] TCP_S	start server service 121.139.221.2:5000	
+[18:08:05] DBI	get ref list start with : 	PL
+[18:08:05] WMSSV	started :::::::	
+[18:08:08] TCP_S	stop server: 	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: WmsServer.Server.StartServerService() 파일 C:\01 Project\04_CODES\WMS\WmsServer\WmsServer\Socket.cs:줄 435
+[18:08:08] TCP_S	stop server 	
+[18:08:08] SiePLC	stop	

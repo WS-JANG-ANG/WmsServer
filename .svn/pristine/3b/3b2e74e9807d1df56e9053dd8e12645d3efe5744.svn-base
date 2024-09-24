@@ -1,0 +1,2263 @@
+[14:51:21] WMSSV	start 	
+[14:51:21] WMSSV	initialized serial	
+[14:51:21] WMSSV	initialized plc	
+[14:51:21] TCP_S	start server 121.139.221.2:5000	
+[14:51:22] TCP_S	start server service 121.139.221.2:5000	
+[14:51:22] WMSSV	started :::::::	
+[17:02:58] SiePLC	initialize	
+[17:03:00] SiePLC	start	
+[17:03:00] SiePLC	init socket	
+[17:03:14] SiePLC	initialize	
+[17:03:15] SiePLC	start	
+[17:03:15] SiePLC	init socket	
+[17:04:24] SiePLC	initialize	
+[17:04:26] SiePLC	start	
+[17:04:26] SiePLC	init socket	
+[17:05:48] SiePLC	initialize	
+[17:05:48] SiePLC	ini opened	
+[17:05:48] SiePLC	Initializeed	
+[17:05:48] SiePLC	start	
+[17:05:48] SiePLC	init socket	
+[17:05:48] SiePLC	disconnect	NEW0
+[17:05:48] SiePLC	disconnected	NEW0
+[17:05:48] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:48] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:48] SiePLC	disconnect	NEW0
+[17:05:48] SiePLC	disconnected	NEW0
+[17:05:48] SiePLC	connected	NEW0
+[17:05:48] SiePLC	start thread	
+[17:05:48] SiePLC	connection fail	NEW0
+[17:05:48] SiePLC	disconnect	NEW0
+[17:05:48] SiePLC	disconnected	NEW0
+[17:05:49] REPEAT	1__	SiePLC
+[17:05:49] REPEAT	1__	SiePLC
+[17:05:49] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:49] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:49] SiePLC	disconnect	NEW0
+[17:05:49] SiePLC	disconnected	NEW0
+[17:05:49] SiePLC	connected	NEW0
+[17:05:49] SiePLC	connection fail	NEW0
+[17:05:49] SiePLC	disconnect	NEW0
+[17:05:49] SiePLC	disconnected	NEW0
+[17:05:49] REPEAT	1__	SiePLC
+[17:05:49] REPEAT	1__	SiePLC
+[17:05:49] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:49] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:49] SiePLC	disconnect	NEW0
+[17:05:49] SiePLC	disconnected	NEW0
+[17:05:49] SiePLC	connected	NEW0
+[17:05:49] SiePLC	connection fail	NEW0
+[17:05:49] SiePLC	disconnect	NEW0
+[17:05:49] SiePLC	disconnected	NEW0
+[17:05:49] REPEAT	1__	SiePLC
+[17:05:49] REPEAT	1__	SiePLC
+[17:05:49] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:49] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:49] SiePLC	disconnect	NEW0
+[17:05:49] SiePLC	disconnected	NEW0
+[17:05:49] SiePLC	connected	NEW0
+[17:05:50] SiePLC	connection fail	NEW0
+[17:05:50] SiePLC	disconnect	NEW0
+[17:05:50] SiePLC	disconnected	NEW0
+[17:05:50] REPEAT	1__	SiePLC
+[17:05:50] REPEAT	1__	SiePLC
+[17:05:50] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:50] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:50] SiePLC	disconnect	NEW0
+[17:05:50] SiePLC	disconnected	NEW0
+[17:05:50] SiePLC	connected	NEW0
+[17:05:50] SiePLC	connection fail	NEW0
+[17:05:50] SiePLC	disconnect	NEW0
+[17:05:50] SiePLC	disconnected	NEW0
+[17:05:50] REPEAT	1__	SiePLC
+[17:05:50] REPEAT	1__	SiePLC
+[17:05:50] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:50] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:50] SiePLC	disconnect	NEW0
+[17:05:50] SiePLC	disconnected	NEW0
+[17:05:50] SiePLC	connected	NEW0
+[17:05:51] SiePLC	connection fail	NEW0
+[17:05:51] SiePLC	disconnect	NEW0
+[17:05:51] SiePLC	disconnected	NEW0
+[17:05:51] REPEAT	1__	SiePLC
+[17:05:51] REPEAT	1__	SiePLC
+[17:05:51] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:51] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:51] SiePLC	disconnect	NEW0
+[17:05:51] SiePLC	disconnected	NEW0
+[17:05:51] SiePLC	connected	NEW0
+[17:05:51] SiePLC	connection fail	NEW0
+[17:05:51] SiePLC	disconnect	NEW0
+[17:05:51] SiePLC	disconnected	NEW0
+[17:05:51] REPEAT	1__	SiePLC
+[17:05:51] REPEAT	1__	SiePLC
+[17:05:51] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:51] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:51] SiePLC	disconnect	NEW0
+[17:05:51] SiePLC	disconnected	NEW0
+[17:05:51] SiePLC	connected	NEW0
+[17:05:51] SiePLC	connection fail	NEW0
+[17:05:51] SiePLC	disconnect	NEW0
+[17:05:51] SiePLC	disconnected	NEW0
+[17:05:52] REPEAT	1__	SiePLC
+[17:05:52] REPEAT	1__	SiePLC
+[17:05:52] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:52] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:52] SiePLC	disconnect	NEW0
+[17:05:52] SiePLC	disconnected	NEW0
+[17:05:52] SiePLC	connected	NEW0
+[17:05:52] SiePLC	connection fail	NEW0
+[17:05:52] SiePLC	disconnect	NEW0
+[17:05:52] SiePLC	disconnected	NEW0
+[17:05:52] REPEAT	1__	SiePLC
+[17:05:52] REPEAT	1__	SiePLC
+[17:05:52] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:52] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:52] SiePLC	disconnect	NEW0
+[17:05:52] SiePLC	disconnected	NEW0
+[17:05:52] SiePLC	connected	NEW0
+[17:05:52] SiePLC	connection fail	NEW0
+[17:05:52] SiePLC	disconnect	NEW0
+[17:05:52] SiePLC	disconnected	NEW0
+[17:05:52] REPEAT	1__	SiePLC
+[17:05:52] REPEAT	1__	SiePLC
+[17:05:52] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:52] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:52] SiePLC	disconnect	NEW0
+[17:05:52] SiePLC	disconnected	NEW0
+[17:05:52] SiePLC	connected	NEW0
+[17:05:53] SiePLC	connection fail	NEW0
+[17:05:53] SiePLC	disconnect	NEW0
+[17:05:53] SiePLC	disconnected	NEW0
+[17:05:53] SiePLC	uts readoneai function call timeout	
+[17:05:53] SiePLC	disconnect	NEW0
+[17:05:53] SiePLC	disconnected	NEW0
+[17:05:53] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:53] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:53] SiePLC	disconnect	NEW0
+[17:05:53] SiePLC	disconnected	NEW0
+[17:05:53] SiePLC	connected	NEW0
+[17:05:53] SiePLC	connection fail	NEW0
+[17:05:53] SiePLC	disconnect	NEW0
+[17:05:53] SiePLC	disconnected	NEW0
+[17:05:53] REPEAT	1__	SiePLC
+[17:05:53] REPEAT	1__	SiePLC
+[17:05:53] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:53] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:53] SiePLC	disconnect	NEW0
+[17:05:53] SiePLC	disconnected	NEW0
+[17:05:53] SiePLC	connected	NEW0
+[17:05:54] SiePLC	connection fail	NEW0
+[17:05:54] SiePLC	disconnect	NEW0
+[17:05:54] SiePLC	disconnected	NEW0
+[17:05:54] REPEAT	1__	SiePLC
+[17:05:54] REPEAT	1__	SiePLC
+[17:05:54] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:54] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:54] SiePLC	disconnect	NEW0
+[17:05:54] SiePLC	disconnected	NEW0
+[17:05:54] SiePLC	connected	NEW0
+[17:05:54] SiePLC	connection fail	NEW0
+[17:05:54] SiePLC	disconnect	NEW0
+[17:05:54] SiePLC	disconnected	NEW0
+[17:05:54] REPEAT	1__	SiePLC
+[17:05:54] REPEAT	1__	SiePLC
+[17:05:54] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:54] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:54] SiePLC	disconnect	NEW0
+[17:05:54] SiePLC	disconnected	NEW0
+[17:05:54] SiePLC	connected	NEW0
+[17:05:54] SiePLC	connection fail	NEW0
+[17:05:54] SiePLC	disconnect	NEW0
+[17:05:54] SiePLC	disconnected	NEW0
+[17:05:55] REPEAT	1__	SiePLC
+[17:05:55] REPEAT	1__	SiePLC
+[17:05:55] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:55] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:55] SiePLC	disconnect	NEW0
+[17:05:55] SiePLC	disconnected	NEW0
+[17:05:55] SiePLC	connected	NEW0
+[17:05:55] SiePLC	connection fail	NEW0
+[17:05:55] SiePLC	disconnect	NEW0
+[17:05:55] SiePLC	disconnected	NEW0
+[17:05:55] REPEAT	1__	SiePLC
+[17:05:55] REPEAT	1__	SiePLC
+[17:05:55] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:55] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:55] SiePLC	disconnect	NEW0
+[17:05:55] SiePLC	disconnected	NEW0
+[17:05:55] SiePLC	connected	NEW0
+[17:05:55] SiePLC	connection fail	NEW0
+[17:05:55] SiePLC	disconnect	NEW0
+[17:05:55] SiePLC	disconnected	NEW0
+[17:05:55] REPEAT	1__	SiePLC
+[17:05:55] REPEAT	1__	SiePLC
+[17:05:55] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:55] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:55] SiePLC	disconnect	NEW0
+[17:05:55] SiePLC	disconnected	NEW0
+[17:05:55] SiePLC	connected	NEW0
+[17:05:56] SiePLC	connection fail	NEW0
+[17:05:56] SiePLC	disconnect	NEW0
+[17:05:56] SiePLC	disconnected	NEW0
+[17:05:56] REPEAT	1__	SiePLC
+[17:05:56] REPEAT	1__	SiePLC
+[17:05:56] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:56] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:56] SiePLC	disconnect	NEW0
+[17:05:56] SiePLC	disconnected	NEW0
+[17:05:56] SiePLC	connected	NEW0
+[17:05:56] SiePLC	connection fail	NEW0
+[17:05:56] SiePLC	disconnect	NEW0
+[17:05:56] SiePLC	disconnected	NEW0
+[17:05:56] REPEAT	1__	SiePLC
+[17:05:56] REPEAT	1__	SiePLC
+[17:05:56] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:56] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:56] SiePLC	disconnect	NEW0
+[17:05:56] SiePLC	disconnected	NEW0
+[17:05:56] SiePLC	connected	NEW0
+[17:05:57] SiePLC	connection fail	NEW0
+[17:05:57] SiePLC	disconnect	NEW0
+[17:05:57] SiePLC	disconnected	NEW0
+[17:05:57] REPEAT	1__	SiePLC
+[17:05:57] REPEAT	1__	SiePLC
+[17:05:57] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:57] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:57] SiePLC	disconnect	NEW0
+[17:05:57] SiePLC	disconnected	NEW0
+[17:05:57] SiePLC	connected	NEW0
+[17:05:57] SiePLC	connection fail	NEW0
+[17:05:57] SiePLC	disconnect	NEW0
+[17:05:57] SiePLC	disconnected	NEW0
+[17:05:57] REPEAT	1__	SiePLC
+[17:05:57] REPEAT	1__	SiePLC
+[17:05:57] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:57] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:57] SiePLC	disconnect	NEW0
+[17:05:57] SiePLC	disconnected	NEW0
+[17:05:57] SiePLC	connected	NEW0
+[17:05:57] SiePLC	connection fail	NEW0
+[17:05:57] SiePLC	disconnect	NEW0
+[17:05:57] SiePLC	disconnected	NEW0
+[17:05:58] REPEAT	1__	SiePLC
+[17:05:58] REPEAT	1__	SiePLC
+[17:05:58] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:58] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:58] SiePLC	disconnect	NEW0
+[17:05:58] SiePLC	disconnected	NEW0
+[17:05:58] SiePLC	connected	NEW0
+[17:05:58] SiePLC	connection fail	NEW0
+[17:05:58] SiePLC	disconnect	NEW0
+[17:05:58] SiePLC	disconnected	NEW0
+[17:05:58] SiePLC	uts readoneai function call timeout	
+[17:05:58] SiePLC	disconnect	NEW0
+[17:05:58] SiePLC	disconnected	NEW0
+[17:05:58] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:58] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:58] SiePLC	disconnect	NEW0
+[17:05:58] SiePLC	disconnected	NEW0
+[17:05:58] SiePLC	connected	NEW0
+[17:05:58] SiePLC	connection fail	NEW0
+[17:05:58] SiePLC	disconnect	NEW0
+[17:05:58] SiePLC	disconnected	NEW0
+[17:05:58] REPEAT	1__	SiePLC
+[17:05:58] REPEAT	1__	SiePLC
+[17:05:58] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:58] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:58] SiePLC	disconnect	NEW0
+[17:05:58] SiePLC	disconnected	NEW0
+[17:05:58] SiePLC	connected	NEW0
+[17:05:59] SiePLC	connection fail	NEW0
+[17:05:59] SiePLC	disconnect	NEW0
+[17:05:59] SiePLC	disconnected	NEW0
+[17:05:59] REPEAT	1__	SiePLC
+[17:05:59] REPEAT	1__	SiePLC
+[17:05:59] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:59] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:59] SiePLC	disconnect	NEW0
+[17:05:59] SiePLC	disconnected	NEW0
+[17:05:59] SiePLC	connected	NEW0
+[17:05:59] SiePLC	connection fail	NEW0
+[17:05:59] SiePLC	disconnect	NEW0
+[17:05:59] SiePLC	disconnected	NEW0
+[17:05:59] REPEAT	1__	SiePLC
+[17:05:59] REPEAT	1__	SiePLC
+[17:05:59] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:05:59] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:05:59] SiePLC	disconnect	NEW0
+[17:05:59] SiePLC	disconnected	NEW0
+[17:05:59] SiePLC	connected	NEW0
+[17:05:59] FormMDI	Sequence	PLC Timeout
+[17:05:59] FormMDI	Sequence	21
+[17:06:00] SiePLC	connection fail	NEW0
+[17:06:00] SiePLC	disconnect	NEW0
+[17:06:00] SiePLC	disconnected	NEW0
+[17:06:00] REPEAT	1__	SiePLC
+[17:06:00] REPEAT	1__	SiePLC
+[17:06:00] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:00] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:00] SiePLC	disconnect	NEW0
+[17:06:00] SiePLC	disconnected	NEW0
+[17:06:00] SiePLC	connected	NEW0
+[17:06:00] FormMDI	Sequence	PLC Timeout
+[17:06:00] FormMDI	Sequence	22
+[17:06:00] SiePLC	connection fail	NEW0
+[17:06:00] SiePLC	disconnect	NEW0
+[17:06:00] SiePLC	disconnected	NEW0
+[17:06:00] REPEAT	1__	SiePLC
+[17:06:00] REPEAT	1__	SiePLC
+[17:06:00] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:00] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:00] SiePLC	disconnect	NEW0
+[17:06:00] SiePLC	disconnected	NEW0
+[17:06:00] SiePLC	connected	NEW0
+[17:06:00] FormMDI	Sequence	PLC Timeout
+[17:06:00] FormMDI	Sequence	23
+[17:06:00] SiePLC	connection fail	NEW0
+[17:06:00] SiePLC	disconnect	NEW0
+[17:06:00] SiePLC	disconnected	NEW0
+[17:06:01] REPEAT	1__	SiePLC
+[17:06:01] REPEAT	1__	SiePLC
+[17:06:01] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:01] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:01] SiePLC	disconnect	NEW0
+[17:06:01] SiePLC	disconnected	NEW0
+[17:06:01] SiePLC	connected	NEW0
+[17:06:01] SiePLC	connection fail	NEW0
+[17:06:01] SiePLC	disconnect	NEW0
+[17:06:01] SiePLC	disconnected	NEW0
+[17:06:01] REPEAT	1__	SiePLC
+[17:06:01] REPEAT	1__	SiePLC
+[17:06:01] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:01] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:01] SiePLC	disconnect	NEW0
+[17:06:01] SiePLC	disconnected	NEW0
+[17:06:01] SiePLC	connected	NEW0
+[17:06:01] SiePLC	connection fail	NEW0
+[17:06:01] SiePLC	disconnect	NEW0
+[17:06:01] SiePLC	disconnected	NEW0
+[17:06:01] REPEAT	1__	SiePLC
+[17:06:01] REPEAT	1__	SiePLC
+[17:06:01] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:01] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:01] SiePLC	disconnect	NEW0
+[17:06:01] SiePLC	disconnected	NEW0
+[17:06:01] SiePLC	connected	NEW0
+[17:06:02] SiePLC	connection fail	NEW0
+[17:06:02] SiePLC	disconnect	NEW0
+[17:06:02] SiePLC	disconnected	NEW0
+[17:06:02] REPEAT	1__	SiePLC
+[17:06:02] REPEAT	1__	SiePLC
+[17:06:02] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:02] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:02] SiePLC	disconnect	NEW0
+[17:06:02] SiePLC	disconnected	NEW0
+[17:06:02] SiePLC	connected	NEW0
+[17:06:02] SiePLC	connection fail	NEW0
+[17:06:02] SiePLC	disconnect	NEW0
+[17:06:02] SiePLC	disconnected	NEW0
+[17:06:02] REPEAT	1__	SiePLC
+[17:06:02] REPEAT	1__	SiePLC
+[17:06:02] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:02] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:02] SiePLC	disconnect	NEW0
+[17:06:02] SiePLC	disconnected	NEW0
+[17:06:02] SiePLC	connected	NEW0
+[17:06:03] SiePLC	connection fail	NEW0
+[17:06:03] SiePLC	disconnect	NEW0
+[17:06:03] SiePLC	disconnected	NEW0
+[17:06:03] REPEAT	1__	SiePLC
+[17:06:03] REPEAT	1__	SiePLC
+[17:06:03] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:03] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:03] SiePLC	disconnect	NEW0
+[17:06:03] SiePLC	disconnected	NEW0
+[17:06:03] SiePLC	connected	NEW0
+[17:06:03] SiePLC	connection fail	NEW0
+[17:06:03] SiePLC	disconnect	NEW0
+[17:06:03] SiePLC	disconnected	NEW0
+[17:06:03] REPEAT	1__	SiePLC
+[17:06:03] REPEAT	1__	SiePLC
+[17:06:03] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:03] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:03] SiePLC	disconnect	NEW0
+[17:06:03] SiePLC	disconnected	NEW0
+[17:06:03] SiePLC	connected	NEW0
+[17:06:03] SiePLC	connection fail	NEW0
+[17:06:03] SiePLC	disconnect	NEW0
+[17:06:03] SiePLC	disconnected	NEW0
+[17:06:04] REPEAT	1__	SiePLC
+[17:06:04] REPEAT	1__	SiePLC
+[17:06:04] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:04] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:04] SiePLC	disconnect	NEW0
+[17:06:04] SiePLC	disconnected	NEW0
+[17:06:04] SiePLC	connected	NEW0
+[17:06:04] SiePLC	connection fail	NEW0
+[17:06:04] SiePLC	disconnect	NEW0
+[17:06:04] SiePLC	disconnected	NEW0
+[17:06:04] REPEAT	1__	SiePLC
+[17:06:04] REPEAT	1__	SiePLC
+[17:06:04] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:04] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:04] SiePLC	disconnect	NEW0
+[17:06:04] SiePLC	disconnected	NEW0
+[17:06:04] SiePLC	connected	NEW0
+[17:06:04] SiePLC	connection fail	NEW0
+[17:06:04] SiePLC	disconnect	NEW0
+[17:06:04] SiePLC	disconnected	NEW0
+[17:06:04] REPEAT	1__	SiePLC
+[17:06:04] REPEAT	1__	SiePLC
+[17:06:04] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:04] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:04] SiePLC	disconnect	NEW0
+[17:06:04] SiePLC	disconnected	NEW0
+[17:06:04] SiePLC	connected	NEW0
+[17:06:05] SiePLC	connection fail	NEW0
+[17:06:05] SiePLC	disconnect	NEW0
+[17:06:05] SiePLC	disconnected	NEW0
+[17:06:05] REPEAT	1__	SiePLC
+[17:06:05] REPEAT	1__	SiePLC
+[17:06:05] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:05] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:05] SiePLC	disconnect	NEW0
+[17:06:05] SiePLC	disconnected	NEW0
+[17:06:05] SiePLC	connected	NEW0
+[17:06:05] SiePLC	connection fail	NEW0
+[17:06:05] SiePLC	disconnect	NEW0
+[17:06:05] SiePLC	disconnected	NEW0
+[17:06:05] REPEAT	1__	SiePLC
+[17:06:05] REPEAT	1__	SiePLC
+[17:06:05] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:06:05] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:06:05] SiePLC	disconnect	NEW0
+[17:06:05] SiePLC	disconnected	NEW0
+[17:06:05] SiePLC	connected	NEW0
+[17:07:12] SiePLC	initialize	
+[17:07:12] SiePLC	ini opened	
+[17:07:12] SiePLC	Initializeed	
+[17:07:12] SiePLC	start	
+[17:07:12] SiePLC	init socket	
+[17:07:13] SiePLC	disconnect	NEW0
+[17:07:13] SiePLC	disconnected	NEW0
+[17:07:13] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:13] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:13] SiePLC	disconnect	NEW0
+[17:07:13] SiePLC	disconnected	NEW0
+[17:07:13] SiePLC	connected	NEW0
+[17:07:13] SiePLC	start thread	
+[17:07:13] SiePLC	connection fail	NEW0
+[17:07:13] SiePLC	disconnect	NEW0
+[17:07:13] SiePLC	disconnected	NEW0
+[17:07:13] REPEAT	1__	SiePLC
+[17:07:13] REPEAT	1__	SiePLC
+[17:07:13] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:13] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:13] SiePLC	disconnect	NEW0
+[17:07:13] SiePLC	disconnected	NEW0
+[17:07:13] SiePLC	connected	NEW0
+[17:07:13] SiePLC	connection fail	NEW0
+[17:07:13] SiePLC	disconnect	NEW0
+[17:07:13] SiePLC	disconnected	NEW0
+[17:07:13] REPEAT	1__	SiePLC
+[17:07:13] REPEAT	1__	SiePLC
+[17:07:13] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:13] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:13] SiePLC	disconnect	NEW0
+[17:07:13] SiePLC	disconnected	NEW0
+[17:07:13] SiePLC	connected	NEW0
+[17:07:14] SiePLC	connection fail	NEW0
+[17:07:14] SiePLC	disconnect	NEW0
+[17:07:14] SiePLC	disconnected	NEW0
+[17:07:14] REPEAT	1__	SiePLC
+[17:07:14] REPEAT	1__	SiePLC
+[17:07:14] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:14] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:14] SiePLC	disconnect	NEW0
+[17:07:14] SiePLC	disconnected	NEW0
+[17:07:14] SiePLC	connected	NEW0
+[17:07:14] SiePLC	connection fail	NEW0
+[17:07:14] SiePLC	disconnect	NEW0
+[17:07:14] SiePLC	disconnected	NEW0
+[17:07:14] REPEAT	1__	SiePLC
+[17:07:14] REPEAT	1__	SiePLC
+[17:07:14] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:14] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:14] SiePLC	disconnect	NEW0
+[17:07:14] SiePLC	disconnected	NEW0
+[17:07:14] SiePLC	connected	NEW0
+[17:07:14] SiePLC	connection fail	NEW0
+[17:07:14] SiePLC	disconnect	NEW0
+[17:07:14] SiePLC	disconnected	NEW0
+[17:07:15] REPEAT	1__	SiePLC
+[17:07:15] REPEAT	1__	SiePLC
+[17:07:15] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:15] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:15] SiePLC	disconnect	NEW0
+[17:07:15] SiePLC	disconnected	NEW0
+[17:07:15] SiePLC	connected	NEW0
+[17:07:15] SiePLC	connection fail	NEW0
+[17:07:15] SiePLC	disconnect	NEW0
+[17:07:15] SiePLC	disconnected	NEW0
+[17:07:15] REPEAT	1__	SiePLC
+[17:07:15] REPEAT	1__	SiePLC
+[17:07:15] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:15] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:15] SiePLC	disconnect	NEW0
+[17:07:15] SiePLC	disconnected	NEW0
+[17:07:15] SiePLC	connected	NEW0
+[17:07:15] SiePLC	connection fail	NEW0
+[17:07:15] SiePLC	disconnect	NEW0
+[17:07:15] SiePLC	disconnected	NEW0
+[17:07:16] REPEAT	1__	SiePLC
+[17:07:16] REPEAT	1__	SiePLC
+[17:07:16] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:16] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:16] SiePLC	disconnect	NEW0
+[17:07:16] SiePLC	disconnected	NEW0
+[17:07:16] SiePLC	connected	NEW0
+[17:07:16] SiePLC	connection fail	NEW0
+[17:07:16] SiePLC	disconnect	NEW0
+[17:07:16] SiePLC	disconnected	NEW0
+[17:07:16] REPEAT	1__	SiePLC
+[17:07:16] REPEAT	1__	SiePLC
+[17:07:16] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:16] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:16] SiePLC	disconnect	NEW0
+[17:07:16] SiePLC	disconnected	NEW0
+[17:07:16] SiePLC	connected	NEW0
+[17:07:16] SiePLC	connection fail	NEW0
+[17:07:16] SiePLC	disconnect	NEW0
+[17:07:16] SiePLC	disconnected	NEW0
+[17:07:16] REPEAT	1__	SiePLC
+[17:07:16] REPEAT	1__	SiePLC
+[17:07:16] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:16] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:16] SiePLC	disconnect	NEW0
+[17:07:16] SiePLC	disconnected	NEW0
+[17:07:16] SiePLC	connected	NEW0
+[17:07:17] SiePLC	connection fail	NEW0
+[17:07:17] SiePLC	disconnect	NEW0
+[17:07:17] SiePLC	disconnected	NEW0
+[17:07:17] REPEAT	1__	SiePLC
+[17:07:17] REPEAT	1__	SiePLC
+[17:07:17] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:17] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:17] SiePLC	disconnect	NEW0
+[17:07:17] SiePLC	disconnected	NEW0
+[17:07:17] SiePLC	connected	NEW0
+[17:07:17] SiePLC	connection fail	NEW0
+[17:07:17] SiePLC	disconnect	NEW0
+[17:07:17] SiePLC	disconnected	NEW0
+[17:07:17] SiePLC	uts readoneai function call timeout	
+[17:07:17] SiePLC	disconnect	NEW0
+[17:07:17] SiePLC	disconnected	NEW0
+[17:07:17] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:17] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:17] SiePLC	disconnect	NEW0
+[17:07:17] SiePLC	disconnected	NEW0
+[17:07:17] SiePLC	connected	NEW0
+[17:07:18] SiePLC	connection fail	NEW0
+[17:07:18] SiePLC	disconnect	NEW0
+[17:07:18] SiePLC	disconnected	NEW0
+[17:07:18] REPEAT	1__	SiePLC
+[17:07:18] REPEAT	1__	SiePLC
+[17:07:18] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:18] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:18] SiePLC	disconnect	NEW0
+[17:07:18] SiePLC	disconnected	NEW0
+[17:07:18] SiePLC	connected	NEW0
+[17:07:18] SiePLC	connection fail	NEW0
+[17:07:18] SiePLC	disconnect	NEW0
+[17:07:18] SiePLC	disconnected	NEW0
+[17:07:18] REPEAT	1__	SiePLC
+[17:07:18] REPEAT	1__	SiePLC
+[17:07:18] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:18] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:18] SiePLC	disconnect	NEW0
+[17:07:18] SiePLC	disconnected	NEW0
+[17:07:18] SiePLC	connected	NEW0
+[17:07:18] SiePLC	connection fail	NEW0
+[17:07:18] SiePLC	disconnect	NEW0
+[17:07:18] SiePLC	disconnected	NEW0
+[17:07:19] REPEAT	1__	SiePLC
+[17:07:19] REPEAT	1__	SiePLC
+[17:07:19] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:19] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:19] SiePLC	disconnect	NEW0
+[17:07:19] SiePLC	disconnected	NEW0
+[17:07:19] SiePLC	connected	NEW0
+[17:07:19] SiePLC	connection fail	NEW0
+[17:07:19] SiePLC	disconnect	NEW0
+[17:07:19] SiePLC	disconnected	NEW0
+[17:07:19] REPEAT	1__	SiePLC
+[17:07:19] REPEAT	1__	SiePLC
+[17:07:19] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:19] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:19] SiePLC	disconnect	NEW0
+[17:07:19] SiePLC	disconnected	NEW0
+[17:07:19] SiePLC	connected	NEW0
+[17:07:19] SiePLC	connection fail	NEW0
+[17:07:19] SiePLC	disconnect	NEW0
+[17:07:19] SiePLC	disconnected	NEW0
+[17:07:20] REPEAT	1__	SiePLC
+[17:07:20] REPEAT	1__	SiePLC
+[17:07:20] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:20] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:20] SiePLC	disconnect	NEW0
+[17:07:20] SiePLC	disconnected	NEW0
+[17:07:20] SiePLC	connected	NEW0
+[17:07:20] SiePLC	connection fail	NEW0
+[17:07:20] SiePLC	disconnect	NEW0
+[17:07:20] SiePLC	disconnected	NEW0
+[17:07:20] REPEAT	1__	SiePLC
+[17:07:20] REPEAT	1__	SiePLC
+[17:07:20] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:20] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:20] SiePLC	disconnect	NEW0
+[17:07:20] SiePLC	disconnected	NEW0
+[17:07:20] SiePLC	connected	NEW0
+[17:07:20] SiePLC	connection fail	NEW0
+[17:07:20] SiePLC	disconnect	NEW0
+[17:07:20] SiePLC	disconnected	NEW0
+[17:07:20] REPEAT	1__	SiePLC
+[17:07:20] REPEAT	1__	SiePLC
+[17:07:20] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:21] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:21] SiePLC	disconnect	NEW0
+[17:07:21] SiePLC	disconnected	NEW0
+[17:07:21] SiePLC	connected	NEW0
+[17:07:21] SiePLC	connection fail	NEW0
+[17:07:21] SiePLC	disconnect	NEW0
+[17:07:21] SiePLC	disconnected	NEW0
+[17:07:21] REPEAT	1__	SiePLC
+[17:07:21] REPEAT	1__	SiePLC
+[17:07:21] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:21] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:21] SiePLC	disconnect	NEW0
+[17:07:21] SiePLC	disconnected	NEW0
+[17:07:21] SiePLC	connected	NEW0
+[17:07:21] SiePLC	connection fail	NEW0
+[17:07:21] SiePLC	disconnect	NEW0
+[17:07:21] SiePLC	disconnected	NEW0
+[17:07:21] REPEAT	1__	SiePLC
+[17:07:21] REPEAT	1__	SiePLC
+[17:07:21] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:21] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:21] SiePLC	disconnect	NEW0
+[17:07:21] SiePLC	disconnected	NEW0
+[17:07:21] SiePLC	connected	NEW0
+[17:07:22] SiePLC	connection fail	NEW0
+[17:07:22] SiePLC	disconnect	NEW0
+[17:07:22] SiePLC	disconnected	NEW0
+[17:07:22] REPEAT	1__	SiePLC
+[17:07:22] REPEAT	1__	SiePLC
+[17:07:22] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:22] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:22] SiePLC	disconnect	NEW0
+[17:07:22] SiePLC	disconnected	NEW0
+[17:07:22] SiePLC	connected	NEW0
+[17:07:22] SiePLC	connection fail	NEW0
+[17:07:22] SiePLC	disconnect	NEW0
+[17:07:22] SiePLC	disconnected	NEW0
+[17:07:22] SiePLC	uts readoneai function call timeout	
+[17:07:22] SiePLC	disconnect	NEW0
+[17:07:22] SiePLC	disconnected	NEW0
+[17:07:22] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:22] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:22] SiePLC	disconnect	NEW0
+[17:07:22] SiePLC	disconnected	NEW0
+[17:07:22] SiePLC	connected	NEW0
+[17:07:23] SiePLC	connection fail	NEW0
+[17:07:23] SiePLC	disconnect	NEW0
+[17:07:23] SiePLC	disconnected	NEW0
+[17:07:23] REPEAT	1__	SiePLC
+[17:07:23] REPEAT	1__	SiePLC
+[17:07:23] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:23] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:23] SiePLC	disconnect	NEW0
+[17:07:23] SiePLC	disconnected	NEW0
+[17:07:23] SiePLC	connected	NEW0
+[17:07:23] SiePLC	connection fail	NEW0
+[17:07:23] SiePLC	disconnect	NEW0
+[17:07:23] SiePLC	disconnected	NEW0
+[17:07:23] REPEAT	1__	SiePLC
+[17:07:23] REPEAT	1__	SiePLC
+[17:07:23] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:23] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:23] SiePLC	disconnect	NEW0
+[17:07:23] SiePLC	disconnected	NEW0
+[17:07:23] SiePLC	connected	NEW0
+[17:07:23] SiePLC	connection fail	NEW0
+[17:07:23] SiePLC	disconnect	NEW0
+[17:07:23] SiePLC	disconnected	NEW0
+[17:07:24] REPEAT	1__	SiePLC
+[17:07:24] REPEAT	1__	SiePLC
+[17:07:24] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:24] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:24] SiePLC	disconnect	NEW0
+[17:07:24] SiePLC	disconnected	NEW0
+[17:07:24] SiePLC	connected	NEW0
+[17:07:24] FormMDI	Sequence	PLC Timeout
+[17:07:24] FormMDI	Sequence	21
+[17:07:24] SiePLC	connection fail	NEW0
+[17:07:24] SiePLC	disconnect	NEW0
+[17:07:24] SiePLC	disconnected	NEW0
+[17:07:24] REPEAT	1__	SiePLC
+[17:07:24] REPEAT	1__	SiePLC
+[17:07:24] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:24] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:24] SiePLC	disconnect	NEW0
+[17:07:24] SiePLC	disconnected	NEW0
+[17:07:24] SiePLC	connected	NEW0
+[17:07:24] FormMDI	Sequence	PLC Timeout
+[17:07:24] FormMDI	Sequence	22
+[17:07:24] SiePLC	connection fail	NEW0
+[17:07:24] SiePLC	disconnect	NEW0
+[17:07:24] SiePLC	disconnected	NEW0
+[17:07:25] REPEAT	1__	SiePLC
+[17:07:25] REPEAT	1__	SiePLC
+[17:07:25] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:25] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] SiePLC	connected	NEW0
+[17:07:25] SiePLC	connection fail	NEW0
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] FormMDI	Sequence	PLC Timeout
+[17:07:25] FormMDI	Sequence	23
+[17:07:25] WMSSV	start 	
+[17:07:25] WMSSV	initialized serial	
+[17:07:25] WMSSV	initialized plc	
+[17:07:25] TCP_S	start server 192.168.0.99:5000	
+[17:07:25] TCP_S	start server service 192.168.0.99:5000	
+[17:07:25] WMSSV	started :::::::	
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:25] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] SiePLC	connected	NEW0
+[17:07:25] SiePLC	connection fail	NEW0
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] FormMDI	Sequence	PLC Timeout
+[17:07:25] FormMDI	Sequence	24
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:25] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:25] SiePLC	disconnect	NEW0
+[17:07:25] SiePLC	disconnected	NEW0
+[17:07:25] SiePLC	connected	NEW0
+[17:07:26] SiePLC	connection fail	NEW0
+[17:07:26] SiePLC	disconnect	NEW0
+[17:07:26] SiePLC	disconnected	NEW0
+[17:07:26] FormMDI	Sequence	PLC Timeout
+[17:07:26] FormMDI	Sequence	25
+[17:07:26] SiePLC	disconnect	NEW0
+[17:07:26] SiePLC	disconnected	NEW0
+[17:07:26] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:26] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:26] SiePLC	disconnect	NEW0
+[17:07:26] SiePLC	disconnected	NEW0
+[17:07:26] SiePLC	connected	NEW0
+[17:07:26] SiePLC	connection fail	NEW0
+[17:07:26] SiePLC	disconnect	NEW0
+[17:07:26] SiePLC	disconnected	NEW0
+[17:07:26] REPEAT	1__	SiePLC
+[17:07:26] REPEAT	1__	SiePLC
+[17:07:26] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:26] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:26] SiePLC	disconnect	NEW0
+[17:07:26] SiePLC	disconnected	NEW0
+[17:07:26] SiePLC	connected	NEW0
+[17:07:26] FormMDI	Sequence	PLC Timeout
+[17:07:26] FormMDI	Sequence	26
+[17:07:26] SiePLC	connection fail	NEW0
+[17:07:26] SiePLC	disconnect	NEW0
+[17:07:26] SiePLC	disconnected	NEW0
+[17:07:27] REPEAT	1__	SiePLC
+[17:07:27] REPEAT	1__	SiePLC
+[17:07:27] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:27] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:27] SiePLC	disconnect	NEW0
+[17:07:27] SiePLC	disconnected	NEW0
+[17:07:27] SiePLC	connected	NEW0
+[17:07:27] FormMDI	Sequence	PLC Timeout
+[17:07:27] FormMDI	Sequence	27
+[17:07:27] SiePLC	connection fail	NEW0
+[17:07:27] SiePLC	disconnect	NEW0
+[17:07:27] SiePLC	disconnected	NEW0
+[17:07:27] REPEAT	1__	SiePLC
+[17:07:27] REPEAT	1__	SiePLC
+[17:07:27] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:27] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:27] SiePLC	disconnect	NEW0
+[17:07:27] SiePLC	disconnected	NEW0
+[17:07:27] SiePLC	connected	NEW0
+[17:07:27] SiePLC	uts readoneai function call timeout	
+[17:07:27] FormMDI	Sequence	PLC Timeout
+[17:07:27] FormMDI	Sequence	28
+[17:07:27] SiePLC	connection fail	NEW0
+[17:07:27] SiePLC	disconnect	NEW0
+[17:07:27] SiePLC	disconnected	NEW0
+[17:07:28] REPEAT	1__	SiePLC
+[17:07:28] REPEAT	1__	SiePLC
+[17:07:28] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:28] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] SiePLC	connected	NEW0
+[17:07:28] SiePLC	connection fail	NEW0
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] FormMDI	Sequence	PLC Timeout
+[17:07:28] FormMDI	Sequence	29
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:28] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] SiePLC	connected	NEW0
+[17:07:28] SiePLC	connection fail	NEW0
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] FormMDI	Sequence	PLC Timeout
+[17:07:28] FormMDI	Sequence	30
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:28] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:28] SiePLC	disconnect	NEW0
+[17:07:28] SiePLC	disconnected	NEW0
+[17:07:28] SiePLC	connected	NEW0
+[17:07:29] SiePLC	connection fail	NEW0
+[17:07:29] SiePLC	disconnect	NEW0
+[17:07:29] SiePLC	disconnected	NEW0
+[17:07:29] FormMDI	Sequence	PLC Timeout
+[17:07:29] FormMDI	Sequence	31
+[17:07:29] SiePLC	disconnect	NEW0
+[17:07:29] SiePLC	disconnected	NEW0
+[17:07:29] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:29] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:29] SiePLC	disconnect	NEW0
+[17:07:29] SiePLC	disconnected	NEW0
+[17:07:29] SiePLC	connected	NEW0
+[17:07:29] SiePLC	connection fail	NEW0
+[17:07:29] SiePLC	disconnect	NEW0
+[17:07:29] SiePLC	disconnected	NEW0
+[17:07:29] REPEAT	1__	SiePLC
+[17:07:29] REPEAT	1__	SiePLC
+[17:07:29] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:29] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:29] SiePLC	disconnect	NEW0
+[17:07:29] SiePLC	disconnected	NEW0
+[17:07:29] SiePLC	connected	NEW0
+[17:07:29] FormMDI	Sequence	PLC Timeout
+[17:07:29] FormMDI	Sequence	32
+[17:07:29] SiePLC	connection fail	NEW0
+[17:07:29] SiePLC	disconnect	NEW0
+[17:07:29] SiePLC	disconnected	NEW0
+[17:07:30] REPEAT	1__	SiePLC
+[17:07:30] REPEAT	1__	SiePLC
+[17:07:30] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:30] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:30] SiePLC	disconnect	NEW0
+[17:07:30] SiePLC	disconnected	NEW0
+[17:07:30] SiePLC	connected	NEW0
+[17:07:30] FormMDI	Sequence	PLC Timeout
+[17:07:30] FormMDI	Sequence	33
+[17:07:30] SiePLC	connection fail	NEW0
+[17:07:30] SiePLC	disconnect	NEW0
+[17:07:30] SiePLC	disconnected	NEW0
+[17:07:30] REPEAT	1__	SiePLC
+[17:07:30] REPEAT	1__	SiePLC
+[17:07:30] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:30] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:30] SiePLC	disconnect	NEW0
+[17:07:30] SiePLC	disconnected	NEW0
+[17:07:30] SiePLC	connected	NEW0
+[17:07:30] FormMDI	Sequence	PLC Timeout
+[17:07:30] FormMDI	Sequence	34
+[17:07:30] SiePLC	connection fail	NEW0
+[17:07:30] SiePLC	disconnect	NEW0
+[17:07:30] SiePLC	disconnected	NEW0
+[17:07:31] REPEAT	1__	SiePLC
+[17:07:31] REPEAT	1__	SiePLC
+[17:07:31] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:31] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] SiePLC	connected	NEW0
+[17:07:31] SiePLC	connection fail	NEW0
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] FormMDI	Sequence	PLC Timeout
+[17:07:31] FormMDI	Sequence	35
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:31] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] SiePLC	connected	NEW0
+[17:07:31] SiePLC	connection fail	NEW0
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] FormMDI	Sequence	PLC Timeout
+[17:07:31] FormMDI	Sequence	36
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:31] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:31] SiePLC	disconnect	NEW0
+[17:07:31] SiePLC	disconnected	NEW0
+[17:07:31] SiePLC	connected	NEW0
+[17:07:32] SiePLC	connection fail	NEW0
+[17:07:32] SiePLC	disconnect	NEW0
+[17:07:32] SiePLC	disconnected	NEW0
+[17:07:32] FormMDI	Sequence	PLC Timeout
+[17:07:32] FormMDI	Sequence	37
+[17:07:32] SiePLC	disconnect	NEW0
+[17:07:32] SiePLC	disconnected	NEW0
+[17:07:32] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:32] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:32] SiePLC	disconnect	NEW0
+[17:07:32] SiePLC	disconnected	NEW0
+[17:07:32] SiePLC	connected	NEW0
+[17:07:32] SiePLC	connection fail	NEW0
+[17:07:32] SiePLC	disconnect	NEW0
+[17:07:32] SiePLC	disconnected	NEW0
+[17:07:32] REPEAT	1__	SiePLC
+[17:07:32] REPEAT	1__	SiePLC
+[17:07:32] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:32] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:32] SiePLC	disconnect	NEW0
+[17:07:32] SiePLC	disconnected	NEW0
+[17:07:32] SiePLC	connected	NEW0
+[17:07:32] SiePLC	uts readoneai function call timeout	
+[17:07:32] FormMDI	Sequence	PLC Timeout
+[17:07:32] FormMDI	Sequence	38
+[17:07:32] SiePLC	connection fail	NEW0
+[17:07:32] SiePLC	disconnect	NEW0
+[17:07:32] SiePLC	disconnected	NEW0
+[17:07:33] REPEAT	1__	SiePLC
+[17:07:33] REPEAT	1__	SiePLC
+[17:07:33] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:33] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:33] SiePLC	disconnect	NEW0
+[17:07:33] SiePLC	disconnected	NEW0
+[17:07:33] SiePLC	connected	NEW0
+[17:07:33] FormMDI	Sequence	PLC Timeout
+[17:07:33] FormMDI	Sequence	39
+[17:07:33] SiePLC	connection fail	NEW0
+[17:07:33] SiePLC	disconnect	NEW0
+[17:07:33] SiePLC	disconnected	NEW0
+[17:07:33] REPEAT	1__	SiePLC
+[17:07:33] REPEAT	1__	SiePLC
+[17:07:33] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:33] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:33] SiePLC	disconnect	NEW0
+[17:07:33] SiePLC	disconnected	NEW0
+[17:07:33] SiePLC	connected	NEW0
+[17:07:33] SiePLC	connection fail	NEW0
+[17:07:33] SiePLC	disconnect	NEW0
+[17:07:33] SiePLC	disconnected	NEW0
+[17:07:33] FormMDI	Sequence	40
+[17:07:33] SiePLC	disconnect	NEW0
+[17:07:33] SiePLC	disconnected	NEW0
+[17:07:33] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:33] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:33] SiePLC	disconnect	NEW0
+[17:07:33] SiePLC	disconnected	NEW0
+[17:07:33] SiePLC	connected	NEW0
+[17:07:34] SiePLC	connection fail	NEW0
+[17:07:34] SiePLC	disconnect	NEW0
+[17:07:34] SiePLC	disconnected	NEW0
+[17:07:34] FormMDI	Sequence	PLC Timeout
+[17:07:34] FormMDI	Sequence	41
+[17:07:34] SiePLC	disconnect	NEW0
+[17:07:34] SiePLC	disconnected	NEW0
+[17:07:34] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:34] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:34] SiePLC	disconnect	NEW0
+[17:07:34] SiePLC	disconnected	NEW0
+[17:07:34] SiePLC	connected	NEW0
+[17:07:34] SiePLC	connection fail	NEW0
+[17:07:34] SiePLC	disconnect	NEW0
+[17:07:34] SiePLC	disconnected	NEW0
+[17:07:34] FormMDI	Sequence	PLC Timeout
+[17:07:34] FormMDI	Sequence	42
+[17:07:34] SiePLC	disconnect	NEW0
+[17:07:34] SiePLC	disconnected	NEW0
+[17:07:34] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:34] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:34] SiePLC	disconnect	NEW0
+[17:07:34] SiePLC	disconnected	NEW0
+[17:07:34] SiePLC	connected	NEW0
+[17:07:35] SiePLC	connection fail	NEW0
+[17:07:35] SiePLC	disconnect	NEW0
+[17:07:35] SiePLC	disconnected	NEW0
+[17:07:35] REPEAT	1__	SiePLC
+[17:07:35] REPEAT	1__	SiePLC
+[17:07:35] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:35] FormMDI	Sequence	PLC Timeout
+[17:07:35] FormMDI	Sequence	43
+[17:07:35] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:35] SiePLC	disconnect	NEW0
+[17:07:35] SiePLC	disconnected	NEW0
+[17:07:35] SiePLC	connected	NEW0
+[17:07:35] SiePLC	connection fail	NEW0
+[17:07:35] SiePLC	disconnect	NEW0
+[17:07:35] SiePLC	disconnected	NEW0
+[17:07:35] REPEAT	1__	SiePLC
+[17:07:35] REPEAT	1__	SiePLC
+[17:07:35] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:35] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:35] SiePLC	disconnect	NEW0
+[17:07:35] SiePLC	disconnected	NEW0
+[17:07:35] SiePLC	connected	NEW0
+[17:07:35] FormMDI	Sequence	PLC Timeout
+[17:07:35] FormMDI	Sequence	44
+[17:07:35] TCP_S	stop server: 	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: WmsServer.Server.StartServerService() 파일 D:\india\WmsServer\WmsServer\Socket.cs:줄 435
+[17:07:35] TCP_S	stop server 	
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.VSDETOUREDHOST
+[17:07:35] WMSSV	Process Name :	INTELAUDIOSERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	SYSTEMSETTINGS
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	SQLWRITER
+[17:07:35] WMSSV	Process Name :	NIROCO
+[17:07:35] WMSSV	Process Name :	WLANEXT
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	2__	WMSSV
+[17:07:35] WMSSV	Process Name :	SAMSUNGWIFI_UHB_SETTING_SERVICE
+[17:07:35] WMSSV	Process Name :	APPLICATIONWEBSERVER
+[17:07:35] WMSSV	Process Name :	SPOOLSV
+[17:07:35] WMSSV	Process Name :	CTFMON
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	CROSSEXSERVICE
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.HOST.NODE.X86
+[17:07:35] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	MAXIMSERVICESHELL64
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	NOSSTARTER.NPE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	LKTSRV
+[17:07:35] WMSSV	Process Name :	DEVENV
+[17:07:35] WMSSV	Process Name :	NIAUTH_DAEMON
+[17:07:35] WMSSV	Process Name :	NIMXS
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	BMSNATIVEAPP
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	WIDGETS
+[17:07:35] WMSSV	Process Name :	ASDSVC
+[17:07:35] WMSSV	Process Name :	WMSSERVER
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	DEVICEMONITOR
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	SYSTEMWEBSERVER
+[17:07:35] WMSSV	Process Name :	INTELCPHDCPSVC
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	WSNATIVEPUSHSERVICE
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] WMSSV	Process Name :	IPF_HELPER
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	SEARCHINDEXER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	2__	WMSSV
+[17:07:35] WMSSV	Process Name :	STSESS32
+[17:07:35] WMSSV	Process Name :	SECURE SYSTEM
+[17:07:35] WMSSV	Process Name :	VERAPORT-X64
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	UNSECAPP
+[17:07:35] WMSSV	Process Name :	JHI_SERVICE
+[17:07:35] WMSSV	Process Name :	BMSGTRAY
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	VBCSCOMPILER
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.SETTINGSHOST
+[17:07:35] WMSSV	Process Name :	SAMSUNGSETTINGSHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	EXPLORER
+[17:07:35] WMSSV	Process Name :	RTKAUDUSERVICE64
+[17:07:35] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	IDBWM
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	WIDGETSERVICE
+[17:07:35] WMSSV	Process Name :	MRT
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	INISAFEADMINUTIL
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	TAGSRV
+[17:07:35] WMSSV	Process Name :	NIPXICMS
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	SECURITYHEALTHSERVICE
+[17:07:35] WMSSV	Process Name :	INTELCONNECTSERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	2__	WMSSV
+[17:07:35] WMSSV	Process Name :	CSRSS
+[17:07:35] WMSSV	Process Name :	SMSS
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	WUAUCLTCORE
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	NISVCLOC
+[17:07:35] SiePLC	connection fail	NEW0
+[17:07:35] WMSSV	Process Name :	TEAMVIEWER_SERVICE
+[17:07:35] SiePLC	disconnect	NEW0
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] SiePLC	disconnected	NEW0
+[17:07:35] REPEAT	2__	WMSSV
+[17:07:35] WMSSV	Process Name :	MAXIMAUDIOSERVICE64
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	ASDSVC
+[17:07:35] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:35] WMSSV	Process Name :	SHELLEXPERIENCEHOST
+[17:07:35] WMSSV	Process Name :	SECURITYHEALTHSYSTRAY
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[17:07:35] WMSSV	Process Name :	IMGSF50START_X64
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	WINDOWS-KB890830-X64-V5.124
+[17:07:35] WMSSV	Process Name :	DAX3API
+[17:07:35] WMSSV	Process Name :	LSASS
+[17:07:35] WMSSV	Process Name :	OBCROSSEXSERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	FONTDRVHOST
+[17:07:35] WMSSV	Process Name :	AGGREGATORHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	SQLCEIP
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.DATAWAREHOUSEHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	MSBUILD
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	LSAISO
+[17:07:35] WMSSV	Process Name :	SCREENMODE
+[17:07:35] WMSSV	Process Name :	INICLIENTSVC_X64
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	SSMS
+[17:07:35] WMSSV	Process Name :	WSTOASTNOTIFICATION
+[17:07:35] WMSSV	Process Name :	SEARCHHOST
+[17:07:35] WMSSV	Process Name :	SERVICES
+[17:07:35] WMSSV	Process Name :	QSSYSTRAY
+[17:07:35] WMSSV	Process Name :	DAX3API
+[17:07:35] WMSSV	Process Name :	AUDIODG
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] WMSSV	Process Name :	SYSTEMPLATFORMENGINE
+[17:07:35] WMSSV	Process Name :	TEXTINPUTHOST
+[17:07:35] WMSSV	Process Name :	SMARTSCREEN
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	IMGSF50SVC
+[17:07:35] WMSSV	Process Name :	WUDFHOST
+[17:07:35] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTSERVICE
+[17:07:35] WMSSV	Process Name :	REGISTRY
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	KEYSHARPNXBIZ
+[17:07:35] REPEAT	2__	WMSSV
+[17:07:35] WMSSV	Process Name :	NIDISCSVC
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	DWM
+[17:07:35] WMSSV	Process Name :	ONEAPP.IGCC.WINSERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	MAEPSBROKER
+[17:07:35] WMSSV	Process Name :	NIDEVLDU
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] WMSSV	Process Name :	WUDFHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	WIDGETSERVICE
+[17:07:35] WMSSV	Process Name :	NISDS
+[17:07:35] WMSSV	Process Name :	STSESS
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	WINLOGON
+[17:07:35] WMSSV	Process Name :	WININIT
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	VSVNVSWRK
+[17:07:35] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:35] WMSSV	Process Name :	WUDFHOST
+[17:07:35] WMSSV	Process Name :	SQLSERVR
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	NIPXISM
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	ANYSIGN4PC
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	WUDFHOST
+[17:07:35] WMSSV	Process Name :	MMSSERVE
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	VSVNVSWRK
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SIHOST
+[17:07:35] WMSSV	Process Name :	RTKAUDUSERVICE64
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	DEVENV
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTENGINE
+[17:07:35] WMSSV	Process Name :	INTELCONNECT
+[17:07:35] WMSSV	Process Name :	DASHOST
+[17:07:35] WMSSV	Process Name :	WMIPRVSE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	CSRSS
+[17:07:35] WMSSV	Process Name :	NIDMSRV
+[17:07:35] WMSSV	Process Name :	INTELCONNECTIVITYNETWORKSERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	IDBWMSERVICE
+[17:07:35] WMSSV	Process Name :	MEMORY COMPRESSION
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	INISAFECROSSWEBEXSVC
+[17:07:35] WMSSV	Process Name :	APPLICATIONFRAMEHOST
+[17:07:35] WMSSV	Process Name :	QUICKSHARE
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.IDENTITYHOST
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	INTELANALYTICSSERVICE
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	IPF_UF
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	STARTMENUEXPERIENCEHOST
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	PERFWATSON2
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	5__	WMSSV
+[17:07:35] WMSSV	Process Name :	LOCKAPP
+[17:07:35] WMSSV	Process Name :	IMGSF50START_X86
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	USEROOBEBROKER
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] WMSSV	Process Name :	NIMDNSRESPONDER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	TSVNCACHE
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	SAMSUNGMULTICONTROLSERVICE
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	SAMSUNGSETTINGSHOST
+[17:07:35] WMSSV	Process Name :	WMIREGISTRATIONSERVICE
+[17:07:35] WMSSV	Process Name :	QUICKSHARESERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	DLLHOST
+[17:07:35] WMSSV	Process Name :	CONHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	MMSSERVE
+[17:07:35] WMSSV	Process Name :	WPMSVC
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.HOST.CLR.X86
+[17:07:35] WMSSV	Process Name :	SASERVICE
+[17:07:35] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[17:07:35] WMSSV	Process Name :	ANYSIGN4PCLAUNCHER
+[17:07:35] WMSSV	Process Name :	ONEDRIVE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] REPEAT	1__	WMSSV
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] WMSSV	Process Name :	LKADS
+[17:07:35] WMSSV	Process Name :	WUDFHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	PERFWATSON2
+[17:07:35] WMSSV	Process Name :	CMD
+[17:07:35] WMSSV	Process Name :	WINDOWS.MEDIA.BACKGROUNDPLAYBACK
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	MOUSOCOREWORKER
+[17:07:35] WMSSV	Process Name :	VSVNVSWRK
+[17:07:35] WMSSV	Process Name :	NIERSERVER
+[17:07:35] WMSSV	Process Name :	TASKHOSTW
+[17:07:35] WMSSV	Process Name :	CHROME
+[17:07:35] WMSSV	Process Name :	V3UI
+[17:07:35] WMSSV	Process Name :	STANDARDCOLLECTOR.SERVICE
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:35] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	IPFSVC
+[17:07:35] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	DELFINO
+[17:07:35] WMSSV	Process Name :	SYSTEM
+[17:07:35] WMSSV	Process Name :	FONTDRVHOST
+[17:07:35] WMSSV	Process Name :	SVCHOST
+[17:07:35] WMSSV	Process Name :	NOSSVC
+[17:07:35] WMSSV	Process Name :	IDLE
+[17:07:35] WMSSV	close - timerUpdate2 :	Stop
+[17:07:35] WMSSV	close - SerialComm :	Stop
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:36] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] SiePLC	connected	NEW0
+[17:07:36] SiePLC	connection fail	NEW0
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] WMSSV	FN_Close - MelsecPLC_UTL :	Stop
+[17:07:36] WMSSV	FN_Close - PlcThread :	Stop
+[17:07:36] FormMDI	Sequence	PLC Timeout
+[17:07:36] FormMDI	Sequence	45
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:36] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] SiePLC	connected	NEW0
+[17:07:36] SiePLC	connection fail	NEW0
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] FormMDI	Sequence	PLC Timeout
+[17:07:36] FormMDI	Sequence	46
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:36] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:36] SiePLC	disconnect	NEW0
+[17:07:36] SiePLC	disconnected	NEW0
+[17:07:36] SiePLC	connected	NEW0
+[17:07:37] SiePLC	connection fail	NEW0
+[17:07:37] SiePLC	disconnect	NEW0
+[17:07:37] SiePLC	disconnected	NEW0
+[17:07:37] FormMDI	Sequence	PLC Timeout
+[17:07:37] FormMDI	Sequence	47
+[17:07:37] SiePLC	disconnect	NEW0
+[17:07:37] SiePLC	disconnected	NEW0
+[17:07:37] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:37] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:37] SiePLC	disconnect	NEW0
+[17:07:37] SiePLC	disconnected	NEW0
+[17:07:37] SiePLC	connected	NEW0
+[17:07:37] SiePLC	connection fail	NEW0
+[17:07:37] SiePLC	disconnect	NEW0
+[17:07:37] SiePLC	disconnected	NEW0
+[17:07:37] SiePLC	uts readoneai function call timeout	
+[17:07:37] FormMDI	Sequence	PLC Timeout
+[17:07:37] FormMDI	Sequence	48
+[17:07:37] SiePLC	disconnect	NEW0
+[17:07:37] SiePLC	disconnected	NEW0
+[17:07:37] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:37] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:37] SiePLC	disconnect	NEW0
+[17:07:37] SiePLC	disconnected	NEW0
+[17:07:37] SiePLC	connected	NEW0
+[17:07:38] SiePLC	connection fail	NEW0
+[17:07:38] SiePLC	disconnect	NEW0
+[17:07:38] SiePLC	disconnected	NEW0
+[17:07:38] REPEAT	1__	SiePLC
+[17:07:38] REPEAT	1__	SiePLC
+[17:07:38] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:38] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:38] SiePLC	disconnect	NEW0
+[17:07:38] SiePLC	disconnected	NEW0
+[17:07:38] SiePLC	connected	NEW0
+[17:07:38] FormMDI	Sequence	PLC Timeout
+[17:07:38] FormMDI	Sequence	49
+[17:07:38] SiePLC	connection fail	NEW0
+[17:07:38] SiePLC	disconnect	NEW0
+[17:07:38] SiePLC	disconnected	NEW0
+[17:07:38] REPEAT	1__	SiePLC
+[17:07:38] REPEAT	1__	SiePLC
+[17:07:38] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:38] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:38] SiePLC	disconnect	NEW0
+[17:07:38] SiePLC	disconnected	NEW0
+[17:07:38] SiePLC	connected	NEW0
+[17:07:38] FormMDI	Sequence	PLC Timeout
+[17:07:38] FormMDI	Sequence	50
+[17:07:38] SiePLC	connection fail	NEW0
+[17:07:38] SiePLC	disconnect	NEW0
+[17:07:38] SiePLC	disconnected	NEW0
+[17:07:39] REPEAT	1__	SiePLC
+[17:07:39] REPEAT	1__	SiePLC
+[17:07:39] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:39] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:39] SiePLC	disconnect	NEW0
+[17:07:39] SiePLC	disconnected	NEW0
+[17:07:39] SiePLC	connected	NEW0
+[17:07:39] TCP_S	stop server 	
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.VSDETOUREDHOST
+[17:07:39] WMSSV	Process Name :	INTELAUDIOSERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	SYSTEMSETTINGS
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	SQLWRITER
+[17:07:39] WMSSV	Process Name :	NIROCO
+[17:07:39] WMSSV	Process Name :	WLANEXT
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	2__	WMSSV
+[17:07:39] WMSSV	Process Name :	SAMSUNGWIFI_UHB_SETTING_SERVICE
+[17:07:39] WMSSV	Process Name :	APPLICATIONWEBSERVER
+[17:07:39] WMSSV	Process Name :	SPOOLSV
+[17:07:39] WMSSV	Process Name :	CTFMON
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	CROSSEXSERVICE
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.HOST.NODE.X86
+[17:07:39] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	MAXIMSERVICESHELL64
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	NOSSTARTER.NPE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	LKTSRV
+[17:07:39] WMSSV	Process Name :	DEVENV
+[17:07:39] WMSSV	Process Name :	NIAUTH_DAEMON
+[17:07:39] WMSSV	Process Name :	NIMXS
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	BMSNATIVEAPP
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	WIDGETS
+[17:07:39] WMSSV	Process Name :	ASDSVC
+[17:07:39] WMSSV	Process Name :	WMSSERVER
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	DEVICEMONITOR
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	SYSTEMWEBSERVER
+[17:07:39] WMSSV	Process Name :	INTELCPHDCPSVC
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	WSNATIVEPUSHSERVICE
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] WMSSV	Process Name :	IPF_HELPER
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	SEARCHINDEXER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	2__	WMSSV
+[17:07:39] WMSSV	Process Name :	STSESS32
+[17:07:39] WMSSV	Process Name :	SECURE SYSTEM
+[17:07:39] WMSSV	Process Name :	VERAPORT-X64
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	UNSECAPP
+[17:07:39] WMSSV	Process Name :	JHI_SERVICE
+[17:07:39] WMSSV	Process Name :	BMSGTRAY
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	VBCSCOMPILER
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.SETTINGSHOST
+[17:07:39] WMSSV	Process Name :	SAMSUNGSETTINGSHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	EXPLORER
+[17:07:39] WMSSV	Process Name :	RTKAUDUSERVICE64
+[17:07:39] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	IDBWM
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	WIDGETSERVICE
+[17:07:39] WMSSV	Process Name :	MRT
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	INISAFEADMINUTIL
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	TAGSRV
+[17:07:39] WMSSV	Process Name :	NIPXICMS
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	SECURITYHEALTHSERVICE
+[17:07:39] WMSSV	Process Name :	INTELCONNECTSERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	2__	WMSSV
+[17:07:39] WMSSV	Process Name :	CSRSS
+[17:07:39] WMSSV	Process Name :	SMSS
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	WUAUCLTCORE
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	NISVCLOC
+[17:07:39] WMSSV	Process Name :	TEAMVIEWER_SERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	2__	WMSSV
+[17:07:39] WMSSV	Process Name :	MAXIMAUDIOSERVICE64
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	ASDSVC
+[17:07:39] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:39] WMSSV	Process Name :	SHELLEXPERIENCEHOST
+[17:07:39] WMSSV	Process Name :	SECURITYHEALTHSYSTRAY
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[17:07:39] WMSSV	Process Name :	IMGSF50START_X64
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	WINDOWS-KB890830-X64-V5.124
+[17:07:39] WMSSV	Process Name :	DAX3API
+[17:07:39] WMSSV	Process Name :	LSASS
+[17:07:39] WMSSV	Process Name :	OBCROSSEXSERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	FONTDRVHOST
+[17:07:39] WMSSV	Process Name :	AGGREGATORHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	SQLCEIP
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.DATAWAREHOUSEHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	MSBUILD
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	LSAISO
+[17:07:39] WMSSV	Process Name :	SCREENMODE
+[17:07:39] WMSSV	Process Name :	INICLIENTSVC_X64
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	SSMS
+[17:07:39] WMSSV	Process Name :	WSTOASTNOTIFICATION
+[17:07:39] WMSSV	Process Name :	SEARCHHOST
+[17:07:39] WMSSV	Process Name :	SERVICES
+[17:07:39] WMSSV	Process Name :	QSSYSTRAY
+[17:07:39] WMSSV	Process Name :	DAX3API
+[17:07:39] WMSSV	Process Name :	AUDIODG
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] WMSSV	Process Name :	SYSTEMPLATFORMENGINE
+[17:07:39] WMSSV	Process Name :	TEXTINPUTHOST
+[17:07:39] WMSSV	Process Name :	SMARTSCREEN
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	IMGSF50SVC
+[17:07:39] WMSSV	Process Name :	WUDFHOST
+[17:07:39] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTSERVICE
+[17:07:39] WMSSV	Process Name :	REGISTRY
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	KEYSHARPNXBIZ
+[17:07:39] REPEAT	2__	WMSSV
+[17:07:39] WMSSV	Process Name :	NIDISCSVC
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	DWM
+[17:07:39] WMSSV	Process Name :	ONEAPP.IGCC.WINSERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	MAEPSBROKER
+[17:07:39] WMSSV	Process Name :	NIDEVLDU
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] WMSSV	Process Name :	WUDFHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	WIDGETSERVICE
+[17:07:39] WMSSV	Process Name :	NISDS
+[17:07:39] WMSSV	Process Name :	STSESS
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	WINLOGON
+[17:07:39] WMSSV	Process Name :	WININIT
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	VSVNVSWRK
+[17:07:39] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:39] WMSSV	Process Name :	WUDFHOST
+[17:07:39] WMSSV	Process Name :	SQLSERVR
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	NIPXISM
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	ANYSIGN4PC
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	WUDFHOST
+[17:07:39] WMSSV	Process Name :	MMSSERVE
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	VSVNVSWRK
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SIHOST
+[17:07:39] WMSSV	Process Name :	RTKAUDUSERVICE64
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	DEVENV
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTENGINE
+[17:07:39] WMSSV	Process Name :	INTELCONNECT
+[17:07:39] WMSSV	Process Name :	DASHOST
+[17:07:39] WMSSV	Process Name :	WMIPRVSE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	CSRSS
+[17:07:39] WMSSV	Process Name :	NIDMSRV
+[17:07:39] WMSSV	Process Name :	INTELCONNECTIVITYNETWORKSERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	IDBWMSERVICE
+[17:07:39] WMSSV	Process Name :	MEMORY COMPRESSION
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	INISAFECROSSWEBEXSVC
+[17:07:39] WMSSV	Process Name :	APPLICATIONFRAMEHOST
+[17:07:39] WMSSV	Process Name :	QUICKSHARE
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.IDENTITYHOST
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	INTELANALYTICSSERVICE
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	IPF_UF
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	STARTMENUEXPERIENCEHOST
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	PERFWATSON2
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	5__	WMSSV
+[17:07:39] WMSSV	Process Name :	LOCKAPP
+[17:07:39] WMSSV	Process Name :	IMGSF50START_X86
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	USEROOBEBROKER
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] WMSSV	Process Name :	NIMDNSRESPONDER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	TSVNCACHE
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	SAMSUNGMULTICONTROLSERVICE
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	SAMSUNGSETTINGSHOST
+[17:07:39] WMSSV	Process Name :	WMIREGISTRATIONSERVICE
+[17:07:39] WMSSV	Process Name :	QUICKSHARESERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	DLLHOST
+[17:07:39] WMSSV	Process Name :	CONHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	MMSSERVE
+[17:07:39] WMSSV	Process Name :	WPMSVC
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.HOST.CLR.X86
+[17:07:39] WMSSV	Process Name :	SASERVICE
+[17:07:39] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[17:07:39] WMSSV	Process Name :	ANYSIGN4PCLAUNCHER
+[17:07:39] WMSSV	Process Name :	ONEDRIVE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] REPEAT	1__	WMSSV
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] WMSSV	Process Name :	LKADS
+[17:07:39] WMSSV	Process Name :	WUDFHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	PERFWATSON2
+[17:07:39] WMSSV	Process Name :	CMD
+[17:07:39] WMSSV	Process Name :	WINDOWS.MEDIA.BACKGROUNDPLAYBACK
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	MOUSOCOREWORKER
+[17:07:39] WMSSV	Process Name :	VSVNVSWRK
+[17:07:39] WMSSV	Process Name :	NIERSERVER
+[17:07:39] WMSSV	Process Name :	TASKHOSTW
+[17:07:39] WMSSV	Process Name :	CHROME
+[17:07:39] WMSSV	Process Name :	V3UI
+[17:07:39] WMSSV	Process Name :	STANDARDCOLLECTOR.SERVICE
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:39] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	IPFSVC
+[17:07:39] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	DELFINO
+[17:07:39] WMSSV	Process Name :	SYSTEM
+[17:07:39] WMSSV	Process Name :	FONTDRVHOST
+[17:07:39] WMSSV	Process Name :	SVCHOST
+[17:07:39] WMSSV	Process Name :	NOSSVC
+[17:07:39] WMSSV	Process Name :	IDLE
+[17:07:39] WMSSV	close - timerUpdate2 :	Stop
+[17:07:39] WMSSV	close - SerialComm :	Stop
+[17:07:39] SiePLC	connection fail	NEW0
+[17:07:39] SiePLC	disconnect	NEW0
+[17:07:39] SiePLC	disconnected	NEW0
+[17:07:39] REPEAT	1__	SiePLC
+[17:07:39] REPEAT	1__	SiePLC
+[17:07:39] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:39] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:39] SiePLC	disconnect	NEW0
+[17:07:39] SiePLC	disconnected	NEW0
+[17:07:39] SiePLC	connected	NEW0
+[17:07:39] WMSSV	FN_Close - MelsecPLC_UTL :	Stop
+[17:07:39] WMSSV	FN_Close - PlcThread :	Stop
+[17:07:39] FormMDI	Sequence	PLC Timeout
+[17:07:39] FormMDI	Sequence	51
+[17:07:39] SiePLC	connection fail	NEW0
+[17:07:39] SiePLC	disconnect	NEW0
+[17:07:39] SiePLC	disconnected	NEW0
+[17:07:39] FormMDI	Sequence	PLC Timeout
+[17:07:39] FormMDI	Sequence	52
+[17:07:39] SiePLC	disconnect	NEW0
+[17:07:39] SiePLC	disconnected	NEW0
+[17:07:39] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:39] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:39] SiePLC	disconnect	NEW0
+[17:07:39] SiePLC	disconnected	NEW0
+[17:07:39] SiePLC	connected	NEW0
+[17:07:40] SiePLC	connection fail	NEW0
+[17:07:40] SiePLC	disconnect	NEW0
+[17:07:40] SiePLC	disconnected	NEW0
+[17:07:40] FormMDI	Sequence	PLC Timeout
+[17:07:40] FormMDI	Sequence	53
+[17:07:40] SiePLC	disconnect	NEW0
+[17:07:40] SiePLC	disconnected	NEW0
+[17:07:40] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:40] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:40] SiePLC	disconnect	NEW0
+[17:07:40] SiePLC	disconnected	NEW0
+[17:07:40] SiePLC	connected	NEW0
+[17:07:40] SiePLC	connection fail	NEW0
+[17:07:40] SiePLC	disconnect	NEW0
+[17:07:40] SiePLC	disconnected	NEW0
+[17:07:40] FormMDI	Sequence	PLC Timeout
+[17:07:40] FormMDI	Sequence	54
+[17:07:40] SiePLC	disconnect	NEW0
+[17:07:40] SiePLC	disconnected	NEW0
+[17:07:40] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:40] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:40] SiePLC	disconnect	NEW0
+[17:07:40] SiePLC	disconnected	NEW0
+[17:07:40] SiePLC	connected	NEW0
+[17:07:40] WMSSV	start 	
+[17:07:40] WMSSV	initialized serial	
+[17:07:40] WMSSV	initialized plc	
+[17:07:40] TCP_S	start server 121.139.221.14:5000	
+[17:07:40] WMSSV	started :::::::	
+[17:07:40] TCP_S	start fail server service121.139.221.14:5000	
+[17:07:41] SiePLC	connection fail	NEW0
+[17:07:41] SiePLC	disconnect	NEW0
+[17:07:41] SiePLC	disconnected	NEW0
+[17:07:41] REPEAT	1__	SiePLC
+[17:07:41] REPEAT	1__	SiePLC
+[17:07:41] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:41] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:41] SiePLC	disconnect	NEW0
+[17:07:41] SiePLC	disconnected	NEW0
+[17:07:41] SiePLC	connected	NEW0
+[17:07:41] FormMDI	Sequence	PLC Timeout
+[17:07:41] FormMDI	Sequence	55
+[17:07:41] SiePLC	connection fail	NEW0
+[17:07:41] SiePLC	disconnect	NEW0
+[17:07:41] SiePLC	disconnected	NEW0
+[17:07:41] REPEAT	1__	SiePLC
+[17:07:41] REPEAT	1__	SiePLC
+[17:07:41] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:41] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:41] SiePLC	disconnect	NEW0
+[17:07:41] SiePLC	disconnected	NEW0
+[17:07:41] SiePLC	connected	NEW0
+[17:07:41] FormMDI	Sequence	PLC Timeout
+[17:07:41] FormMDI	Sequence	56
+[17:07:41] SiePLC	connection fail	NEW0
+[17:07:41] SiePLC	disconnect	NEW0
+[17:07:41] SiePLC	disconnected	NEW0
+[17:07:42] REPEAT	1__	SiePLC
+[17:07:42] REPEAT	1__	SiePLC
+[17:07:42] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:42] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:42] SiePLC	disconnect	NEW0
+[17:07:42] SiePLC	disconnected	NEW0
+[17:07:42] SiePLC	connected	NEW0
+[17:07:42] FormMDI	Sequence	PLC Timeout
+[17:07:42] FormMDI	Sequence	57
+[17:07:42] SiePLC	connection fail	NEW0
+[17:07:42] SiePLC	disconnect	NEW0
+[17:07:42] SiePLC	disconnected	NEW0
+[17:07:42] REPEAT	1__	SiePLC
+[17:07:42] REPEAT	1__	SiePLC
+[17:07:42] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:42] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:42] SiePLC	disconnect	NEW0
+[17:07:42] SiePLC	disconnected	NEW0
+[17:07:42] SiePLC	connected	NEW0
+[17:07:42] SiePLC	uts readoneai function call timeout	
+[17:07:42] SiePLC	connection fail	NEW0
+[17:07:42] SiePLC	disconnect	NEW0
+[17:07:42] SiePLC	disconnected	NEW0
+[17:07:42] FormMDI	Sequence	PLC Timeout
+[17:07:42] FormMDI	Sequence	58
+[17:07:42] SiePLC	disconnect	NEW0
+[17:07:42] SiePLC	disconnected	NEW0
+[17:07:42] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:42] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:42] SiePLC	disconnect	NEW0
+[17:07:42] SiePLC	disconnected	NEW0
+[17:07:42] SiePLC	connected	NEW0
+[17:07:43] SiePLC	connection fail	NEW0
+[17:07:43] SiePLC	disconnect	NEW0
+[17:07:43] SiePLC	disconnected	NEW0
+[17:07:43] FormMDI	Sequence	PLC Timeout
+[17:07:43] FormMDI	Sequence	59
+[17:07:43] SiePLC	disconnect	NEW0
+[17:07:43] SiePLC	disconnected	NEW0
+[17:07:43] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:43] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:43] SiePLC	disconnect	NEW0
+[17:07:43] SiePLC	disconnected	NEW0
+[17:07:43] SiePLC	connected	NEW0
+[17:07:43] SiePLC	connection fail	NEW0
+[17:07:43] SiePLC	disconnect	NEW0
+[17:07:43] SiePLC	disconnected	NEW0
+[17:07:43] FormMDI	Sequence	PLC Timeout
+[17:07:43] FormMDI	Sequence	60
+[17:07:43] SiePLC	disconnect	NEW0
+[17:07:43] SiePLC	disconnected	NEW0
+[17:07:43] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:43] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:43] SiePLC	disconnect	NEW0
+[17:07:43] SiePLC	disconnected	NEW0
+[17:07:43] SiePLC	connected	NEW0
+[17:07:44] SiePLC	connection fail	NEW0
+[17:07:44] SiePLC	disconnect	NEW0
+[17:07:44] SiePLC	disconnected	NEW0
+[17:07:44] REPEAT	1__	SiePLC
+[17:07:44] REPEAT	1__	SiePLC
+[17:07:44] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:44] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:44] SiePLC	disconnect	NEW0
+[17:07:44] SiePLC	disconnected	NEW0
+[17:07:44] SiePLC	connected	NEW0
+[17:07:44] TCP_S	stop server 	
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.VSDETOUREDHOST
+[17:07:44] WMSSV	Process Name :	INTELAUDIOSERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SYSTEMSETTINGS
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	SQLWRITER
+[17:07:44] WMSSV	Process Name :	NIROCO
+[17:07:44] WMSSV	Process Name :	WLANEXT
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	2__	WMSSV
+[17:07:44] WMSSV	Process Name :	SAMSUNGWIFI_UHB_SETTING_SERVICE
+[17:07:44] WMSSV	Process Name :	APPLICATIONWEBSERVER
+[17:07:44] WMSSV	Process Name :	SPOOLSV
+[17:07:44] WMSSV	Process Name :	CTFMON
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	CROSSEXSERVICE
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.HOST.NODE.X86
+[17:07:44] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	MAXIMSERVICESHELL64
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	NOSSTARTER.NPE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	LKTSRV
+[17:07:44] WMSSV	Process Name :	DEVENV
+[17:07:44] WMSSV	Process Name :	NIAUTH_DAEMON
+[17:07:44] WMSSV	Process Name :	NIMXS
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	BMSNATIVEAPP
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	WIDGETS
+[17:07:44] WMSSV	Process Name :	ASDSVC
+[17:07:44] WMSSV	Process Name :	WMSSERVER
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	DEVICEMONITOR
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SYSTEMWEBSERVER
+[17:07:44] WMSSV	Process Name :	INTELCPHDCPSVC
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	WSNATIVEPUSHSERVICE
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] WMSSV	Process Name :	IPF_HELPER
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	SEARCHINDEXER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	2__	WMSSV
+[17:07:44] WMSSV	Process Name :	STSESS32
+[17:07:44] WMSSV	Process Name :	SECURE SYSTEM
+[17:07:44] WMSSV	Process Name :	VERAPORT-X64
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	UNSECAPP
+[17:07:44] WMSSV	Process Name :	JHI_SERVICE
+[17:07:44] WMSSV	Process Name :	BMSGTRAY
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	VBCSCOMPILER
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.SETTINGSHOST
+[17:07:44] WMSSV	Process Name :	SAMSUNGSETTINGSHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	EXPLORER
+[17:07:44] WMSSV	Process Name :	RTKAUDUSERVICE64
+[17:07:44] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	IDBWM
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	WIDGETSERVICE
+[17:07:44] WMSSV	Process Name :	MRT
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	INISAFEADMINUTIL
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	TAGSRV
+[17:07:44] WMSSV	Process Name :	NIPXICMS
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SECURITYHEALTHSERVICE
+[17:07:44] WMSSV	Process Name :	INTELCONNECTSERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	2__	WMSSV
+[17:07:44] WMSSV	Process Name :	CSRSS
+[17:07:44] WMSSV	Process Name :	SMSS
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	WUAUCLTCORE
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	NISVCLOC
+[17:07:44] WMSSV	Process Name :	TEAMVIEWER_SERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	2__	WMSSV
+[17:07:44] WMSSV	Process Name :	MAXIMAUDIOSERVICE64
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	ASDSVC
+[17:07:44] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:44] WMSSV	Process Name :	SHELLEXPERIENCEHOST
+[17:07:44] WMSSV	Process Name :	SECURITYHEALTHSYSTRAY
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	SCRIPTEDSANDBOX64
+[17:07:44] WMSSV	Process Name :	IMGSF50START_X64
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	WINDOWS-KB890830-X64-V5.124
+[17:07:44] WMSSV	Process Name :	DAX3API
+[17:07:44] WMSSV	Process Name :	LSASS
+[17:07:44] WMSSV	Process Name :	OBCROSSEXSERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	FONTDRVHOST
+[17:07:44] WMSSV	Process Name :	AGGREGATORHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	SQLCEIP
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.DATAWAREHOUSEHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	MSBUILD
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	LSAISO
+[17:07:44] WMSSV	Process Name :	SCREENMODE
+[17:07:44] WMSSV	Process Name :	INICLIENTSVC_X64
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	SSMS
+[17:07:44] WMSSV	Process Name :	WSTOASTNOTIFICATION
+[17:07:44] WMSSV	Process Name :	SEARCHHOST
+[17:07:44] WMSSV	Process Name :	SERVICES
+[17:07:44] WMSSV	Process Name :	QSSYSTRAY
+[17:07:44] WMSSV	Process Name :	DAX3API
+[17:07:44] WMSSV	Process Name :	AUDIODG
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] WMSSV	Process Name :	SYSTEMPLATFORMENGINE
+[17:07:44] WMSSV	Process Name :	TEXTINPUTHOST
+[17:07:44] WMSSV	Process Name :	SMARTSCREEN
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	IMGSF50SVC
+[17:07:44] WMSSV	Process Name :	WUDFHOST
+[17:07:44] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTSERVICE
+[17:07:44] WMSSV	Process Name :	REGISTRY
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	KEYSHARPNXBIZ
+[17:07:44] REPEAT	2__	WMSSV
+[17:07:44] WMSSV	Process Name :	NIDISCSVC
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	DWM
+[17:07:44] WMSSV	Process Name :	ONEAPP.IGCC.WINSERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	MAEPSBROKER
+[17:07:44] WMSSV	Process Name :	NIDEVLDU
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] WMSSV	Process Name :	WUDFHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	WIDGETSERVICE
+[17:07:44] WMSSV	Process Name :	NISDS
+[17:07:44] WMSSV	Process Name :	STSESS
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	WINLOGON
+[17:07:44] WMSSV	Process Name :	WININIT
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	VSVNVSWRK
+[17:07:44] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:44] WMSSV	Process Name :	WUDFHOST
+[17:07:44] WMSSV	Process Name :	SQLSERVR
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	NIPXISM
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	ANYSIGN4PC
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	WUDFHOST
+[17:07:44] WMSSV	Process Name :	MMSSERVE
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	VSVNVSWRK
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SIHOST
+[17:07:44] WMSSV	Process Name :	RTKAUDUSERVICE64
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	DEVENV
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SAMSUNGSYSTEMSUPPORTENGINE
+[17:07:44] WMSSV	Process Name :	INTELCONNECT
+[17:07:44] WMSSV	Process Name :	DASHOST
+[17:07:44] WMSSV	Process Name :	WMIPRVSE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	CSRSS
+[17:07:44] WMSSV	Process Name :	NIDMSRV
+[17:07:44] WMSSV	Process Name :	INTELCONNECTIVITYNETWORKSERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	IDBWMSERVICE
+[17:07:44] WMSSV	Process Name :	MEMORY COMPRESSION
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	INISAFECROSSWEBEXSVC
+[17:07:44] WMSSV	Process Name :	APPLICATIONFRAMEHOST
+[17:07:44] WMSSV	Process Name :	QUICKSHARE
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.IDENTITYHOST
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	INTELANALYTICSSERVICE
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	IPF_UF
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	STARTMENUEXPERIENCEHOST
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	PERFWATSON2
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	5__	WMSSV
+[17:07:44] WMSSV	Process Name :	LOCKAPP
+[17:07:44] WMSSV	Process Name :	IMGSF50START_X86
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	USEROOBEBROKER
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] WMSSV	Process Name :	NIMDNSRESPONDER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	TSVNCACHE
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	SAMSUNGMULTICONTROLSERVICE
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	SAMSUNGSETTINGSHOST
+[17:07:44] WMSSV	Process Name :	WMIREGISTRATIONSERVICE
+[17:07:44] WMSSV	Process Name :	QUICKSHARESERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	DLLHOST
+[17:07:44] WMSSV	Process Name :	CONHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	MMSSERVE
+[17:07:44] WMSSV	Process Name :	WPMSVC
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.HOST.CLR.X86
+[17:07:44] WMSSV	Process Name :	SASERVICE
+[17:07:44] WMSSV	Process Name :	SERVICEHUB.ROSLYNCODEANALYSISSERVICE32
+[17:07:44] WMSSV	Process Name :	ANYSIGN4PCLAUNCHER
+[17:07:44] WMSSV	Process Name :	ONEDRIVE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] REPEAT	1__	WMSSV
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] WMSSV	Process Name :	LKADS
+[17:07:44] WMSSV	Process Name :	WUDFHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	PERFWATSON2
+[17:07:44] WMSSV	Process Name :	CMD
+[17:07:44] WMSSV	Process Name :	WINDOWS.MEDIA.BACKGROUNDPLAYBACK
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	MOUSOCOREWORKER
+[17:07:44] WMSSV	Process Name :	VSVNVSWRK
+[17:07:44] WMSSV	Process Name :	NIERSERVER
+[17:07:44] WMSSV	Process Name :	TASKHOSTW
+[17:07:44] WMSSV	Process Name :	CHROME
+[17:07:44] WMSSV	Process Name :	V3UI
+[17:07:44] WMSSV	Process Name :	STANDARDCOLLECTOR.SERVICE
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	MSEDGEWEBVIEW2
+[17:07:44] WMSSV	Process Name :	NIWEBSERVICECONTAINER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	IPFSVC
+[17:07:44] WMSSV	Process Name :	RUNTIMEBROKER
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	DELFINO
+[17:07:44] WMSSV	Process Name :	SYSTEM
+[17:07:44] WMSSV	Process Name :	FONTDRVHOST
+[17:07:44] WMSSV	Process Name :	SVCHOST
+[17:07:44] WMSSV	Process Name :	NOSSVC
+[17:07:44] WMSSV	Process Name :	IDLE
+[17:07:44] WMSSV	close - timerUpdate2 :	Stop
+[17:07:44] WMSSV	close - SerialComm :	Stop
+[17:07:44] SiePLC	connection fail	NEW0
+[17:07:44] SiePLC	disconnect	NEW0
+[17:07:44] SiePLC	disconnected	NEW0
+[17:07:44] REPEAT	1__	SiePLC
+[17:07:44] REPEAT	1__	SiePLC
+[17:07:44] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:44] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:44] SiePLC	disconnect	NEW0
+[17:07:44] SiePLC	disconnected	NEW0
+[17:07:44] SiePLC	connected	NEW0
+[17:07:44] WMSSV	FN_Close - MelsecPLC_UTL :	Stop
+[17:07:44] WMSSV	FN_Close - PlcThread :	Stop
+[17:07:44] FormMDI	Sequence	PLC Timeout
+[17:07:44] FormMDI	Sequence	61
+[17:07:44] REPEAT	1__	FormMDI
+[17:07:44] FormMDI	Sequence	62
+[17:07:44] SiePLC	connection fail	NEW0
+[17:07:44] SiePLC	disconnect	NEW0
+[17:07:44] SiePLC	disconnected	NEW0
+[17:07:45] REPEAT	1__	SiePLC
+[17:07:45] REPEAT	1__	SiePLC
+[17:07:45] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:45] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:45] SiePLC	disconnect	NEW0
+[17:07:45] SiePLC	disconnected	NEW0
+[17:07:45] SiePLC	connected	NEW0
+[17:07:45] FormMDI	Sequence	PLC Timeout
+[17:07:45] FormMDI	Sequence	63
+[17:07:45] SiePLC	connection fail	NEW0
+[17:07:45] SiePLC	disconnect	NEW0
+[17:07:45] SiePLC	disconnected	NEW0
+[17:07:45] REPEAT	1__	SiePLC
+[17:07:45] REPEAT	1__	SiePLC
+[17:07:45] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:45] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:45] SiePLC	disconnect	NEW0
+[17:07:45] SiePLC	disconnected	NEW0
+[17:07:45] SiePLC	connected	NEW0
+[17:07:45] SiePLC	connection fail	NEW0
+[17:07:45] SiePLC	disconnect	NEW0
+[17:07:45] SiePLC	disconnected	NEW0
+[17:07:45] REPEAT	1__	SiePLC
+[17:07:45] REPEAT	1__	SiePLC
+[17:07:45] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:45] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:45] SiePLC	disconnect	NEW0
+[17:07:45] SiePLC	disconnected	NEW0
+[17:07:45] SiePLC	connected	NEW0
+[17:07:46] SiePLC	connection fail	NEW0
+[17:07:46] SiePLC	disconnect	NEW0
+[17:07:46] SiePLC	disconnected	NEW0
+[17:07:46] REPEAT	1__	SiePLC
+[17:07:46] REPEAT	1__	SiePLC
+[17:07:46] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:46] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:46] SiePLC	disconnect	NEW0
+[17:07:46] SiePLC	disconnected	NEW0
+[17:07:46] SiePLC	connected	NEW0
+[17:07:46] SiePLC	connection fail	NEW0
+[17:07:46] SiePLC	disconnect	NEW0
+[17:07:46] SiePLC	disconnected	NEW0
+[17:07:46] REPEAT	1__	SiePLC
+[17:07:46] REPEAT	1__	SiePLC
+[17:07:46] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:46] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:46] SiePLC	disconnect	NEW0
+[17:07:46] SiePLC	disconnected	NEW0
+[17:07:46] SiePLC	connected	NEW0
+[17:07:46] SiePLC	connection fail	NEW0
+[17:07:46] SiePLC	disconnect	NEW0
+[17:07:46] SiePLC	disconnected	NEW0
+[17:07:47] REPEAT	1__	SiePLC
+[17:07:47] REPEAT	1__	SiePLC
+[17:07:47] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:47] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:47] SiePLC	disconnect	NEW0
+[17:07:47] SiePLC	disconnected	NEW0
+[17:07:47] SiePLC	connected	NEW0
+[17:07:47] SiePLC	connection fail	NEW0
+[17:07:47] SiePLC	disconnect	NEW0
+[17:07:47] SiePLC	disconnected	NEW0
+[17:07:47] REPEAT	1__	SiePLC
+[17:07:47] REPEAT	1__	SiePLC
+[17:07:47] SiePLC	try connect	NEW0  127.0.0.1,5000
+[17:07:47] SiePLC	connect error 	NEW0  요청한 주소는 해당 컨텍스트에서 유효하지 않습니다 127.0.0.1:5000
+[17:07:47] SiePLC	disconnect	NEW0
+[17:07:47] SiePLC	disconnected	NEW0
+[17:07:47] SiePLC	connected	NEW0
+[17:07:47] SiePLC	connection fail	NEW0
+[17:07:47] SiePLC	disconnect	NEW0
+[17:07:47] SiePLC	disconnected	NEW0
+[17:18:10] SiePLC	initialize	
+[17:18:10] SiePLC	ini opened	
+[17:18:10] SiePLC	Initializeed	
+[17:18:15] SiePLC	uts readoneai function call timeout	
+[17:18:15] SiePLC	uts writeaodata function call timeout	
+[17:18:20] SiePLC	uts readoneai function call timeout	
+[17:18:25] REPEAT	1__	SiePLC
+[17:18:25] SiePLC	uts readoneai function call timeout	
+[17:18:25] SiePLC	uts writeaodata function call timeout	
